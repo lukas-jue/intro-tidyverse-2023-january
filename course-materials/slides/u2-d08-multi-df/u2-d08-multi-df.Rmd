@@ -1,0 +1,480 @@
+---
+title: "Working with multiple data frames"
+subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
+author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+output:
+  xaringan::moon_reader:
+    css: ["../xaringan-themer.css", "../slides.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightLines: true
+      highlightStyle: solarized-light
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(knitr)
+options(
+  dplyr.print_min = 10, 
+  dplyr.print_max = 10
+  )
+```
+
+class: middle
+
+# We...
+
+.huge[.green[have]] multiple data frames
+
+.huge[.pink[want]] to bring them together
+
+---
+
+```{r include=FALSE}
+professions <- read_csv("data/scientists/professions.csv")
+dates <- read_csv("data/scientists/dates.csv")
+works <- read_csv("data/scientists/works.csv")
+```
+
+## Data: Women in science 
+
+Information on 10 women in science who changed the world
+
+.small[
+```{r echo=FALSE}
+professions %>% select(name) %>% kable()
+```
+]
+
+
+.footnote[
+Source: [Discover Magazine](https://www.discovermagazine.com/the-sciences/meet-10-women-in-science-who-changed-the-world)
+]
+
+---
+
+## Inputs
+
+.panelset[
+
+.panel[.panel-name[professions]
+```{r}
+professions
+```
+]
+
+.panel[.panel-name[dates]
+```{r}
+dates
+```
+]
+
+.panel[.panel-name[works]
+```{r}
+works
+```
+]
+
+]
+
+---
+
+## Desired output
+
+```{r echo=FALSE}
+professions %>%
+  left_join(dates) %>%
+  left_join(works)
+```
+
+---
+
+## Inputs, reminder
+
+.pull-left[
+```{r}
+names(professions)
+names(dates)
+names(works)
+```
+]
+.pull-right[
+```{r}
+nrow(professions)
+nrow(dates)
+nrow(works)
+```
+]
+
+---
+
+class: middle
+
+# Joining data frames
+
+---
+
+## Joining data frames
+
+```{r eval=FALSE}
+something_join(x, y)
+```
+
+- `left_join()`: all rows from x
+- `right_join()`: all rows from y
+- `full_join()`: all rows from both x and y
+- `semi_join()`: all rows from x where there are matching values in y, keeping just columns from x
+- `inner_join()`: all rows from x where there are matching values in y, return 
+all combination of multiple matches in the case of multiple matches
+- `anti_join()`: return all rows from x where there are not matching values in y, never duplicate rows of x
+- ...
+ 
+---
+
+## Setup
+
+For the next few slides...
+
+.pull-left[
+```{r echo=FALSE}
+x <- tibble(
+  id = c(1, 2, 3),
+  value_x = c("x1", "x2", "x3")
+  )
+```
+```{r}
+x
+```
+]
+.pull-right[
+```{r echo=FALSE}
+y <- tibble(
+  id = c(1, 2, 4),
+  value_y = c("y1", "y2", "y4")
+  )
+```
+```{r}
+y
+```
+]
+
+---
+
+## `left_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/left-join.gif")
+```
+]
+.pull-right[
+```{r}
+left_join(x, y)
+```
+.tip[
+**Left** data frame remains the same.
+]
+]
+
+---
+
+## `left_join()`
+
+```{r}
+professions %>%
+  left_join(dates) #<<
+```
+
+---
+
+## `right_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/right-join.gif")
+```
+]
+.pull-right[
+```{r}
+right_join(x, y)
+```
+.tip[
+**Right** data frame remains the same.
+]
+]
+
+---
+
+## `right_join()`
+
+
+```{r}
+professions %>%
+  right_join(dates) #<<
+```
+
+---
+
+## `full_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/full-join.gif")
+```
+]
+.pull-right[
+```{r}
+full_join(x, y)
+```
+.tip[
+**Full** information from both data frames is retained.
+]
+]
+
+---
+
+## `full_join()`
+
+```{r}
+dates %>%
+  full_join(works) #<<
+```
+
+---
+
+## `inner_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/inner-join.gif")
+```
+]
+.pull-right[
+```{r}
+inner_join(x, y)
+```
+.tip[
+Retains "**Inner** information" from both data frames.<br/>
+→ only keeps observations contained in both data frames.
+]
+]
+
+---
+
+## `inner_join()`
+
+```{r}
+dates %>%
+  inner_join(works) #<<
+```
+
+---
+
+## `semi_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/semi-join.gif")
+```
+]
+.pull-right[
+```{r}
+semi_join(x, y)
+```
+.tip[
+Combination of `inner_` and `left_join`<br/>
+→ only keeps left data frame observations that the right data frame contains, but does not carry over anything from the right data frame.
+]
+]
+
+---
+
+## `semi_join()`
+
+```{r}
+dates %>%
+  semi_join(works) #<<
+```
+
+---
+
+## `anti_join()`
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", out.extra ='style="background-color: #FDF6E3"'}
+include_graphics("img/anti-join.gif")
+```
+]
+.pull-right[
+```{r}
+anti_join(x, y)
+```
+.tip[
+"Opposite" of `left_join()` <br/>
+→ Only keeps observations from the left data frame that is *not* included in the right one.<br/>
+]
+]
+
+---
+
+## `anti_join()`
+
+```{r}
+dates %>%
+  anti_join(works) #<<
+```
+
+---
+
+## Putting it altogether
+
+```{r}
+professions %>%
+  left_join(dates) %>%
+  left_join(works)
+```
+
+---
+
+class: middle
+
+# Case study: Student records
+
+---
+
+## Student records
+
+- We have:
+  - Enrollment: official university enrollment records
+  - Survey: Info of missing students who never filled it out and students who filled it out but dropped the class
+- We want: Survey info for all enrolled in class 
+
+--
+
+```{r include=FALSE}
+enrolment <- read_csv("data/students/enrolment.csv")
+survey <- read_csv("data/students/survey.csv")
+```
+
+.pull-left[
+```{r message = FALSE}
+enrolment
+```
+]
+.pull-right[
+```{r message = FALSE}
+survey
+```
+]
+
+---
+
+## Student records
+
+.panelset[
+
+.panel[.panel-name[In class]
+```{r}
+enrolment %>% 
+  left_join(survey, by = "id") #<<
+```
+]
+
+.panel[.panel-name[Survey missing]
+```{r}
+enrolment %>% 
+  anti_join(survey, by = "id") #<<
+```
+]
+
+.panel[.panel-name[Dropped]
+```{r}
+survey %>% 
+  anti_join(enrolment, by = "id") #<<
+```
+]
+
+]
+
+---
+
+class: middle
+
+# Case study: Grocery sales
+
+---
+
+## Grocery sales
+
+- We have:
+  - Purchases: One row per customer per item, listing purchases they made
+  - Prices: One row per item in the store, listing their prices
+- We want: Total revenue
+
+--
+
+```{r include=FALSE}
+purchases <- read_csv("data/sales/purchases.csv")
+prices <- read_csv("data/sales/prices.csv")
+```
+
+.pull-left[
+```{r message = FALSE}
+purchases
+```
+]
+.pull-right[
+```{r message = FALSE}
+prices
+```
+]
+
+---
+
+## Grocery sales
+
+.panelset[
+
+.panel[.panel-name[Total revenue]
+.pull-left[
+```{r}
+purchases %>% 
+  left_join(prices) #<<
+```
+]
+.pull-right[
+```{r}
+purchases %>% 
+  left_join(prices) %>%
+  summarise(total_revenue = sum(price)) #<<
+```
+]
+]
+
+.panel[.panel-name[Revenue per customer]
+
+.pull-left[
+```{r}
+purchases %>% 
+  left_join(prices)
+```
+]
+.pull-right[
+```{r}
+purchases %>% 
+  left_join(prices) %>%
+  group_by(customer_id) %>% #<<
+  summarise(total_revenue = sum(price))
+```
+]
+
+]
+
+]

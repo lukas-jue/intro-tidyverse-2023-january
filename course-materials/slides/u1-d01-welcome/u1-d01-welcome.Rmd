@@ -1,0 +1,321 @@
+---
+title: "Welcome!"
+subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
+author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+output:
+  xaringan::moon_reader:
+    css: ["../xaringan-themer.css", "../slides.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightLines: true
+      highlightStyle: solarized-light
+      countIncrementalSlides: false
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(emo)
+```
+
+class: middle
+
+# Hello world!
+
+---
+
+## Data science
+
+.pull-left-wide[
+- Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. 
+
+- We're going to learn to do this in a `tidy` way -- more on that later!
+
+- This is a course on introduction to data science in `R` and the `tidyverse` packages.
+]
+
+---
+
+## Course FAQ
+
+.pull-left-wide[
+**Q - What data science/programming background does this course assume?**  
+A - None.
+
+**Q - Is this a course for neuroscientists only?**  
+A - Yes and no. While this course is exclusively for GRADE Brain,
+the course does not introduce you to neuroscience applications with `R`.
+Rather, we will discuss some computational tools that most scientists share
+and which are applicable beyond your field.
+
+**Q - Will we be doing computing?**   
+A - Yes. Do as much as possible by yourself — that's how you learn it.
+]
+
+---
+
+# Course FAQ (2/2)
+
+.pull-left-wide[
+**Q - Where do I find the course materials?**
+
+A - [This website](github.com/lukas-jue) includes links to all slides and materials.
+]
+
+---
+
+class: middle
+
+# Software
+
+---
+
+```{r echo=FALSE, out.width="75%", fig.align="left"}
+knitr::include_graphics("img/excel.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="50%", fig.align="left"}
+knitr::include_graphics("img/r.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="73%", fig.align="left"}
+knitr::include_graphics("img/rstudio.png")
+```
+
+---
+
+class: middle
+
+# Data science life cycle
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.001.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.002.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.003.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.004.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.005.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png")
+```
+
+---
+
+.pull-left[
+```{r echo=FALSE, out.width="75%", fig.align="left"}
+knitr::include_graphics("img/google-trend-index.png")
+```
+]
+.pull-right[
+```{r echo=FALSE, out.width="90%", fig.align="right"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png")
+```
+]
+
+---
+
+<!-- .pull-left[ -->
+<!-- ```{r echo=FALSE, out.width="75%", fig.align="left"} -->
+<!-- knitr::include_graphics("img/google-trend-index.png") -->
+<!-- ``` -->
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- ```{r echo=FALSE, out.width="90%", fig.align="right"} -->
+<!-- knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png") -->
+<!-- ``` -->
+<!-- ```{r echo=FALSE} -->
+<!-- travel <- tribble( -->
+<!--   ~date,              ~season, -->
+<!--   "23 January 2017",  "winter", -->
+<!--   "4 March 2017",     "spring", -->
+<!--   "14 June 2017",     "summer", -->
+<!--   "1 September 2017", "fall", -->
+<!--   "...", "..." -->
+<!-- ) -->
+<!-- travel -->
+<!-- ``` -->
+<!-- ] -->
+
+<!-- --- -->
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.007.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.008.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%", fig.align="left"}
+knitr::include_graphics("img/data-science-cycle/data-science-cycle.009.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="85%", fig.align="left"}
+knitr::include_graphics("img/unvotes/unvotes.gif")
+```
+
+---
+
+class: middle
+
+# Let's dive in!
+
+---
+
+background-image: url("img/unvotes/unvotes-01.jpeg")
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-02.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-03.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-04.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-05.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-06.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-07.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/unvotes/unvotes-08.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/unvotes/unvotes-09.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/unvotes/unvotes-10.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/unvotes/unvotes-11.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/unvotes/unvotes-12.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-13.jpeg")
+```
+
+---
+
+class: inverse
+
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("img/unvotes/unvotes-14.jpeg")
+```
+
+---
+
+# Is it possible to learn all that in this course?
+
+.pull-left-wide[
+Yes — if you're actively coding along and invest some time.
+
+We'll go through every step in this course:
+-	Plotting with `ggplot2` 
+-	Data wrangling with `dplyr`
+-	Communicating your results with `R Markdown`
+- Regressions with `tidymodels`
+]

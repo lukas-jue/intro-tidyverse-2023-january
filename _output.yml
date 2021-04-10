@@ -1,0 +1,15 @@
+bookdown::bs4_book:
+  css: [css/dsbox.css, css/fontawesome/css/all.css]
+  theme:
+    primary: "#1E5C65"
+  repo: https://github.com/lukas-jue/intro-tidyverse/
+
+bookdown::gitbook:
+  css: [css/style.css, css/dsbox.css, css/fontawesome/css/all.css]
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Introduction to Data Science with R and Tidyverse</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
