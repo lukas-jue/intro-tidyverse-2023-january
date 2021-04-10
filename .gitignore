@@ -1,7 +1,6 @@
 .Rhistory
 .RData
 .Rproj.user
-_book
 _bookdown_files
 *.rds
 *.key

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 2 Exploring data | Introduction to Data Science with R and Tidyverse</title>
+<meta name="author" content="Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.7/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.4.9002/tabs.js"></script><script src="libs/bs3compat-0.2.4.9002/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="css/dsbox.css">
+<link rel="stylesheet" href="css/fontawesome/css/all.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Introduction to Data Science with R and Tidyverse</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li class="book-part">Course content</li>
+<li><a class="" href="hello-world.html"><span class="header-section-number">1</span> Hello world</a></li>
+<li><a class="active" href="exploring-data.html"><span class="header-section-number">2</span> Exploring data</a></li>
+<li><a class="" href="models.html"><span class="header-section-number">3</span> Models</a></li>
+<li class="book-part">Next steps</li>
+<li><a class="" href="things-you-can-do-after-this-course.html"><span class="header-section-number">4</span> Things you can do after this course</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/lukas-jue/intro-tidyverse/">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="exploring-data" class="section level1" number="2">
+<h1>
+<span class="header-section-number">2</span> Exploring data<a class="anchor" aria-label="anchor" href="#exploring-data"><i class="fas fa-link"></i></a>
+</h1>
+<p>This unit focuses on data visualization and data wrangling.
+Specifically we cover fundamentals of data and data visualization, the concept of tidy data, data import, and data cleaning.</p>
+<div id="slides-application-exercises-and-references-1" class="section level2" number="2.1">
+<h2>
+<span class="header-section-number">2.1</span> Slides, application exercises, and references<a class="anchor" aria-label="anchor" href="#slides-application-exercises-and-references-1"><i class="fas fa-link"></i></a>
+</h2>
+<div id="visualising-data" class="section level3" number="2.1.1">
+<h3>
+<span class="header-section-number">2.1.1</span> Visualising data<a class="anchor" aria-label="anchor" href="#visualising-data"><i class="fas fa-link"></i></a>
+</h3>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 1: Data and visualization</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d01-data-viz/u2-d01-data-viz.html#1">Slides</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 2: Visualizing data with ggplot2</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d02-ggplot2/u2-d02-ggplot2.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/data-visualisation.html">Chp 3 - Data visualization</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 3: Visualizing numerical data</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d03-viz-num/u2-d03-viz-num.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>IMS :: <a href="https://openintro-ims.netlify.app/summarizing-visualizing-data.html#numerical-data">Sec 2.1 - Exploring numerical data</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 4: Visualizing categorical data</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>IMS :: <a href="https://openintro-ims.netlify.app/summarizing-visualizing-data.html#categorical-data">Sec 2.2 - Exploring categorical data</a></p>
+</div>
+</div>
+<div class="application-exercise">
+<p><strong>StarWars + Dataviz</strong></p>
+<p>Please open your RStudio Cloud for this exercise.</p>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-03-starwars-dataviz/starwars.Rmd">Source</a></p>
+</div>
+</div>
+</div>
+<div id="wrangling-and-tidying-data" class="section level3" number="2.1.2">
+<h3>
+<span class="header-section-number">2.1.2</span> Wrangling and tidying data<a class="anchor" aria-label="anchor" href="#wrangling-and-tidying-data"><i class="fas fa-link"></i></a>
+</h3>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 5: Tidy data</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d05-tidy-data/u2-d05-tidy-data.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>Wickham, Hadley (2014) “Tidy data.” <em>Journal of statistical software</em> 59(10), 1-23, <a href="https://www.jstatsoft.org/article/view/v059i10" class="uri">https://www.jstatsoft.org/article/view/v059i10</a>.</p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 6: Grammar of data wrangling</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d06-grammar-wrangle/u2-d06-grammar-wrangle.html#1">Slides</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 7: Working with a single data frame</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d07-single-df/u2-d07-single-df.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/transform.html">Chp 5 - Data transformation</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 8: Working with multiple data frames</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/relational-data.html">Chp 13 - Relational data</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 9: Tidying data</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d09-tidying/u2-d09-tidying.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/tidy-data.html">Chp 12 - Tidy data</a></p>
+</div>
+</div>
+<div class="application-exercise">
+<p><strong>Hotels + Data wrangling</strong></p>
+<p>Please open your RStudio Cloud for this exercise.</p>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd">Source</a></p>
+</div>
+</div>
+</div>
+<div id="importing-and-recoding-data" class="section level3" number="2.1.3">
+<h3>
+<span class="header-section-number">2.1.3</span> Importing and recoding data<a class="anchor" aria-label="anchor" href="#importing-and-recoding-data"><i class="fas fa-link"></i></a>
+</h3>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 10: Data types</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d10-data-types/u2-d10-data-types.html#1">Slides</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 11: Data classes</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d11-data-classes/u2-d11-data-classes.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/factors.html">Chp 15 - Factors</a></p>
+</div>
+</div>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 12: Importing data</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d12-data-import/u2-d12-data-import.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/data-import.html">Chp 11 - Data import</a></p>
+</div>
+</div>
+<div class="application-exercise">
+<p><strong>Hotels + Data types</strong></p>
+<p>Please open your RStudio Cloud for this exercise.</p>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd">Source</a></p>
+</div>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd">Source</a></p>
+</div>
+</div>
+<div class="application-exercise">
+<p><strong>Nobels + Sales + Data import</strong></p>
+<p>Please open your RStudio Cloud for this exercise.</p>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd">Source</a></p>
+</div>
+<div class="source">
+<p><a href="https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd">Source</a></p>
+</div>
+</div>
+</div>
+<div id="communicating-data-science-results-effectively" class="section level3" number="2.1.4">
+<h3>
+<span class="header-section-number">2.1.4</span> Communicating data science results effectively<a class="anchor" aria-label="anchor" href="#communicating-data-science-results-effectively"><i class="fas fa-link"></i></a>
+</h3>
+<div class="slide-deck">
+<p><strong>Unit 2 - Deck 17: Doing data science</strong></p>
+<div class="slides">
+<p><a href="https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1">Slides</a></p>
+</div>
+<div class="reading">
+<p>R4DS :: <a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">Chp 7 - Exploratory data analysis</a></p>
+</div>
+</div>
+<!-- ## Labs -->
+<!-- ::: {.lab} -->
+<!-- **Lab 1: Hello R** -->
+<!-- Introduction to R, R Markdown, Git, and GitHub -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-01/lab-01-hello-r.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-01) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-01-hello-r) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 2: Plastic waste** -->
+<!-- Introduction to working with data in R with the tidyverse -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-02/lab-02-plastic-waste.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-02) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-02-plastic-waste) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 3: Nobel laureates** -->
+<!-- Data wrangling and tidying -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-03/lab-03-nobel-laureates.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-03) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-03-nobel-laureates) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 4: La Quinta is Spanish for 'next to Denny's', Pt. 1** -->
+<!-- Visualizing spatial data -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-04/lab-04-viz-sp-data.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-04) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-04-viz-sp-data) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 5: La Quinta is Spanish for 'next to Denny's', Pt. 2** -->
+<!-- Wrangling spatial data -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-05/lab-05-wrangle-sp-data.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-05) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-05-wrangle-sp-data) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 6: Sad plots** -->
+<!-- Critiquing and improving data visualisations -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-06/lab-06-sad-plots.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-06) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-06-sad-plots) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 7: Simpson's paradox** -->
+<!-- Data visualisation, confounding, multivariable relationships -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-07/lab-07-simpsons-paradox.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-07) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-07-simpsons-paradox) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.lab} -->
+<!-- **Lab 8: University of Edinburgh Art Collection** -->
+<!-- Web scraping, function, iteration -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/lab-instructions/lab-08/lab-08-uoe-art.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/lab-instructions/lab-08) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/lab/lab-08-uoe-art) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ## Homework assignments -->
+<!-- ::: {.homework} -->
+<!-- **HW 1: Pet names** -->
+<!-- Introduction to working with data in R with the tidyverse -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-01/hw-01-pet-names.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-01) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-01-pet-names) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.homework} -->
+<!-- **HW 2: Edinburgh Airbnb rentals** -->
+<!-- Data visualisation with the tidyverse -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-02) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-02-airbnb-edi) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.homework} -->
+<!-- **HW 3: Road traffic accidents** -->
+<!-- Data wrangling, tidying, and visualization -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-03/hw-03-accidents.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-03) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-03-accidents) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.homework} -->
+<!-- **HW 4: What should I major in?** -->
+<!-- More data wrangling, summarizing, and visualization -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-04/hw-04-college-majors.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-04) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-04-college-majors) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.homework} -->
+<!-- **HW 5: Legos** -->
+<!-- More data wrangling, summarizing, and visualization -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-05/hw-05-legos.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-05) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-05-legos) -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: {.homework} -->
+<!-- **HW 6: Money in politics** -->
+<!-- Web scraping, functions, and iteration -->
+<!-- ::: {.instructions} -->
+<!-- [Instructions](https://rstudio-education.github.io/datascience-box/course-materials/hw-instructions/hw-06/hw-06-money-in-politics.html) -->
+<!-- ::: -->
+<!-- ::: {.source} -->
+<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/hw-instructions/hw-06) -->
+<!-- ::: -->
+<!-- ::: {.starter} -->
+<!-- [Starter](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/starters/hw/hw-06-money-in-politics) -->
+<!-- ::: -->
+<!-- ::: -->
+
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="hello-world.html"><span class="header-section-number">1</span> Hello world</a></div>
+<div class="next"><a href="models.html"><span class="header-section-number">3</span> Models</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#exploring-data"><span class="header-section-number">2</span> Exploring data</a></li>
+<li>
+<a class="nav-link" href="#slides-application-exercises-and-references-1"><span class="header-section-number">2.1</span> Slides, application exercises, and references</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#visualising-data"><span class="header-section-number">2.1.1</span> Visualising data</a></li>
+<li><a class="nav-link" href="#wrangling-and-tidying-data"><span class="header-section-number">2.1.2</span> Wrangling and tidying data</a></li>
+<li><a class="nav-link" href="#importing-and-recoding-data"><span class="header-section-number">2.1.3</span> Importing and recoding data</a></li>
+<li><a class="nav-link" href="#communicating-data-science-results-effectively"><span class="header-section-number">2.1.4</span> Communicating data science results effectively</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/lukas-jue/intro-tidyverse//blob/master/02-exploring-data.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/lukas-jue/intro-tidyverse//edit/master/02-exploring-data.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Introduction to Data Science with R and Tidyverse</strong>" was written by Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel. It was last built on 2021-04-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

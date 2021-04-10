@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Welcome | Introduction to Data Science with R and Tidyverse</title>
+<meta name="author" content="Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.7/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.4.9002/tabs.js"></script><script src="libs/bs3compat-0.2.4.9002/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="css/dsbox.css">
+<link rel="stylesheet" href="css/fontawesome/css/all.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Introduction to Data Science with R and Tidyverse</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="active" href="index.html">Welcome</a></li>
+<li class="book-part">Course content</li>
+<li><a class="" href="hello-world.html"><span class="header-section-number">1</span> Hello world</a></li>
+<li><a class="" href="exploring-data.html"><span class="header-section-number">2</span> Exploring data</a></li>
+<li><a class="" href="models.html"><span class="header-section-number">3</span> Models</a></li>
+<li class="book-part">Next steps</li>
+<li><a class="" href="things-you-can-do-after-this-course.html"><span class="header-section-number">4</span> Things you can do after this course</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/lukas-jue/intro-tidyverse/">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="welcome" class="section level1 unnumbered">
+<h1>Welcome<a class="anchor" aria-label="anchor" href="#welcome"><i class="fas fa-link"></i></a>
+</h1>
+<p>Welcome to the course website for</p>
+<p><strong>Introduction to Data Science with R and Tidyverse</strong></p>
+<p>offered for GRADE Brain at Goethe University in the summer term 2021.
+This website serves as the central repository for all course materials.
+Here, you will find all slides, lecture materials, and links to your online development environment.</p>
+<div id="course-objective" class="section level2" number="0.1">
+<h2>
+<span class="header-section-number">0.1</span> Course Objective<a class="anchor" aria-label="anchor" href="#course-objective"><i class="fas fa-link"></i></a>
+</h2>
+<p>Most academic fields require proficiency in at least one data-centered analysis tool.
+For many, the R programming language has become the tool of choice.
+However, the first steps in coding can be intimidating and discouraging—especially if you have never worked with a programming language before.
+This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R.
+We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.
+Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R.
+We will focus on the Tidyverse ecosystem, a consistent and intuitive framework of building your data analysis from start to finish.
+After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R—primarily data wrangling, data visualization, and results communication.</p>
+</div>
+<div id="course-description" class="section level2" number="0.2">
+<h2>
+<span class="header-section-number">0.2</span> Course Description<a class="anchor" aria-label="anchor" href="#course-description"><i class="fas fa-link"></i></a>
+</h2>
+<p>This course is aimed at beginners who are either completely new to R as a programming language and/or want to learn about the Tidyverse ecosystem.
+The course is structured in the following way:</p>
+<ul>
+<li>Reading data into tibbles with readr and a short primer on data types</li>
+<li>Plotting with ggplot2: aesthetics, geoms and the grammar of graphics</li>
+<li>Data wrangling with dplyr: mutate(), select(), filter(), group_by(), summarize(), …_join(), pipe-operator</li>
+<li>Communicating your analyses with RMarkdown in a reproducible way</li>
+<li>Univariate and multivariate linear regression with <code>tidymodels</code>
+</li>
+<li>Visualizing regressions with ggplot2</li>
+</ul>
+<p>We will not cover deeper statistical or theoretical concepts in this course, as the focus will lie on applied coding.</p>
+</div>
+<div id="methods" class="section level2" number="0.3">
+<h2>
+<span class="header-section-number">0.3</span> Methods<a class="anchor" aria-label="anchor" href="#methods"><i class="fas fa-link"></i></a>
+</h2>
+<p>We will <em>let you eat cake first</em>.
+What does that mean?
+Many programming courses start with the absolute basics — variable types, syntax, loops, etc.
+Those are important, but quite boring in the beginning.
+Instead of monotonously walking you through those, we follow a different teaching philosophy.</p>
+<p>Each topic will start by us presenting a very nice and sometimes a bit complicated <em>cake</em> to you.
+And you will dive right into it by executing and adapting the code for that “data science cake”.</p>
+<p>For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually.
+While this might appear intimidating at first (<em>“how should I ever be able to code that from scratch?”</em>), we will walk you through the steps and introduce the methods to get there during the course.</p>
+<p>The course will alternate between short introductions to a concept or method and small do-it-yourself coding exercises.
+In between the three sessions, you are encouraged to work on provided exercises that further deepen your understanding.</p>
+</div>
+<div id="conditions" class="section level2" number="0.4">
+<h2>
+<span class="header-section-number">0.4</span> Conditions<a class="anchor" aria-label="anchor" href="#conditions"><i class="fas fa-link"></i></a>
+</h2>
+<p>This is a beginner-friendly course.
+No prior coding experience needed.
+You are also more than welcome to participate if you have experience in R but want to learn more about the Tidyverse.</p>
+<p>You will need an RStudio Cloud account.
+RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work on your own small exercises.</p>
+<p>By not installing RStudio locally during the course, we can start right away with the more important course content.
+If you already have set-up a local installation of RStudio, you are of course more than welcome to use that instead.
+Just download the course materials from this GitHub repository [#ToDo Paste Link]</p>
+<p>Since we do not want to waste precious course time on the technical setup, we will use the RStudio Cloud as a simple and already set up development environment.
+We will send out detailed instructions and an invitation link in advance.</p>
+</div>
+<div id="course-organization" class="section level2" number="0.5">
+<h2>
+<span class="header-section-number">0.5</span> Course Organization<a class="anchor" aria-label="anchor" href="#course-organization"><i class="fas fa-link"></i></a>
+</h2>
+<p>We will meet on three Thursday evenings from <em>6:00 - 8:00 p.m.</em>.
+Please access the course via <a href="https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09">this Zoom link</a> or the meeting ID 969 3477 6479 and passcode 779069.</p>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th>Part</th>
+<th>Date</th>
+<th>Time</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>22 April 2021</td>
+<td>18:00 - 20:00</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>29 April 2021</td>
+<td>18:00 - 20:00</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>6 May 2021</td>
+<td>18:00 - 20:00</td>
+</tr>
+</tbody>
+</table></div>
+<p>We want you to <em>make your hands dirty</em>, that means we want you to actually code.
+Just following along nice slides won’t magically transfer the actual skill of coding to you.
+But you actively engaging with the course content in your own development environment will more likely do just that.</p>
+<p>That’s why we need you to prepare accordingly:</p>
+<ul>
+<li>Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)</li>
+<li>Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please make sure that you can access those course materials on RStudio Cloud before we meet on April 22.</li>
+</ul>
+<p>If you have any questions, feel free to reach out to one of us through the e-mail addresses on the bottom of this page.</p>
+</div>
+<div id="schedule" class="section level2" number="0.6">
+<h2>
+<span class="header-section-number">0.6</span> Schedule<a class="anchor" aria-label="anchor" href="#schedule"><i class="fas fa-link"></i></a>
+</h2>
+<p>Our schedule is quite packed.
+We will try to cover most topics.
+Depending on our progress, we may leave some units as a homework after our meeting.</p>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th>Unit</th>
+<th>Date</th>
+<th>Title</th>
+<th>Type</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td>1</td>
+<td>1</td>
+<td>Welcome to data science!</td>
+<td>Lecture</td>
+</tr></tbody>
+</table></div>
+</div>
+<div id="readings" class="section level2" number="0.7">
+<h2>
+<span class="header-section-number">0.7</span> Readings<a class="anchor" aria-label="anchor" href="#readings"><i class="fas fa-link"></i></a>
+</h2>
+<p>The course is self-contained and you will most likely get all necessary information for the application exercises from the slides.
+If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks.
+You will find the links on the following pages right besides the link to the slides for each chapter.</p>
+<div class="reading">
+<p>We suggest two main references</p>
+<ul>
+<li>
+<strong>R4DS</strong>: Wickham, H., Grolemund, G. (2017), “R for Data Science: Import, Tidy, Transform, Visualize, and Model Data”, available at <a href="https://r4ds.had.co.nz/">r4ds.had.co.nz</a>
+</li>
+<li>
+<strong>IMS</strong>: Çetinkaya-Rundel, M., Hardin, J. (2021), “Introduction to Modern Statistics”, available at <a href="https://openintro-ims.netlify.app/">openintro-ims.netlify.app</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="trainer" class="section level2" number="0.8">
+<h2>
+<span class="header-section-number">0.8</span> Trainer<a class="anchor" aria-label="anchor" href="#trainer"><i class="fas fa-link"></i></a>
+</h2>
+<p>Feel free to reach out to us by e-mail if you have any questions before, during, or after the course</p>
+<ul>
+<li>
+<strong>Lukas Jürgensmeier</strong>, PhD Student in Quantitative Marketing and Chairman of the Board at TechAcademy e.V., <a href="mailto:lukas.juergensmeier@tech-academy.io">send me an e-mail</a>
+</li>
+<li>
+<strong>Lara Zaremba</strong>, M.Sc. Student in Economics, R Teacher and Course Designer at TechAcademy e.V., <a href="mailto:lara.zaremba@tech-academy.io">send me an e-mail</a>
+</li>
+<li>
+<strong>Karlo Lukic</strong>, PhD Student in Quantitative Marketing, R Teacher and Course Designer at TechAcademy e.V., <a href="mailto:karlo.lukic@tech-academy.io">send me an e-mail</a>
+</li>
+</ul>
+</div>
+<div id="license" class="section level2 unnumbered">
+<h2>License<a class="anchor" aria-label="anchor" href="#license"><i class="fas fa-link"></i></a>
+</h2>
+<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"></a><br>This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+Visit <a href="https://github.com/rstudio-education/datascience-box/blob/master/LICENSE.md">here</a> for more information about the license.</p>
+</div>
+<div id="acknowledements" class="section level2 unnumbered">
+<h2>Acknowledements<a class="anchor" aria-label="anchor" href="#acknowledements"><i class="fas fa-link"></i></a>
+</h2>
+<p>The entire course is built upon material from <a href="https://datasciencebox.org/">datasciencebox.org</a> by Mine Çetinkaya-Rundel.</p>
+<p>Huge thanks to the #rstats education community who have made numerous suggestions for this resource, to Lee Suddaby and Zeno Kujawa for converting the homework assignments to learnr tutorials, and to <a href="http://muge.fr/">Müge Çetinkaya</a> for the hex logo!</p>
+<p>This website is built with <a href="https://bookdown.org/">bookdown</a>, the lovely icons by <a href="http://icons8.com/">icons8</a>, and none of this would be possible without the <a href="https://tidyverse.org/">tidyverse</a>.</p>
+
+</div>
+</div>
+
+
+
+  <div class="chapter-nav">
+<div class="empty"></div>
+<div class="next"><a href="hello-world.html"><span class="header-section-number">1</span> Hello world</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#welcome">Welcome</a></li>
+<li><a class="nav-link" href="#course-objective"><span class="header-section-number">0.1</span> Course Objective</a></li>
+<li><a class="nav-link" href="#course-description"><span class="header-section-number">0.2</span> Course Description</a></li>
+<li><a class="nav-link" href="#methods"><span class="header-section-number">0.3</span> Methods</a></li>
+<li><a class="nav-link" href="#conditions"><span class="header-section-number">0.4</span> Conditions</a></li>
+<li><a class="nav-link" href="#course-organization"><span class="header-section-number">0.5</span> Course Organization</a></li>
+<li><a class="nav-link" href="#schedule"><span class="header-section-number">0.6</span> Schedule</a></li>
+<li><a class="nav-link" href="#readings"><span class="header-section-number">0.7</span> Readings</a></li>
+<li><a class="nav-link" href="#trainer"><span class="header-section-number">0.8</span> Trainer</a></li>
+<li><a class="nav-link" href="#license">License</a></li>
+<li><a class="nav-link" href="#acknowledements">Acknowledements</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/lukas-jue/intro-tidyverse//blob/master/index.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/lukas-jue/intro-tidyverse//edit/master/index.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Introduction to Data Science with R and Tidyverse</strong>" was written by Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel. It was last built on 2021-04-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>
