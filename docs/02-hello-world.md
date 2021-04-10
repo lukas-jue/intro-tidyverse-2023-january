@@ -19,7 +19,7 @@ Be sure to register through the link we sent to you via e-mail, since we purchas
 **Unit 1 - Deck 1: Welcome**
 
 ::: {.slides}
-[Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d01-welcome/u1-d01-welcome.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u1-d01-welcome/u1-d01-welcome.html#1)
 :::
 :::
 
@@ -29,7 +29,7 @@ Be sure to register through the link we sent to you via e-mail, since we purchas
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-01a-un-votes/unvotes.Rmd)
+[Source](https://lukas-jue.github.io/intro-tidyverse/application-exercises/ae-01a-un-votes/unvotes.html)
 :::
 :::
 
@@ -37,7 +37,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 1 - Deck 2: Meet the toolkit --- Programming**
 
 ::: {.slides}
-[Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html)
 :::
 
 ::: {.reading}
@@ -52,7 +52,7 @@ Please open your RStudio Cloud for this exercise.
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
+[Source](https://lukas-jue.github.io/intro-tidyverse/slides/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
 :::
 
 ::: {.reading}

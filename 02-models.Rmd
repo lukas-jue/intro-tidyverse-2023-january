@@ -13,7 +13,7 @@ This approach builds on the tidy approach to data visualization and data wrangli
 **Unit 4 - Deck 1: The language of models**
 
 ::: {.slides}
-[Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
 :::
 :::
 
@@ -21,7 +21,7 @@ This approach builds on the tidy approach to data visualization and data wrangli
 **Unit 4 - Deck 2: Fitting and interpreting models**
 
 ::: {.slides}
-[Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
 :::
 
 ::: {.reading}
