@@ -29,7 +29,7 @@ Be sure to register through the link we sent to you via e-mail, since we purchas
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://lukas-jue.github.io/intro-tidyverse/application-exercises/ae-01a-un-votes/unvotes.html)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-01a-un-votes/unvotes.Rmd)
 :::
 :::
 
@@ -52,13 +52,13 @@ Please open your RStudio Cloud for this exercise.
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://lukas-jue.github.io/intro-tidyverse/slides/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
 :::
 
 ::: {.reading}
 This exercise uses data from the following FiveThirtyEight story on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test):
 
 Hickey, W.
-(2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/), in FiveThirtyEight.com
+(2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd), *FiveThirtyEight.com*
 :::
 :::
