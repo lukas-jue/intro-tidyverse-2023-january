@@ -1,30 +1,18 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/faea2121-c6bb-4355-bbf4-d5afb9dd0224/deploy-status)](https://app.netlify.com/sites/datasciencebox/deploys)
+# Introduction to Data Science with R and Tidyverse
 
-## Data Science Course in a Box
+This repository contains all materials for the course *Introduction to Data Science with R and Tidyverse*,
+offered for GRADE Brain at Goethe University in the summer term 2021.
+Additionally, it serves the course website for students, which you can access [here](github.com/lukas-jue)
 
-Data Science in a Box contains the materials required to teach (or learn from) an introductory data science course using R, all of which are freely-available and open-source.
-They include course materials such as slide decks, homework assignments, guided labs, sample exams, a final project assignment, as well as materials for instructors such as pedagogical tips, information on computing infrastructure, technology stack, and course logistics.
+# Course Objective
 
-See [datasciencebox.org](https://datasciencebox.org/) for everything you need to know about the project!
+Most academic fields require proficiency in at least one data-centered analysis tool.
+For many, the R programming language has become the tool of choice.
 
-Note that all materials are released with [Creative Commons Attribution Share Alike 4.0 International](LICENSE.md) license.
+However, the first steps in coding can be intimidating and discouraging — especially if you have never worked with a programming language before.
+This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R.
+We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.
 
-## Questions, bugs, feature requests
-
-You can file an issue to get help, report a bug, or make a feature request.
-
-Before opening a new issue, be sure to [search issues and pull requests](https://github.com/rstudio-education/datascience-box/issues) to make sure the bug hasn't been reported and/or already fixed in the development version.
-By default, the search will be pre-populated with `is:issue is:open`.
-You can [edit the qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/) (e.g. `is:pr`, `is:closed`) as needed.
-For example, you'd simply remove `is:open` to search *all* issues in the repo, open or closed.
-
-If your issue involves R code, please make a minimal **repr**oducible **ex**ample using the [reprex](https://reprex.tidyverse.org/) package.
-If you haven't heard of or used reprex before, you're in for a treat!
-Seriously, reprex will make all of your R-question-asking endeavors easier (which is a pretty insane ROI for the five to ten minutes it'll take you to learn what it's all about).
-For additional reprex pointers, check out the [Get help!](https://www.tidyverse.org/help/)
-section of the tidyverse site.
-
-## Code of Conduct
-
-Please note that the datascience-box project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
+Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R.
+We will focus on the Tidyverse ecosystem, a consistent and intuitive framework of building your data analysis from start to finish.
+After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R — primarily data wrangling, data visualization, and results communication.
