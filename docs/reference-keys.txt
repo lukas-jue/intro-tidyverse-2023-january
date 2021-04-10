@@ -10,7 +10,7 @@ hello-world
 slides-application-exercises-and-references
 exploring-data
 slides-application-exercises-and-references-1
-visualising-data
+visualizing-data
 wrangling-and-tidying-data
 importing-and-recoding-data
 communicating-data-science-results-effectively

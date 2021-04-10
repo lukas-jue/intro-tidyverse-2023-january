@@ -5,7 +5,7 @@ Specifically we cover fundamentals of data and data visualization, the concept o
 
 ## Slides, application exercises, and references
 
-### Visualising data
+### Visualizing data
 
 ::: {.slide-deck}
 **Unit 2 - Deck 1: Data and visualization**
@@ -31,7 +31,7 @@ R4DS :: [Chp 3 - Data visualization](https://r4ds.had.co.nz/data-visualisation.h
 **Unit 2 - Deck 3: Visualizing numerical data**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
 :::
 
 ::: {.reading}
@@ -43,7 +43,7 @@ IMS :: [Sec 2.1 - Exploring numerical data](https://openintro-ims.netlify.app/su
 **Unit 2 - Deck 4: Visualizing categorical data**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1)
 :::
 
 ::: {.reading}
@@ -57,7 +57,7 @@ IMS :: [Sec 2.2 - Exploring categorical data](https://openintro-ims.netlify.app/
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
 :::
 :::
 
@@ -67,7 +67,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 2 - Deck 5: Tidy data**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d05-tidy-data/u2-d05-tidy-data.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d05-tidy-data/u2-d05-tidy-data.html#1)
 :::
 
 ::: {.reading}
@@ -79,7 +79,7 @@ Wickham, Hadley (2014) "Tidy data." *Journal of statistical software* 59(10), 1-
 **Unit 2 - Deck 6: Grammar of data wrangling**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d06-grammar-wrangle/u2-d06-grammar-wrangle.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d06-grammar-wrangle/u2-d06-grammar-wrangle.html#1)
 :::
 :::
 
@@ -87,7 +87,7 @@ Wickham, Hadley (2014) "Tidy data." *Journal of statistical software* 59(10), 1-
 **Unit 2 - Deck 7: Working with a single data frame**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d07-single-df/u2-d07-single-df.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d07-single-df/u2-d07-single-df.html#1)
 :::
 
 ::: {.reading}
@@ -99,7 +99,7 @@ R4DS :: [Chp 5 - Data transformation](https://r4ds.had.co.nz/transform.html)
 **Unit 2 - Deck 8: Working with multiple data frames**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d08-multi-df/u2-d08-multi-df.html#1)
 :::
 
 ::: {.reading}
@@ -111,7 +111,7 @@ R4DS :: [Chp 13 - Relational data](https://r4ds.had.co.nz/relational-data.html)
 **Unit 2 - Deck 9: Tidying data**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d09-tidying/u2-d09-tidying.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d09-tidying/u2-d09-tidying.html#1)
 :::
 
 ::: {.reading}
@@ -125,7 +125,7 @@ R4DS :: [Chp 12 - Tidy data](https://r4ds.had.co.nz/tidy-data.html)
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd)
 :::
 :::
 
@@ -135,7 +135,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 2 - Deck 10: Data types**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d10-data-types/u2-d10-data-types.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d10-data-types/u2-d10-data-types.html#1)
 :::
 :::
 
@@ -143,7 +143,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 2 - Deck 11: Data classes**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
 :::
 
 ::: {.reading}
@@ -155,7 +155,7 @@ R4DS :: [Chp 15 - Factors](https://r4ds.had.co.nz/factors.html)
 **Unit 2 - Deck 12: Importing data**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d12-data-import/u2-d12-data-import.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d12-data-import/u2-d12-data-import.html#1)
 :::
 
 ::: {.reading}
@@ -169,11 +169,11 @@ R4DS :: [Chp 11 - Data import](https://r4ds.had.co.nz/data-import.html)
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
 :::
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
 :::
 :::
 
@@ -183,11 +183,11 @@ Please open your RStudio Cloud for this exercise.
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
 :::
 
 ::: {.source}
-[Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd)
 :::
 :::
 
@@ -197,7 +197,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 2 - Deck 17: Doing data science**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1)
 :::
 
 ::: {.reading}
