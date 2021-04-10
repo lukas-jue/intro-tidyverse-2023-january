@@ -5,7 +5,7 @@ Specifically we cover fundamentals of data and data visualization, the concept o
 
 ## Slides, application exercises, and references
 
-### Visualising data
+### Visualizing data
 
 ::: {.slide-deck}
 **Unit 2 - Deck 1: Data and visualization**
