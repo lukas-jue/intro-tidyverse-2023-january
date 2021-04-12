@@ -1,5 +1,8 @@
 # Importing and recoding data {#importing-recoding-data}
 
+You will usually import and recode your data at the beginning of your data science process.
+To do that, you need a solid understanding of data types, data classes, and ways to import data into R.
+
 ## Slides, application exercises, and references
 
 ::: {.slide-deck}

@@ -2,10 +2,12 @@
 
 In this part we will introduce you to the tidyverse-way of modeling.
 We will not cover the mechanics of individual statistical models, but scratch the surface of a very intuitive way of coding up your models in R.
-We assume basic familiarity with a linear regression.
 You might have come across the standard way of coding up a linear regression in R --- the function `lm()`.
 Instead of using `lm()`, we introduce you to the *tidy* way of linear regressions in R through the `tidymodels` package.
 This approach builds on the tidy approach to data visualization and data wrangling.
+
+We will not go through all slides during the lecture --- the main focus lies on the *tidy* way of modeling and not the actual statistics behind it.
+If you want to refresh your knowledge on linear regressions, feel free to read through the remaining slides that we are not able to cover in the course.
 
 ## Slides, application exercises, and references
 

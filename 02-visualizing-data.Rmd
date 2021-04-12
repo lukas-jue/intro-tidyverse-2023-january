@@ -1,5 +1,7 @@
 # Visualizing data {#visualizing-data}
 
+This second course part introduces you to visualization with `ggplot2`.
+
 ## Slides, application exercises, and references
 
 ::: {.slide-deck}

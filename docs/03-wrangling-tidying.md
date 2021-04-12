@@ -1,5 +1,8 @@
 # Wrangling and tidying data {#wrangling-tidying-data}
 
+Most data you come across is *messy*.
+Your task is to process *messy* into *tidy* data --- we will introduce you to the `tidyverse` tools from the packages `dplyr` and `tidyr` that make this process a breeze.
+
 ## Slides, application exercises, and references
 
 ::: {.slide-deck}

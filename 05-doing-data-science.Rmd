@@ -1,5 +1,8 @@
 # Doing data science {#doing-data-science}
 
+Actually *doing data science* might be the largest part of your daily work in R.
+This short chapter discusses some best practices and recommends a structure for your data science process.
+
 ## Slides, application exercises, and references
 
 ::: {.slide-deck}

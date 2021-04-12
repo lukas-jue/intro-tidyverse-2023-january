@@ -82,8 +82,7 @@ We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization
 
-We will meet on three Thursday evenings from *6:00 - 8:00 p.m.*.
-Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09) or the meeting ID 969 3477 6479 and passcode 779069.
+We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09) or the meeting ID 969 3477 6479 and passcode 779069.
 
 | Part | Date          | Time          |
 |------|---------------|---------------|
@@ -92,7 +91,7 @@ Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/96
 | 3    | 6 May 2021    | 18:00 - 20:00 |
 
 We want you to *make your hands dirty*, that means we want you to actually code.
-Just following along nice slides won't magically transfer the actual skill of coding to you.
+Just following along nice slides won't magically transfer the skill of coding to you.
 But you actively engaging with the course content in your own development environment will more likely do just that.
 
 That's why we need you to prepare accordingly:
@@ -104,13 +103,36 @@ If you have any questions, feel free to reach out to one of us through the e-mai
 
 ## Schedule
 
-Our schedule is quite packed.
-We will try to cover most topics.
+We will try to adhere to the following schedule.
+However, we are aware that it is quite packed.
 Depending on our progress, we may leave some units as a homework after our meeting.
 
-| Unit | Date | Title                    | Type    |
-|------|------|--------------------------|---------|
-| 1    | 1    | Welcome to data science! | Lecture |
+| Chapter | Date          | Title                                   | Type                 |
+|---------|---------------|-----------------------------------------|----------------------|
+| 1       | 22 April 2021 | Welcome                                 | Lecture              |
+| 1       | 22 April 2021 | Your first data visualization: UN Votes | Application Exercise |
+| 1       | 22 April 2021 | Meet the toolkit --- Programming        | Lecture              |
+| 1       | 22 April 2021 | The Bechdel Test + R Markdown           | Application Exercise |
+| 2       | 22 April 2021 | Data and visualization                  | Lecture              |
+| 2       | 22 April 2021 | Visualizing data with ggplot2           | Lecture              |
+| 2       | 22 April 2021 | Visualizing numerical data              | Lecture              |
+| 2       | 22 April 2021 | Visualizing categorical data            | Lecture              |
+| 2       | 22 April 2021 | StarWars + Dataviz                      | Application Exercise |
+| 3       | 29 April 2021 | Tidy data                               | Lecture              |
+| 3       | 29 April 2021 | Grammar of data wrangling               | Lecture              |
+| 3       | 29 April 2021 | Working with a single data frame        | Lecture              |
+| 3       | 29 April 2021 | Working with multiple data frames       | Lecture              |
+| 3       | 29 April 2021 | Tidying data                            | Lecture              |
+| 3       | 29 April 2021 | Hotels + Data wrangling                 | Application Exercise |
+| 4       | 6 May 2021    | Data types                              | Lecture              |
+| 4       | 6 May 2021    | Data classes                            | Lecture              |
+| 4       | 6 May 2021    | Importing data                          | Lecture              |
+| 4       | 6 May 2021    | Hotels + Data types                     | Application Exercise |
+| 4       | 6 May 2021    | Nobels + Sales + Data import            | Application Exercise |
+| 5       | 6 May 2021    | Doing data science                      | Lecture              |
+| 6       | 6 May 2021    | The language of models                  | Lecture              |
+| 6       | 6 May 2021    | Fitting and interpreting models         | Lecture              |
+| 6       | 6 May 2021    | Modelling nonlinear relationships       | Lecture              |
 
 ## Readings
 
