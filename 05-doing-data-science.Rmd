@@ -1,0 +1,15 @@
+# Doing data science {#doing-data-science}
+
+## Slides, application exercises, and references
+
+::: {.slide-deck}
+**Unit 2 - Deck 17: Doing data science**
+
+::: {.slides}
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1)
+:::
+
+::: {.reading}
+R4DS :: [Chp 7 - Exploratory data analysis](https://r4ds.had.co.nz/exploratory-data-analysis.html)
+:::
+:::

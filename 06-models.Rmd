@@ -13,7 +13,7 @@ This approach builds on the tidy approach to data visualization and data wrangli
 **Unit 4 - Deck 1: The language of models**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
 :::
 :::
 
@@ -21,7 +21,7 @@ This approach builds on the tidy approach to data visualization and data wrangli
 **Unit 4 - Deck 2: Fitting and interpreting models**
 
 ::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/course-materials/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
 :::
 
 ::: {.reading}
@@ -29,29 +29,13 @@ IMS :: [Chp 3 - Introduction to linear models](https://openintro-ims.netlify.app
 :::
 :::
 
-<!-- ::: {.slide-deck} -->
+::: {.slide-deck}
+**Unit 4 - Deck 3: Modelling nonlinear relationships**
 
-<!-- **Unit 4 - Deck 3: Modelling nonlinear relationships** -->
-
-<!-- ::: {.slides} -->
-
-<!-- [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1) -->
-
-<!-- ::: -->
-
-<!-- ::: {.source} -->
-
-<!-- [Source](https://github.com/rstudio-education/datascience-box/tree/master/course-materials/slides/u4-d03-modeling-nonlinear-relationships) -->
-
-<!-- ::: -->
-
-<!-- ::: {.video} -->
-
-<!-- [Video](https://youtu.be/j4MZ6ZdHnHg) -->
-
-<!-- ::: -->
-
-<!-- ::: -->
+::: {.slides}
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1)
+:::
+:::
 
 <!-- ::: {.slide-deck} -->
 
