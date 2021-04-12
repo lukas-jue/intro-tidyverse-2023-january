@@ -36,16 +36,14 @@ After the successful completion of this course, you know how to apply the basic 
 ## Course Description
 
 This course is aimed at beginners who are either completely new to R as a programming language and/or want to learn about the Tidyverse ecosystem.
-The course is structured in the following way:
+The course covers four main areas of the typical data science process and introduces the respective `tidyverse` tools:
 
--   Reading data into tibbles with readr and a short primer on data types
--   Plotting with ggplot2: aesthetics, geoms and the grammar of graphics
--   Data wrangling with dplyr: mutate(), select(), filter(), group_by(), summarize(), ...\_join(), pipe-operator
--   Communicating your analyses with RMarkdown in a reproducible way
--   Univariate and multivariate linear regression with `tidymodels`
--   Visualizing regressions with ggplot2
+-   Plotting with `ggplot2`
+-   Data wrangling with `dplyr` and `tidyr`
+-   Communicating your results with R Markdown
+-   Regressions with `tidymodels`
 
-We will not cover deeper statistical or theoretical concepts in this course, as the focus will lie on applied coding.
+We will not cover statistical or theoretical concepts in this course, as the focus will lie on applied coding.
 
 ## Methods
 
@@ -103,8 +101,8 @@ If you have any questions, feel free to reach out to one of us through the e-mai
 
 ## Schedule
 
-Our schedule is quite packed.
-We will try to cover most topics.
+We will try to adhere to the following schedule.
+However, we are aware that it is quite packed.
 Depending on our progress, we may leave some units as a homework after our meeting.
 
 | Chapter | Date          | Title                                   | Type                 |
