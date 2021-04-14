@@ -220,7 +220,7 @@ dim(squirrels)
 ```
 
 ```
-## [1] 3023   38
+## [1] 3023   35
 ```
 
 ---
@@ -233,18 +233,18 @@ squirrels %&gt;% head()
 ```
 
 ```
-## # A tibble: 6 x 38
-##    long   lat unique_squirrel~ hectare NS    EW    shift
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;
-## 1 -74.0  40.8 13A-PM-1014-04   13A     13    A     PM   
-## 2 -74.0  40.8 15F-PM-1010-06   15F     15    F     PM   
-## 3 -74.0  40.8 19C-PM-1018-02   19C     19    C     PM   
-## 4 -74.0  40.8 21B-AM-1019-04   21B     21    B     AM   
-## 5 -74.0  40.8 23A-AM-1018-02   23A     23    A     AM   
-## 6 -74.0  40.8 38H-PM-1012-01   38H     38    H     PM   
-## # ... with 31 more variables: date &lt;date&gt;,
-## #   hectare_squirrel_number &lt;dbl&gt;, age &lt;chr&gt;,
-## #   primary_fur_color &lt;chr&gt;, highlight_fur_color &lt;chr&gt;,
+## # A tibble: 6 x 35
+##    long   lat unique_squirrel~ hectare shift date      
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt; &lt;date&gt;    
+## 1 -74.0  40.8 13A-PM-1014-04   13A     PM    2018-10-14
+## 2 -74.0  40.8 15F-PM-1010-06   15F     PM    2018-10-10
+## 3 -74.0  40.8 19C-PM-1018-02   19C     PM    2018-10-18
+## 4 -74.0  40.8 21B-AM-1019-04   21B     AM    2018-10-19
+## 5 -74.0  40.8 23A-AM-1018-02   23A     AM    2018-10-18
+## 6 -74.0  40.8 38H-PM-1012-01   38H     PM    2018-10-12
+## # ... with 29 more variables: hectare_squirrel_number &lt;dbl&gt;,
+## #   age &lt;chr&gt;, primary_fur_color &lt;chr&gt;,
+## #   highlight_fur_color &lt;chr&gt;,
 ## #   combination_of_primary_and_highlight_color &lt;chr&gt;,
 ## #   color_notes &lt;chr&gt;, location &lt;chr&gt;,
 ## #   above_ground_sighter_measurement &lt;chr&gt;,
@@ -255,8 +255,7 @@ squirrels %&gt;% head()
 ## #   approaches &lt;lgl&gt;, indifferent &lt;lgl&gt;, runs_from &lt;lgl&gt;,
 ## #   other_interactions &lt;chr&gt;, zip_codes &lt;dbl&gt;,
 ## #   community_districts &lt;dbl&gt;, borough_boundaries &lt;dbl&gt;,
-## #   city_council_districts &lt;dbl&gt;, police_precincts &lt;dbl&gt;,
-## #   where &lt;chr&gt;
+## #   city_council_districts &lt;dbl&gt;, police_precincts &lt;dbl&gt;
 ```
 
 ---
@@ -270,18 +269,18 @@ squirrels %&gt;% tail()
 ```
 
 ```
-## # A tibble: 6 x 38
-##    long   lat unique_squirrel~ hectare NS    EW    shift
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;
-## 1 -74.0  40.8 6D-PM-1020-01    06D     06    D     PM   
-## 2 -74.0  40.8 21H-PM-1018-01   21H     21    H     PM   
-## 3 -74.0  40.8 31D-PM-1006-02   31D     31    D     PM   
-## 4 -74.0  40.8 37B-AM-1018-04   37B     37    B     AM   
-## 5 -74.0  40.8 21C-PM-1006-01   21C     21    C     PM   
-## 6 -74.0  40.8 7G-PM-1018-04    07G     07    G     PM   
-## # ... with 31 more variables: date &lt;date&gt;,
-## #   hectare_squirrel_number &lt;dbl&gt;, age &lt;chr&gt;,
-## #   primary_fur_color &lt;chr&gt;, highlight_fur_color &lt;chr&gt;,
+## # A tibble: 6 x 35
+##    long   lat unique_squirrel~ hectare shift date      
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt; &lt;date&gt;    
+## 1 -74.0  40.8 6D-PM-1020-01    06D     PM    2018-10-20
+## 2 -74.0  40.8 21H-PM-1018-01   21H     PM    2018-10-18
+## 3 -74.0  40.8 31D-PM-1006-02   31D     PM    2018-10-06
+## 4 -74.0  40.8 37B-AM-1018-04   37B     AM    2018-10-18
+## 5 -74.0  40.8 21C-PM-1006-01   21C     PM    2018-10-06
+## 6 -74.0  40.8 7G-PM-1018-04    07G     PM    2018-10-18
+## # ... with 29 more variables: hectare_squirrel_number &lt;dbl&gt;,
+## #   age &lt;chr&gt;, primary_fur_color &lt;chr&gt;,
+## #   highlight_fur_color &lt;chr&gt;,
 ## #   combination_of_primary_and_highlight_color &lt;chr&gt;,
 ## #   color_notes &lt;chr&gt;, location &lt;chr&gt;,
 ## #   above_ground_sighter_measurement &lt;chr&gt;,
@@ -292,8 +291,7 @@ squirrels %&gt;% tail()
 ## #   approaches &lt;lgl&gt;, indifferent &lt;lgl&gt;, runs_from &lt;lgl&gt;,
 ## #   other_interactions &lt;chr&gt;, zip_codes &lt;dbl&gt;,
 ## #   community_districts &lt;dbl&gt;, borough_boundaries &lt;dbl&gt;,
-## #   city_council_districts &lt;dbl&gt;, police_precincts &lt;dbl&gt;,
-## #   where &lt;chr&gt;
+## #   city_council_districts &lt;dbl&gt;, police_precincts &lt;dbl&gt;
 ```
 ]
 

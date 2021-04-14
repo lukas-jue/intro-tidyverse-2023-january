@@ -498,13 +498,7 @@ Why does the plot start with August when we know our data start in July? And why
 
 ```r
 library(lubridate)
-```
 
-```
-## Warning: package 'lubridate' was built under R version 4.0.4
-```
-
-```r
 hotels %&gt;%
   mutate(
 *   arrival_date = ymd(glue("{arrival_date_year} {arrival_date_month} {arrival_date_day_of_month}"))
