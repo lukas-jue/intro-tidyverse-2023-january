@@ -12,14 +12,6 @@ If you want to refresh your knowledge on linear regressions, feel free to read t
 ## Slides, application exercises, and references
 
 ::: {.slide-deck}
-**Unit 4 - Deck 1: The language of models**
-
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
-:::
-:::
-
-::: {.slide-deck}
 **Unit 4 - Deck 2: Fitting and interpreting models**
 
 ::: {.slides}
@@ -28,6 +20,19 @@ If you want to refresh your knowledge on linear regressions, feel free to read t
 
 ::: {.reading}
 IMS :: [Chp 3 - Introduction to linear models](https://openintro-ims.netlify.app/intro-linear-models.html)
+:::
+:::
+
+### Additional material not covered in class
+
+We will not cover this unit due to time constraints.
+If you want to refresh your knowledge of regressions, feel free to study the slides on your own.
+
+::: {.slide-deck}
+**Unit 4 - Deck 1: The language of models**
+
+::: {.slides}
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
 :::
 :::
 

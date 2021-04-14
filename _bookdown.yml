@@ -18,7 +18,7 @@ rmd_files: [
   "02-visualizing-data.Rmd",
   "03-wrangling-tidying.Rmd",
   "04-importing-recoding.Rmd",
-  "05-doing-data-science.Rmd",
+  # "05-doing-data-science.Rmd",
   "06-models.Rmd",
   "07-next-steps.Rmd",
   

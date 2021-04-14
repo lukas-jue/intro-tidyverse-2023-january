@@ -25,18 +25,6 @@ R4DS :: [Chp 3 - Data visualization](https://r4ds.had.co.nz/data-visualisation.h
 :::
 
 ::: {.slide-deck}
-**Unit 2 - Deck 3: Visualizing numerical data**
-
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
-:::
-
-::: {.reading}
-IMS :: [Sec 2.1 - Exploring numerical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#numerical-data)
-:::
-:::
-
-::: {.slide-deck}
 **Unit 2 - Deck 4: Visualizing categorical data**
 
 ::: {.slides}
@@ -55,5 +43,22 @@ Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
 [Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+:::
+:::
+
+### Additional material not covered in class
+
+We will not cover this unit due to time constraints.
+If you're interested in histograms, scatter-, bar-, and density plots, feel free to study the slides on your own.
+
+::: {.slide-deck}
+**Unit 2 - Deck 3: Visualizing numerical data**
+
+::: {.slides}
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
+:::
+
+::: {.reading}
+IMS :: [Sec 2.1 - Exploring numerical data](https://openintro-ims.netlify.app/summarizing-visualizing-data.html#numerical-data)
 :::
 :::

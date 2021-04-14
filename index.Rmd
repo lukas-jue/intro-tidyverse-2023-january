@@ -105,32 +105,26 @@ We will try to adhere to the following schedule.
 However, we are aware that it is quite packed.
 Depending on our progress, we may leave some units as a homework after our meeting.
 
-| Chapter | Date          | Title                                   | Type                 |
-|---------|---------------|-----------------------------------------|----------------------|
-| 1       | 22 April 2021 | Welcome                                 | Lecture              |
-| 1       | 22 April 2021 | Your first data visualization: UN Votes | Application Exercise |
-| 1       | 22 April 2021 | Meet the toolkit --- Programming        | Lecture              |
-| 1       | 22 April 2021 | The Bechdel Test + R Markdown           | Application Exercise |
-| 2       | 22 April 2021 | Data and visualization                  | Lecture              |
-| 2       | 22 April 2021 | Visualizing data with ggplot2           | Lecture              |
-| 2       | 22 April 2021 | Visualizing numerical data              | Lecture              |
-| 2       | 22 April 2021 | Visualizing categorical data            | Lecture              |
-| 2       | 22 April 2021 | StarWars + Dataviz                      | Application Exercise |
-| 3       | 29 April 2021 | Tidy data                               | Lecture              |
-| 3       | 29 April 2021 | Grammar of data wrangling               | Lecture              |
-| 3       | 29 April 2021 | Working with a single data frame        | Lecture              |
-| 3       | 29 April 2021 | Working with multiple data frames       | Lecture              |
-| 3       | 29 April 2021 | Tidying data                            | Lecture              |
-| 3       | 29 April 2021 | Hotels + Data wrangling                 | Application Exercise |
-| 4       | 6 May 2021    | Data types                              | Lecture              |
-| 4       | 6 May 2021    | Data classes                            | Lecture              |
-| 4       | 6 May 2021    | Importing data                          | Lecture              |
-| 4       | 6 May 2021    | Hotels + Data types                     | Application Exercise |
-| 4       | 6 May 2021    | Nobels + Sales + Data import            | Application Exercise |
-| 5       | 6 May 2021    | Doing data science                      | Lecture              |
-| 6       | 6 May 2021    | The language of models                  | Lecture              |
-| 6       | 6 May 2021    | Fitting and interpreting models         | Lecture              |
-| 6       | 6 May 2021    | Modelling nonlinear relationships       | Lecture              |
+| Chapter | Date     | Title                                   | Type                 | Lecturer |
+|---------|----------|-----------------------------------------|----------------------|----------|
+| 1       | 22 April | Welcome                                 | Lecture              | tbd      |
+| 1       | 22 April | Your first data visualization: UN Votes | Application Exercise |          |
+| 1       | 22 April | Meet the programming toolkit            | Lecture              | tbd      |
+| 1       | 22 April | The Bechdel Test + R Markdown           | Application Exercise |          |
+| 2       | 22 April | Data and visualization                  | Lecture              | tbd      |
+| 2       | 22 April | Visualizing data with ggplot2           | Lecture              | tbd      |
+| 2       | 22 April | Visualizing categorical data            | Lecture              | tbd      |
+| 2       | 22 April | StarWars + Dataviz                      | Application Exercise |          |
+| 3       | 29 April | Tidy data                               | Lecture              | tbd      |
+| 3       | 29 April | Grammar of data wrangling               | Lecture              | tbd      |
+| 3       | 29 April | Working with a single data frame        | Lecture              | tbd      |
+| 3       | 29 April | Working with multiple data frames       | Lecture              | tbd      |
+| 3       | 29 April | Hotels + Data wrangling                 | Application Exercise |          |
+| 4       | 6 May    | Data types                              | Lecture              | tbd      |
+| 4       | 6 May    | Importing data                          | Lecture              | tbd      |
+| 4       | 6 May    | Hotels + Data types                     | Application Exercise |          |
+| 4       | 6 May    | Nobels + Sales + Data import            | Application Exercise |          |
+| 5       | 6 May    | Fitting and interpreting models         | Lecture              | tbd      |
 
 ## Readings
 
@@ -149,9 +143,9 @@ We suggest two main references
 
 Feel free to reach out to us by e-mail if you have any questions before, during, or after the course
 
--   **Lukas Jürgensmeier**, PhD Student in Quantitative Marketing and Chairman of the Board at TechAcademy e.V., [send me an e-mail](mailto:lukas.juergensmeier@tech-academy.io)
+-   **Lukas Jürgensmeier**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html) and Member of the Executive Board at TechAcademy e.V., [send me an e-mail](mailto:lukas.juergensmeier@tech-academy.io)
 -   **Lara Zaremba**, M.Sc. Student in Economics, R Teacher and Course Designer at TechAcademy e.V., [send me an e-mail](mailto:lara.zaremba@tech-academy.io)
--   **Karlo Lukic**, PhD Student in Quantitative Marketing, R Teacher and Course Designer at TechAcademy e.V., [send me an e-mail](mailto:karlo.lukic@tech-academy.io)
+-   **Karlo Lukic**, M.Sc. [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/karlo-lukic.html), R Teacher and Course Designer at TechAcademy e.V., [send me an e-mail](mailto:karlo.lukic@tech-academy.io)
 
 ## License {.unnumbered}
 

@@ -14,18 +14,6 @@ To do that, you need a solid understanding of data types, data classes, and ways
 :::
 
 ::: {.slide-deck}
-**Unit 2 - Deck 11: Data classes**
-
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
-:::
-
-::: {.reading}
-R4DS :: [Chp 15 - Factors](https://r4ds.had.co.nz/factors.html)
-:::
-:::
-
-::: {.slide-deck}
 **Unit 2 - Deck 12: Importing data**
 
 ::: {.slides}
@@ -62,5 +50,22 @@ Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
 [Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd)
+:::
+:::
+
+### Additional material not covered in class
+
+We will not cover this unit due to time constraints.
+If you're interested in the quite important task of pivoting data from *wide* to *long* formats and vice versa, feel free to study the slides on your own.
+
+::: {.slide-deck}
+**Unit 2 - Deck 11: Data classes**
+
+::: {.slides}
+[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
+:::
+
+::: {.reading}
+R4DS :: [Chp 15 - Factors](https://r4ds.had.co.nz/factors.html)
 :::
 :::

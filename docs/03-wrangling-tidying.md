@@ -49,6 +49,21 @@ R4DS :: [Chp 13 - Relational data](https://r4ds.had.co.nz/relational-data.html)
 :::
 :::
 
+::: {.application-exercise}
+**Hotels + Data wrangling**
+
+Please open your RStudio Cloud for this exercise.
+
+::: {.source}
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd)
+:::
+:::
+
+### Additional material not covered in class
+
+We will not cover this unit due to time constraints.
+If you're interested in the quite important task of pivoting data from *wide* to *long* formats and vice versa, feel free to study the slides on your own.
+
 ::: {.slide-deck}
 **Unit 2 - Deck 9: Tidying data**
 
@@ -58,15 +73,5 @@ R4DS :: [Chp 13 - Relational data](https://r4ds.had.co.nz/relational-data.html)
 
 ::: {.reading}
 R4DS :: [Chp 12 - Tidy data](https://r4ds.had.co.nz/tidy-data.html)
-:::
-:::
-
-::: {.application-exercise}
-**Hotels + Data wrangling**
-
-Please open your RStudio Cloud for this exercise.
-
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd)
 :::
 :::
