@@ -45,60 +45,6 @@ library(lubridate)
 
 ---
 
-## Learning goals
-
-By the end of the course, you will be able to...
-
---
-
-- gain insight from data
-
---
-- gain insight from data, **reproducibly**
-
---
-- gain insight from data, reproducibly, **using modern programming tools and techniques**
-
---
-- gain insight from data, reproducibly, using modern programming tools and techniques and **know that it's not *that* hard**
----
-
-class: middle
-
-# Reproducible data analysis
-
----
-
-## Reproducibility checklist
-
-.question[
-What does it mean for a data analysis to be "reproducible"?
-]
-
---
-
-Near-term goals:
-
-- Are the tables and figures reproducible from the code and data?
-- Does the code actually do what you think it does?
-- In addition to what was done, is it clear *why* it was done? 
-
-Long-term goals:
-
-- Can the code be used for other data?
-- Can you extend the code to do other things?
-
----
-
-## Toolkit for reproducibility
-
-
-- Scriptability $\rightarrow$ R
-- Literate programming (code, narrative, output in one place) $\rightarrow$ R Markdown
-- *Not covered in this course, but quite important:* Version control $\rightarrow$ Git / GitHub
-
----
-
 class: middle
 
 # R and RStudio
@@ -322,23 +268,12 @@ knitr::include_graphics("img/md-cheatsheet.png")
 
 ## How will we use R Markdown?
 
-- Every assignment / report / project / etc. is an R Markdown document
+- Every application exercise is an R Markdown document
 - You'll always have a template R Markdown document to start with
-- The amount of scaffolding in the template will decrease over the semester
+- The amount of scaffolding in the template will decrease over the course
 
 ---
 
-## What's with all the hexes?
-
-```{r echo=FALSE, out.width="60%"}
-knitr::include_graphics("img/hex-australia.png")
-```
-
-.footnote[
-Mitchell O'Hara-Wild, [useR! 2018 feature wall](https://www.mitchelloharawild.com/blog/user-2018-feature-wall/)
-]
-
----
 
 .your-turn[
 .light-blue[.hand[Your turn:]] `AE 02 - Bechdel + R Markdown`

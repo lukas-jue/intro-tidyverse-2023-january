@@ -64,6 +64,11 @@ A - Yes. Do as much as possible by yourself — that's how you learn it.
 
 A - On this website: [lukas-jue.github.io/intro-tidyverse](https://lukas-jue.github.io/intro-tidyverse/)
 
+**Q - Can I code on my own during this course?**
+
+A - Yes! You can and you should! Go to [RStudio Cloud](https://rstudio.cloud/) for your development environment and our application exercises.
+]
+
 ---
 
 class: middle
@@ -96,99 +101,10 @@ class: middle
 
 ---
 
+## We'll walk you through the data science lifecycle and introduce the tools for each step
+
 ```{r echo=FALSE, out.width="90%", fig.align="left"}
 knitr::include_graphics("img/data-science-cycle/data-science-cycle.001.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.002.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.003.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.004.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.005.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png")
-```
-
----
-
-.pull-left[
-```{r echo=FALSE, out.width="75%", fig.align="left"}
-knitr::include_graphics("img/google-trend-index.png")
-```
-]
-.pull-right[
-```{r echo=FALSE, out.width="90%", fig.align="right"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png")
-```
-]
-
----
-
-<!-- .pull-left[ -->
-<!-- ```{r echo=FALSE, out.width="75%", fig.align="left"} -->
-<!-- knitr::include_graphics("img/google-trend-index.png") -->
-<!-- ``` -->
-<!-- ] -->
-<!-- .pull-right[ -->
-<!-- ```{r echo=FALSE, out.width="90%", fig.align="right"} -->
-<!-- knitr::include_graphics("img/data-science-cycle/data-science-cycle.006.png") -->
-<!-- ``` -->
-<!-- ```{r echo=FALSE} -->
-<!-- travel <- tribble( -->
-<!--   ~date,              ~season, -->
-<!--   "23 January 2017",  "winter", -->
-<!--   "4 March 2017",     "spring", -->
-<!--   "14 June 2017",     "summer", -->
-<!--   "1 September 2017", "fall", -->
-<!--   "...", "..." -->
-<!-- ) -->
-<!-- travel -->
-<!-- ``` -->
-<!-- ] -->
-
-<!-- --- -->
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.007.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.008.png")
-```
-
----
-
-```{r echo=FALSE, out.width="90%", fig.align="left"}
-knitr::include_graphics("img/data-science-cycle/data-science-cycle.009.png")
-```
-
----
-
-```{r echo=FALSE, out.width="85%", fig.align="left"}
-knitr::include_graphics("img/unvotes/unvotes.gif")
 ```
 
 ---

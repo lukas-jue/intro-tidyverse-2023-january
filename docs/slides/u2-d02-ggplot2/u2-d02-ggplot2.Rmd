@@ -634,12 +634,31 @@ class: middle
 .panel[.panel-name[Code]
 
 ```{r facet, fig.show = "hide"}
+
 ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) + 
   geom_point() +
-  facet_grid(species ~ island) #<<
+  facet_wrap(~ species) #<<
 ```
 ]
 ]
+
+---
+
+class: middle
+
+# Appendix: Faceting
+
+We won't discuss the following slides, but they serve as a useful resource if you need more faceting options.
+
+---
+
+## There are several ways to facet
+
+- `facet_grid()`:
+    - 2d grid
+    - `rows ~ cols`
+    - use `.` for no split
+- `facet_wrap()`: 1d ribbon wrapped according to number of rows and columns specified or available plotting area
 
 ---
 
@@ -691,17 +710,6 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
   geom_point() +
   facet_wrap(~ species, ncol = 2) #<<
 ```
-
----
-
-## Faceting summary
-
-- `facet_grid()`:
-    - 2d grid
-    - `rows ~ cols`
-    - use `.` for no split
-- `facet_wrap()`: 1d ribbon wrapped according to number of rows and columns specified or available plotting area
-
 ---
 
 ## Facet and color

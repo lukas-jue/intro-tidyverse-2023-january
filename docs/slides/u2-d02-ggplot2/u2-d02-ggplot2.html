@@ -681,7 +681,7 @@ class: middle
 ```r
 ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) + 
   geom_point() +
-* facet_grid(species ~ island)
+* facet_wrap(~ species)
 ```
 
 ```
@@ -689,6 +689,24 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
 ```
 ]
 ]
+
+---
+
+class: middle
+
+# Appendix: Faceting
+
+We won't discuss the following slides, but they serve as a useful resource if you need more faceting options.
+
+---
+
+## There are several ways to facet
+
+- `facet_grid()`:
+    - 2d grid
+    - `rows ~ cols`
+    - use `.` for no split
+- `facet_wrap()`: 1d ribbon wrapped according to number of rows and columns specified or available plotting area
 
 ---
 
@@ -755,17 +773,6 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
 ```
 
 &lt;img src="u2-d02-ggplot2_files/figure-html/unnamed-chunk-31-1.png" width="60%" style="display: block; margin: auto;" /&gt;
-
----
-
-## Faceting summary
-
-- `facet_grid()`:
-    - 2d grid
-    - `rows ~ cols`
-    - use `.` for no split
-- `facet_wrap()`: 1d ribbon wrapped according to number of rows and columns specified or available plotting area
-
 ---
 
 ## Facet and color

@@ -249,52 +249,6 @@ class: middle
 
 ---
 
-## Anscombe's quartet
-
-```{r quartet-for-show, eval = FALSE, echo = FALSE}
-library(Tmisc)
-quartet
-```
-
-.pull-left[
-```{r quartet-view1, echo = FALSE}
-quartet[1:22,]
-```
-] 
-.pull-right[
-```{r quartet-view2, echo = FALSE}
-quartet[23:44,]
-```
-]
-
----
-
-## Summarising Anscombe's quartet
-
-```{r quartet-summary}
-quartet %>%
-  group_by(set) %>%
-  summarise(
-    mean_x = mean(x), 
-    mean_y = mean(y),
-    sd_x = sd(x),
-    sd_y = sd(y),
-    r = cor(x, y)
-  )
-```
-
----
-
-## Visualizing Anscombe's quartet
-
-```{r quartet-plot, echo = FALSE, out.width = "80%", fig.asp = 0.5}
-ggplot(quartet, aes(x = x, y = y)) +
-  geom_point() +
-  facet_wrap(~ set, ncol = 4)
-```
-
----
-
 ## Age at first kiss
 
 .question[ 
