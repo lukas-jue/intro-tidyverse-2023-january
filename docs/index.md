@@ -27,19 +27,20 @@ Here, you will find all slides, lecture materials, and links to your online deve
 Most academic fields require proficiency in at least one data-centered analysis tool.
 For many, the R programming language has become the tool of choice.
 However, the first steps in coding can be intimidating and discouraging---especially if you have never worked with a programming language before.
-This course aims at providing a results-oriented, applied, and hands-on introduction to the most important parts of a Data Science project in R.
-We will not only introduce the libraries and frameworks necessary for your analysis, but also focus on teaching you the implementation and application of those tools with small examples that you can work on yourself.
-Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your own empirical projects in R.
+This course aims at providing a results-oriented, applied, and hands-on introduction to the most essential parts of a Data Science project in R.
+We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools.
+We'll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
+Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R.
 We will focus on the Tidyverse ecosystem, a consistent and intuitive framework of building your data analysis from start to finish.
-After the successful completion of this course, you know how to apply the basic Tidyverse tools for common Data Science tasks in R---primarily data wrangling, data visualization, and results communication.
+After successfully completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and results communication.
 
 ## Course Description
 
-This course is aimed at beginners who are either completely new to R as a programming language and/or want to learn about the Tidyverse ecosystem.
-The course covers four main areas of the typical data science process and introduces the respective `tidyverse` tools:
+This aims at beginners who are either completely new to R as a programming language and/or want to learn about the Tidyverse ecosystem.
+The course covers four primary areas of the typical data science process and introduces the respective `tidyverse` tools:
 
 -   Plotting with `ggplot2`
--   Data wrangling with `dplyr` and `tidyr`
+-   Data wrangling with `dplyr`
 -   Communicating your results with R Markdown
 -   Regressions with `tidymodels`
 
@@ -50,10 +51,10 @@ We will not cover statistical or theoretical concepts in this course, as the foc
 We will *let you eat cake first*.
 What does that mean?
 Many programming courses start with the absolute basics --- variable types, syntax, loops, etc.
-Those are important, but quite boring in the beginning.
+Those are important but quite dull in the beginning.
 Instead of monotonously walking you through those, we follow a different teaching philosophy.
 
-Each topic will start by us presenting a very nice and sometimes a bit complicated *cake* to you.
+Each topic will start with the presentation of a very nice and sometimes a bit complicated *cake*.
 And you will dive right into it by executing and adapting the code for that "data science cake".
 
 For example, we will show you an advanced visualization right at the beginning of the course and focus on what is possible eventually.
@@ -64,18 +65,19 @@ In between the three sessions, you are encouraged to work on provided exercises 
 
 ## Conditions
 
-This is a beginner-friendly course.
-No prior coding experience needed.
+This workshop is a beginner-friendly course.
+No prior coding experience is needed.
 You are also more than welcome to participate if you have experience in R but want to learn more about the Tidyverse.
 
 You will need an RStudio Cloud account.
-RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work on your own small exercises.
+RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.
 
 By not installing RStudio locally during the course, we can start right away with the more important course content.
-If you already have set-up a local installation of RStudio, you are of course more than welcome to use that instead.
-Just download the course materials from this GitHub repository [\#ToDo Paste Link]
+If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead.
+In this case, download the source files linked in the respective application exercises.
+Note that you won't need to set anything up if you use RStudio Cloud.
 
-Since we do not want to waste precious course time on the technical setup, we will use the RStudio Cloud as a simple and already set up development environment.
+Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple and already set up development environment.
 We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization
@@ -88,64 +90,64 @@ We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access th
 | 2    | 29 April 2021 | 18:00 - 20:00 |
 | 3    | 6 May 2021    | 18:00 - 20:00 |
 
-We want you to *make your hands dirty*, that means we want you to actually code.
-Just following along nice slides won't magically transfer the skill of coding to you.
+We want you to *make your hands dirty* --- that means we want you to code!
+Just following along fancy slides won't magically transfer the skill of coding to you.
 But you actively engaging with the course content in your own development environment will more likely do just that.
 
 That's why we need you to prepare accordingly:
 
 -   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)
--   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please make sure that you can access those course materials on RStudio Cloud before we meet on April 22.
+-   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before we meet on April 22.
 
-If you have any questions, feel free to reach out to one of us through the e-mail addresses on the bottom of this page.
+If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 
 ## Schedule
 
-We will try to adhere to the following schedule.
-However, we are aware that it is quite packed.
-Depending on our progress, we may leave some units as a homework after our meeting.
+This workshop alternates between lecture-style presentations and application exercises.
+In those hands-on exercises, you will actively try out the discussed tools and techniques in Zoom breakout rooms.
+We aim to adhere to the following schedule.
+Depending on our progress, we may discuss some parts a bit earlier or later during the course.
 
-| Chapter | Date     | Title                                   | Type                 | Lecturer |
-|---------|----------|-----------------------------------------|----------------------|----------|
-| 1       | 22 April | Welcome                                 | Lecture              | tbd      |
-| 1       | 22 April | Your first data visualization: UN Votes | Application Exercise |          |
-| 1       | 22 April | Meet the programming toolkit            | Lecture              | tbd      |
-| 1       | 22 April | The Bechdel Test + R Markdown           | Application Exercise |          |
-| 2       | 22 April | Data and visualization                  | Lecture              | tbd      |
-| 2       | 22 April | Visualizing data with ggplot2           | Lecture              | tbd      |
-| 2       | 22 April | Visualizing categorical data            | Lecture              | tbd      |
-| 2       | 22 April | StarWars + Dataviz                      | Application Exercise |          |
-| 3       | 29 April | Tidy data                               | Lecture              | tbd      |
-| 3       | 29 April | Grammar of data wrangling               | Lecture              | tbd      |
-| 3       | 29 April | Working with a single data frame        | Lecture              | tbd      |
-| 3       | 29 April | Working with multiple data frames       | Lecture              | tbd      |
-| 3       | 29 April | Hotels + Data wrangling                 | Application Exercise |          |
-| 4       | 6 May    | Data types                              | Lecture              | tbd      |
-| 4       | 6 May    | Importing data                          | Lecture              | tbd      |
-| 4       | 6 May    | Hotels + Data types                     | Application Exercise |          |
-| 4       | 6 May    | Nobels + Sales + Data import            | Application Exercise |          |
-| 5       | 6 May    | Fitting and interpreting models         | Lecture              | tbd      |
+| Chapter | Date     | Title                              | Type                 | Lecturer |
+|---------|----------|------------------------------------|----------------------|----------|
+| 1       | 22 April | Welcome                            | Lecture              | tbd      |
+| 1       | 22 April | First data visualization: UN Votes | Application Exercise |          |
+| 1       | 22 April | Meet the programming toolkit       | Lecture              | tbd      |
+| 1       | 22 April | The Bechdel Test + R Markdown      | Application Exercise |          |
+| 2       | 22 April | Data and visualization             | Lecture              | tbd      |
+| 2       | 22 April | Visualizing data with ggplot2      | Lecture              | tbd      |
+| 2       | 22 April | Visualizing categorical data       | Lecture              | tbd      |
+| 2       | 22 April | StarWars + Dataviz                 | Application Exercise |          |
+| 3       | 29 April | Tidy data                          | Lecture              | tbd      |
+| 3       | 29 April | Grammar of data wrangling          | Lecture              | tbd      |
+| 3       | 29 April | Working with a single data frame   | Lecture              | tbd      |
+| 3       | 29 April | Working with multiple data frames  | Lecture              | tbd      |
+| 3       | 29 April | Hotels + Data wrangling            | Application Exercise |          |
+| 4       | 6 May    | Data types                         | Lecture              | tbd      |
+| 4       | 6 May    | Importing data                     | Lecture              | tbd      |
+| 4       | 6 May    | Nobels + Sales + Data import       | Application Exercise |          |
+| 5       | 6 May    | Fitting and interpreting models    | Lecture              | tbd      |
 
 ## Readings
 
-The course is self-contained and you will most likely get all necessary information for the application exercises from the slides.
+The course is self-contained and you will most likely get all the necessary information for the application exercises from the slides.
 If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks.
-You will find the links on the following pages right besides the link to the slides for each chapter.
+You will find the links on the following pages right beside the link to each chapter's slides.
 
 ::: {.reading}
-We suggest two main references
+We suggest two textbook references:
 
 -   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
 -   **IMS**: Çetinkaya-Rundel, M., Hardin, J. (2021), "Introduction to Modern Statistics", available at [openintro-ims.netlify.app](https://openintro-ims.netlify.app/)
 :::
 
-## Trainer
+## Trainers
 
-Feel free to reach out to us by e-mail if you have any questions before, during, or after the course
+Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:
 
--   **Lukas Jürgensmeier**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html) and Member of the Executive Board at TechAcademy e.V., [send me an e-mail](mailto:lukas.juergensmeier@tech-academy.io)
--   **Lara Zaremba**, M.Sc. Student in Economics, R Teacher and Course Designer at TechAcademy e.V., [send me an e-mail](mailto:lara.zaremba@tech-academy.io)
--   **Karlo Lukic**, M.Sc. [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/karlo-lukic.html), R Teacher and Course Designer at TechAcademy e.V., [send me an e-mail](mailto:karlo.lukic@tech-academy.io)
+-   **Lukas Jürgensmeier**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html) and Member of the Executive Board at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:lukas.juergensmeier@tech-academy.io)
+-   **Lara Zaremba**, M.Sc. Student in Economics, R Teacher and Course Designer at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:lara.zaremba@tech-academy.io)
+-   **Karlo Lukic**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/karlo-lukic.html), R Teacher and Course Designer at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:karlo.lukic@tech-academy.io)
 
 ## License {.unnumbered}
 

@@ -5,7 +5,7 @@ conditions
 course-organization
 schedule
 readings
-trainer
+trainers
 hello-world
 slides-application-exercises-and-references
 visualizing-data
