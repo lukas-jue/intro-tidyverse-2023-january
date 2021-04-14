@@ -12,6 +12,8 @@ output:
       highlightLines: true
       highlightStyle: solarized-light
       countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r child = "../setup.Rmd"}
@@ -121,6 +123,29 @@ linear_reg() %>%
 .large[
 $$\widehat{height}_{i} = 3.62 + 0.781 \times width_{i}$$
 ]
+
+---
+
+## Including multiple explanatory variables of different types
+
+```{r}
+linear_reg() %>%
+  set_engine("lm") %>%
+  fit(Height_in ~ Width_in + factor(landsALL), data = pp) %>%
+  tidy()
+```
+
+$$\widehat{height}_{i} = 5.62 + 0.777 \times width_{i} -5.02 \times I(landsALL_i = 1)$$
+
+where $I(landsALL_i = 1)$ is a binary indicator variable if there are some landscape features on the painting.
+
+---
+
+class: middle
+
+# Appendix: Regression Recap
+We will not cover those slides in class, since the focus lies on the technical implementation with `tidymodels`. Refer to the following slides if you need a refresher of regression mechanics.
+
 
 ---
 

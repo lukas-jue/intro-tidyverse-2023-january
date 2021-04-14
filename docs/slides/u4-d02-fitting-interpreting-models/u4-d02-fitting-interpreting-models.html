@@ -3,7 +3,7 @@
   <head>
     <title>Fitting and interpreting models</title>
     <meta charset="utf-8" />
-    <meta name="author" content="datasciencebox.org" />
+    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -19,8 +19,8 @@
 class: center, middle, inverse, title-slide
 
 # Fitting and interpreting models
-## <br><br> Data Science in a Box
-### <a href="https://datasciencebox.org/">datasciencebox.org</a>
+## <br><br> Introduction to Data Science with R and Tidyverse
+### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
 
 ---
 
@@ -32,6 +32,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -114,7 +115,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  1ms 
+## Fit time:  11ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -132,7 +133,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  32ms 
+## Fit time:  11ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -169,6 +170,39 @@ linear_reg() %&gt;%
 .large[
 `$$\widehat{height}_{i} = 3.62 + 0.781 \times width_{i}$$`
 ]
+
+---
+
+## Including multiple explanatory variables of different types
+
+
+```r
+linear_reg() %&gt;%
+  set_engine("lm") %&gt;%
+  fit(Height_in ~ Width_in + factor(landsALL), data = pp) %&gt;%
+  tidy()
+```
+
+```
+## # A tibble: 3 x 5
+##   term              estimate std.error statistic  p.value
+##   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)          5.62    0.269        20.9 1.24e-90
+## 2 Width_in             0.777   0.00909      85.4 0.      
+## 3 factor(landsALL)1   -5.02    0.292       -17.2 3.70e-63
+```
+
+`$$\widehat{height}_{i} = 5.62 + 0.777 \times width_{i} -5.02 \times I(landsALL_i = 1)$$`
+
+where `\(I(landsALL_i = 1)\)` is a binary indicator variable if there are some landscape features on the painting.
+
+---
+
+class: middle
+
+# Appendix: Regression Recap
+We will not cover those slides in class, since the focus lies on the technical implementation with `tidymodels`. Refer to the following slides if you need a refresher of regression mechanics.
+
 
 ---
 
@@ -301,7 +335,7 @@ class: middle
 ## 18 L1764-13a        15        1
 ## 19 L1764-13b        15        1
 ## 20 L1764-14         37        0
-## # … with 3,373 more rows
+## # ... with 3,373 more rows
 ```
 ]
 ]
@@ -498,7 +532,7 @@ linear_reg() %&gt;%
 ## 18 L1764-13a        15 D/FL       
 ## 19 L1764-13b        15 D/FL       
 ## 20 L1764-14         37 F          
-## # … with 3,373 more rows
+## # ... with 3,373 more rows
 ```
 ]
 ]

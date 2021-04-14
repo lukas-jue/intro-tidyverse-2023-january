@@ -376,80 +376,80 @@ pi / 0
 ```
 ]
 
----
+<!-- --- -->
 
-## `NA`s are special `r emo::ji('snowflake')`s
+<!-- ## `NA`s are special `r emo::ji('snowflake')`s -->
 
-```{r}
-x <- c(1, 2, 3, 4, NA)
-```
+<!-- ```{r} -->
+<!-- x <- c(1, 2, 3, 4, NA) -->
+<!-- ``` -->
 
-```{r}
-mean(x)
-mean(x, na.rm = TRUE)
-summary(x)
-```
+<!-- ```{r} -->
+<!-- mean(x) -->
+<!-- mean(x, na.rm = TRUE) -->
+<!-- summary(x) -->
+<!-- ``` -->
 
----
+<!-- --- -->
 
-## `NA`s are logical
+<!-- ## `NA`s are logical -->
 
-R uses `NA` to represent missing values in its data structures.
+<!-- R uses `NA` to represent missing values in its data structures. -->
 
-```{r}
-typeof(NA)
-```
+<!-- ```{r} -->
+<!-- typeof(NA) -->
+<!-- ``` -->
 
----
+<!-- --- -->
 
-## Mental model for `NA`s
+<!-- ## Mental model for `NA`s -->
 
-- Unlike `NaN`, `NA`s are genuinely unknown values
-- But that doesn't mean they can't function in a logical way
-- Let's think about why `NA`s are logical...
+<!-- - Unlike `NaN`, `NA`s are genuinely unknown values -->
+<!-- - But that doesn't mean they can't function in a logical way -->
+<!-- - Let's think about why `NA`s are logical... -->
 
---
+<!-- -- -->
 
-.question[
-Why do the following give different answers?
-]
-.pull-left[
-```{r}
-# TRUE or NA
-TRUE | NA
-```
-]
-.pull-right[
-```{r}
-# FALSE or NA
-FALSE | NA
-```
-]
+<!-- .question[ -->
+<!-- Why do the following give different answers? -->
+<!-- ] -->
+<!-- .pull-left[ -->
+<!-- ```{r} -->
+<!-- # TRUE or NA -->
+<!-- TRUE | NA -->
+<!-- ``` -->
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- ```{r} -->
+<!-- # FALSE or NA -->
+<!-- FALSE | NA -->
+<!-- ``` -->
+<!-- ] -->
 
-$\rightarrow$ See next slide for answers...
+<!-- $\rightarrow$ See next slide for answers... -->
 
----
+<!-- --- -->
 
-- `NA` is unknown, so it could be `TRUE` or `FALSE`
+<!-- - `NA` is unknown, so it could be `TRUE` or `FALSE` -->
 
-.pull-left[
-.midi[
-- `TRUE | NA`
-```{r}
-TRUE | TRUE  # if NA was TRUE
-TRUE | FALSE # if NA was FALSE
-```
-]
-]
-.pull-right[
-.midi[
-- `FALSE | NA`
-```{r}
-FALSE | TRUE  # if NA was TRUE
-FALSE | FALSE # if NA was FALSE
-```
-]
-]
+<!-- .pull-left[ -->
+<!-- .midi[ -->
+<!-- - `TRUE | NA` -->
+<!-- ```{r} -->
+<!-- TRUE | TRUE  # if NA was TRUE -->
+<!-- TRUE | FALSE # if NA was FALSE -->
+<!-- ``` -->
+<!-- ] -->
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- .midi[ -->
+<!-- - `FALSE | NA` -->
+<!-- ```{r} -->
+<!-- FALSE | TRUE  # if NA was TRUE -->
+<!-- FALSE | FALSE # if NA was FALSE -->
+<!-- ``` -->
+<!-- ] -->
+<!-- ] -->
 
-- Doesn't make sense for mathematical operations 
-- Makes sense in the context of missing data
+<!-- - Doesn't make sense for mathematical operations  -->
+<!-- - Makes sense in the context of missing data -->

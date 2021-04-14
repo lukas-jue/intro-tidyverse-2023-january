@@ -349,6 +349,16 @@ knitr::include_graphics("img/fav-food/fav-food-age.png")
 ```
 ]
 
+
+
+---
+
+class: middle
+
+# Appendix: Releveling and other types of data
+
+We won't discuss the following slides that cover releveling and other data reading and saving methods in R.
+
 ---
 
 ## Socio-economic status

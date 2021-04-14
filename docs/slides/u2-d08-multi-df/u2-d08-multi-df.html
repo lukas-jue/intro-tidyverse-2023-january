@@ -171,62 +171,24 @@ works
 ## 10 Jennife~ Biochemist          1964         NA one of the prima~
 ```
 
----
+&lt;!-- --- --&gt;
 
-## Inputs, reminder
+&lt;!-- ## Inputs, reminder --&gt;
 
-.pull-left[
-
-```r
-names(professions)
-```
-
-```
-## [1] "name"       "profession"
-```
-
-```r
-names(dates)
-```
-
-```
-## [1] "name"       "birth_year" "death_year"
-```
-
-```r
-names(works)
-```
-
-```
-## [1] "name"      "known_for"
-```
-]
-.pull-right[
-
-```r
-nrow(professions)
-```
-
-```
-## [1] 10
-```
-
-```r
-nrow(dates)
-```
-
-```
-## [1] 8
-```
-
-```r
-nrow(works)
-```
-
-```
-## [1] 9
-```
-]
+&lt;!-- .pull-left[ --&gt;
+&lt;!-- ```{r} --&gt;
+&lt;!-- names(professions) --&gt;
+&lt;!-- names(dates) --&gt;
+&lt;!-- names(works) --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ] --&gt;
+&lt;!-- .pull-right[ --&gt;
+&lt;!-- ```{r} --&gt;
+&lt;!-- nrow(professions) --&gt;
+&lt;!-- nrow(dates) --&gt;
+&lt;!-- nrow(works) --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ] --&gt;
 
 ---
 
@@ -243,7 +205,7 @@ class: middle
 something_join(x, y)
 ```
 
-- `left_join()`: all rows from x
+- **`left_join()`**: all rows from x
 - `right_join()`: all rows from y
 - `full_join()`: all rows from both x and y
 - `semi_join()`: all rows from x where there are matching values in y, keeping just columns from x
@@ -342,6 +304,15 @@ professions %&gt;%
 ##  9 Flossie Wong-~ Virologist and Molecular~       1947         NA
 ## 10 Jennifer Doud~ Biochemist                      1964         NA
 ```
+
+
+---
+
+class: middle
+
+# Appendix: Different Joins
+
+We won't discuss the following slides, but they serve as a useful resource for other join options.
 
 ---
 
@@ -585,33 +556,6 @@ dates %&gt;%
 ##   name              birth_year death_year
 ##   &lt;chr&gt;                  &lt;dbl&gt;      &lt;dbl&gt;
 ## 1 Rosalind Franklin       1920       1958
-```
-
----
-
-## Putting it altogether
-
-
-```r
-professions %&gt;%
-  left_join(dates) %&gt;%
-  left_join(works)
-```
-
-```
-## # A tibble: 10 x 5
-##    name     profession    birth_year death_year known_for        
-##    &lt;chr&gt;    &lt;chr&gt;              &lt;dbl&gt;      &lt;dbl&gt; &lt;chr&gt;            
-##  1 Ada Lov~ Mathematician         NA         NA first computer a~
-##  2 Marie C~ Physicist an~         NA         NA theory of radioa~
-##  3 Janaki ~ Botanist            1897       1984 hybrid species, ~
-##  4 Chien-S~ Physicist           1912       1997 confim and refin~
-##  5 Katheri~ Mathematician       1918       2020 calculations of ~
-##  6 Rosalin~ Chemist             1920       1958 &lt;NA&gt;             
-##  7 Vera Ru~ Astronomer          1928       2016 existence of dar~
-##  8 Gladys ~ Mathematician       1930         NA mathematical mod~
-##  9 Flossie~ Virologist a~       1947         NA first scientist ~
-## 10 Jennife~ Biochemist          1964         NA one of the prima~
 ```
 
 ---

@@ -94,24 +94,24 @@ professions %>%
   left_join(works)
 ```
 
----
+<!-- --- -->
 
-## Inputs, reminder
+<!-- ## Inputs, reminder -->
 
-.pull-left[
-```{r}
-names(professions)
-names(dates)
-names(works)
-```
-]
-.pull-right[
-```{r}
-nrow(professions)
-nrow(dates)
-nrow(works)
-```
-]
+<!-- .pull-left[ -->
+<!-- ```{r} -->
+<!-- names(professions) -->
+<!-- names(dates) -->
+<!-- names(works) -->
+<!-- ``` -->
+<!-- ] -->
+<!-- .pull-right[ -->
+<!-- ```{r} -->
+<!-- nrow(professions) -->
+<!-- nrow(dates) -->
+<!-- nrow(works) -->
+<!-- ``` -->
+<!-- ] -->
 
 ---
 
@@ -127,7 +127,7 @@ class: middle
 something_join(x, y)
 ```
 
-- `left_join()`: all rows from x
+- **`left_join()`**: all rows from x
 - `right_join()`: all rows from y
 - `full_join()`: all rows from both x and y
 - `semi_join()`: all rows from x where there are matching values in y, keeping just columns from x
@@ -191,6 +191,15 @@ left_join(x, y)
 professions %>%
   left_join(dates) #<<
 ```
+
+
+---
+
+class: middle
+
+# Appendix: Different Joins
+
+We won't discuss the following slides, but they serve as a useful resource for other join options.
 
 ---
 
@@ -329,16 +338,6 @@ anti_join(x, y)
 ```{r}
 dates %>%
   anti_join(works) #<<
-```
-
----
-
-## Putting it altogether
-
-```{r}
-professions %>%
-  left_join(dates) %>%
-  left_join(works)
 ```
 
 ---

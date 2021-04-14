@@ -38,9 +38,9 @@ loans_full_schema <- loans_full_schema %>%
 
 <!-- --- -->
 
-### Recap: Data 
+### Loan Data 
 
-We continue with the same data as in the last slide deck:
+Thousands of loans made through the Lending Club, which is a platform that allows individuals to lend to other individuals
 
 ```{r}
 library(openintro)
@@ -132,14 +132,9 @@ ggplot(loans, aes(y = homeownership, #<<
 
 class: middle
 
-# Relationships between numerical and categorical variables
+# Appendix: Relationships between numerical and categorical variables
 
----
-
-## Already talked about...
-
-- Colouring and faceting histograms and density plots
-- Side-by-side box plots
+We won't discuss the following slides, but they can serve as a useful plotting inspiration.
 
 ---
 

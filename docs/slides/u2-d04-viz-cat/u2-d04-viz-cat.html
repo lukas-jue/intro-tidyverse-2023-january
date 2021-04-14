@@ -52,9 +52,9 @@ Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based 
 
 &lt;!-- --- --&gt;
 
-### Recap: Data 
+### Loan Data 
 
-We continue with the same data as in the last slide deck:
+Thousands of loans made through the Lending Club, which is a platform that allows individuals to lend to other individuals
 
 
 ```r
@@ -94,7 +94,7 @@ ggplot(loans, aes(x = homeownership)) +
   geom_bar()
 ```
 
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-5-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-3-1.png" width="60%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -107,7 +107,7 @@ ggplot(loans, aes(x = homeownership,
   geom_bar()
 ```
 
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-6-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-4-1.png" width="60%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -119,7 +119,7 @@ ggplot(loans, aes(x = homeownership, fill = grade)) +
 * geom_bar(position = "fill")
 ```
 
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-7-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-5-1.png" width="60%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -128,10 +128,10 @@ Which bar plot is a more useful representation for visualizing the relationship 
 ]
 
 .pull-left[
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-8-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-6-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 .pull-right[
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-9-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-7-1.png" width="100%" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -140,7 +140,7 @@ Which bar plot is a more useful representation for visualizing the relationship 
 
 .panelset[
 .panel[.panel-name[Plot]
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-10-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-8-1.png" width="60%" style="display: block; margin: auto;" /&gt;
 ]
 .panel[.panel-name[Code]
 
@@ -163,14 +163,9 @@ Which bar plot is a more useful representation for visualizing the relationship 
 
 class: middle
 
-# Relationships between numerical and categorical variables
+# Appendix: Relationships between numerical and categorical variables
 
----
-
-## Already talked about...
-
-- Colouring and faceting histograms and density plots
-- Side-by-side box plots
+We won't discuss the following slides, but they can serve as a useful plotting inspiration.
 
 ---
 
@@ -182,7 +177,7 @@ ggplot(loans, aes(x = homeownership, y = loan_amount)) +
   geom_violin()
 ```
 
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-11-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-9-1.png" width="60%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -195,7 +190,7 @@ ggplot(loans, aes(x = loan_amount, y = grade, fill = grade, color = grade)) +
   geom_density_ridges(alpha = 0.5)
 ```
 
-&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-12-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="u2-d04-viz-cat_files/figure-html/unnamed-chunk-10-1.png" width="60%" style="display: block; margin: auto;" /&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
