@@ -1,6 +1,6 @@
-Hotel bookings - data wrangling
+Hotel bookings — data wrangling — solutions
 ================
-Mine Çetinkaya-Rundel, adapted by Lukas Jürgensmeier
+Lukas Jürgensmeier
 
 ``` r
 library(tidyverse)
@@ -107,10 +107,35 @@ want to try out.
 ``` r
 hotels %>%
   filter(
-    country ____ "USA", 
-    lead_time ____ ____
+    country != "USA", 
+    lead_time < 1
     )
 ```
+
+    ## # A tibble: 6,174 x 32
+    ##    hotel is_canceled lead_time arrival_date_ye~ arrival_date_mo~
+    ##    <chr>       <dbl>     <dbl>            <dbl> <chr>           
+    ##  1 Reso~           0         0             2015 July            
+    ##  2 Reso~           0         0             2015 July            
+    ##  3 Reso~           0         0             2015 July            
+    ##  4 Reso~           0         0             2015 July            
+    ##  5 Reso~           0         0             2015 July            
+    ##  6 Reso~           0         0             2015 July            
+    ##  7 Reso~           0         0             2015 July            
+    ##  8 Reso~           0         0             2015 July            
+    ##  9 Reso~           0         0             2015 July            
+    ## 10 Reso~           0         0             2015 July            
+    ## # ... with 6,164 more rows, and 27 more variables:
+    ## #   arrival_date_week_number <dbl>, arrival_date_day_of_month <dbl>,
+    ## #   stays_in_weekend_nights <dbl>, stays_in_week_nights <dbl>, adults <dbl>,
+    ## #   children <dbl>, babies <dbl>, meal <chr>, country <chr>,
+    ## #   market_segment <chr>, distribution_channel <chr>, is_repeated_guest <dbl>,
+    ## #   previous_cancellations <dbl>, previous_bookings_not_canceled <dbl>,
+    ## #   reserved_room_type <chr>, assigned_room_type <chr>, booking_changes <dbl>,
+    ## #   deposit_type <chr>, agent <chr>, company <chr>, days_in_waiting_list <dbl>,
+    ## #   customer_type <chr>, adr <dbl>, required_car_parking_spaces <dbl>,
+    ## #   total_of_special_requests <dbl>, reservation_status <chr>,
+    ## #   reservation_status_date <date>
 
 ### Exercise 3.
 
@@ -128,9 +153,27 @@ want to try out.
 ``` r
 hotels %>%
   filter(
-    children [AT LEAST] 1 [OR] babies [AT LEAST] 1
-    )
+    children >= 1 | babies >= 1
+    ) %>% 
+  # optionally, select only the relevant columns to check
+  # if your filtering criteria worked
+  select(hotel, children, babies)
 ```
+
+    ## # A tibble: 9,332 x 3
+    ##    hotel        children babies
+    ##    <chr>           <dbl>  <dbl>
+    ##  1 Resort Hotel        1      0
+    ##  2 Resort Hotel        2      0
+    ##  3 Resort Hotel        2      0
+    ##  4 Resort Hotel        2      0
+    ##  5 Resort Hotel        1      0
+    ##  6 Resort Hotel        1      0
+    ##  7 Resort Hotel        2      0
+    ##  8 Resort Hotel        2      0
+    ##  9 Resort Hotel        0      1
+    ## 10 Resort Hotel        0      1
+    ## # ... with 9,322 more rows
 
 ### Exercise 4.
 
@@ -140,15 +183,38 @@ determine the number of bookings in resort hotels that have more than 1
 child **or** baby in the room? Then, do the same for city hotels, and
 compare the numbers of rows in the resulting filtered data frames.
 
-``` r
-# add code here
-# pay attention to correctness and code style
-```
+Tip: you can run parts of the `dplyr` pipeline by only selecting some
+lines. That way, you can easily check the intermediary steps.
 
 ``` r
-# add code here
-# pay attention to correctness and code style
+hotels %>% 
+  filter(
+    hotel == "Resort Hotel",
+    children > 1
+  ) %>%
+  # optionally, select only the relevant columns to check
+  # if your filtering criteria worked
+  select(hotel, children, babies) %>% 
+  # count number of observations
+  nrow()
 ```
+
+    ## [1] 1646
+
+``` r
+hotels %>% 
+  filter(
+    hotel == "Resort Hotel",
+    babies > 1
+  ) %>%
+  # optionally, select only the relevant columns to check
+  # if your filtering criteria worked
+  select(hotel, children, babies) %>% 
+  # count number of observations
+  nrow()
+```
+
+    ## [1] 9
 
 ### Exercise 5.
 
@@ -163,9 +229,28 @@ include spaces. It also shouldn’t repeat a previous label, otherwise R
 Markdown will give you an error about repeated R chunk labels.
 
 ``` r
-# add code here
-# pay attention to correctness and code style
+hotels %>% 
+  count(adults) %>% 
+  arrange(desc(n))
 ```
+
+    ## # A tibble: 14 x 2
+    ##    adults     n
+    ##     <dbl> <int>
+    ##  1      2 89680
+    ##  2      1 23027
+    ##  3      3  6202
+    ##  4      0   403
+    ##  5      4    62
+    ##  6     26     5
+    ##  7      5     2
+    ##  8     20     2
+    ##  9     27     2
+    ## 10      6     1
+    ## 11     10     1
+    ## 12     40     1
+    ## 13     50     1
+    ## 14     55     1
 
 ### Exercise 6.
 
@@ -178,9 +263,48 @@ exercise?
 `label-me-2`).
 
 ``` r
-# add code here
-# pay attention to correctness and code style
+hotels %>% 
+  filter(is_canceled == 1) %>% 
+  count(adults) %>% 
+  arrange(desc(n))
 ```
+
+    ## # A tibble: 14 x 2
+    ##    adults     n
+    ##     <dbl> <int>
+    ##  1      2 35258
+    ##  2      1  6674
+    ##  3      3  2151
+    ##  4      0   109
+    ##  5      4    16
+    ##  6     26     5
+    ##  7      5     2
+    ##  8     20     2
+    ##  9     27     2
+    ## 10      6     1
+    ## 11     10     1
+    ## 12     40     1
+    ## 13     50     1
+    ## 14     55     1
+
+``` r
+hotels %>% 
+  filter(is_canceled == 0) %>% 
+  count(adults) %>% 
+  arrange(desc(n))
+```
+
+    ## # A tibble: 5 x 2
+    ##   adults     n
+    ##    <dbl> <int>
+    ## 1      2 54422
+    ## 2      1 16353
+    ## 3      3  4051
+    ## 4      0   294
+    ## 5      4    46
+
+It appears that most unusual numbers of adults were erroneously booked
+and later cancelled.
 
 ### Exercise 7.
 
@@ -189,9 +313,23 @@ grouped by `hotel` type so that you can get these statistics separately
 for resort and city hotels. Which type of hotel is higher, on average?
 
 ``` r
-# add code here
-# pay attention to correctness and code style
+hotels %>% 
+  group_by(hotel) %>% 
+  summarize(
+    min_rate = min(adr),
+    mean_rate = mean(adr),
+    median_rate = median(adr),
+    max_rate = max(adr)
+  )
 ```
+
+    ## # A tibble: 2 x 5
+    ##   hotel        min_rate mean_rate median_rate max_rate
+    ## * <chr>           <dbl>     <dbl>       <dbl>    <dbl>
+    ## 1 City Hotel       0        105.         99.9     5400
+    ## 2 Resort Hotel    -6.38      95.0        75        508
+
+City Hotels are more expensive, on average.
 
 ### Exercise 8.
 
@@ -207,9 +345,28 @@ reproducible way with some code.
 `select` the relevant columns.
 
 ``` r
-# add code here
-# pay attention to correctness and code style
+# negative daily rate (`adr`)
+hotels %>% 
+  filter(adr < 0) %>% 
+  select(hotel, adr, arrival_date_year, arrival_date_month, adults, children, babies)
 ```
+
+    ## # A tibble: 1 x 7
+    ##   hotel          adr arrival_date_year arrival_date_month adults children babies
+    ##   <chr>        <dbl>             <dbl> <chr>               <dbl>    <dbl>  <dbl>
+    ## 1 Resort Hotel -6.38              2017 March                   2        0      0
+
+``` r
+# very high daily rate (`adr`)
+hotels %>% 
+  filter(adr > 1000) %>% 
+  select(hotel, adr, arrival_date_year, arrival_date_month, adults, children, babies)
+```
+
+    ## # A tibble: 1 x 7
+    ##   hotel        adr arrival_date_year arrival_date_month adults children babies
+    ##   <chr>      <dbl>             <dbl> <chr>               <dbl>    <dbl>  <dbl>
+    ## 1 City Hotel  5400              2016 March                   2        0      0
 
 ## Data dictionary
 

@@ -1,0 +1,103 @@
+---
+title: "Visualizing Starwars characters — Solutions"
+author: "Lukas Jürgensmeier"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r load-packages, include=FALSE}
+library(tidyverse)
+```
+
+### Glimpse at the starwars data frame.
+
+```{r glimpse-starwars}
+glimpse(starwars)
+```
+
+### Modify the following plot to change the color of all points to `"pink"`.
+
+You can use standard colors by referring to their name, e.g., `colour = "pink"`, or supply a custom Hex color code (e.g., `colour = "#30509C"`).
+
+```{r scatterplot}
+ggplot(starwars, 
+       aes(x = height, y = mass, color = gender, size = birth_year)) +
+  geom_point(color = "pink")
+```
+
+### Add labels for title, x and y axes, and size of points. Uncomment to see the effect.
+
+Accurate labels are extremely important to bring across the chart's desired message.
+You can specify them within the `labs()` layer.
+
+```{r scatterplot-labels}
+ggplot(starwars, 
+       aes(x = height, y = mass, color = gender, size = birth_year)) +
+  geom_point(color = "#30509C") +
+  labs(
+    title = "Height vs. Mass of Starwars Characters",
+    subtitle = "by birth year",
+    x = "Mass (kg)",
+    y = "heigth (cm)",
+    size = "Birth year",
+    caption = "Source: The Star Wars API (swapi.dev)"
+    )
+```
+
+### Pick a single categorical variable from the data set and make a bar plot of its distribution.
+
+This sample solution provides the easiest possible solution and a more advanced one.
+Note the huge difference between the ease of understanding the data.
+
+The simplest possible barplot, which is hard to understand:
+
+```{r barplot1}
+ggplot(starwars, aes(y = hair_color)) +
+  geom_bar()
+```
+
+And in comparison, a little more advanced barplot (note that I'm using functions and tools that will be introduced later in this course):
+
+```{r barplot2}
+starwars %>% 
+  # reorders the hair color variable by descending frequency
+  mutate(hair_color = fct_rev(fct_infreq(hair_color))) %>% 
+  # start plotting
+  ggplot(aes(y = hair_color)) +
+  # common pitfall: use `fill =` instead of `color =`
+  geom_bar(fill = "#30509C") +
+  labs(
+    title = "Do most Starwars characters have no hair?",
+    subtitle = "...or are those missing values?",
+    x = "Number of Starwars characters",
+    y = "Hair color",
+    caption = "Source: The Star Wars API (swapi.dev)"
+    )
+```
+
+### Pick a single numerical variable and make a histogram of it.
+
+We didn't cover histograms specifically, but the code structure is the same.
+
+```{r histogram}
+ggplot(starwars, aes(x = mass)) +
+  geom_histogram(fill = "#30509C", binwidth = 20) +
+  labs(
+    title = "Whose the outlier?",
+    subtitle = "Mass distribution of starwars characters",
+    x = "Mass (kg)",
+    y = "Number of starwars characters",
+    caption = "Source: The Star Wars API (swapi.dev)"
+    )
+
+ggplot(starwars, aes(x = birth_year)) +
+  geom_histogram(fill = "#30509C", binwidth = 20) +
+  labs(
+    title = "Who are the outlier?",
+    subtitle = "Birth year distribution of starwars characters",
+    x = "Birth year",
+    y = "Number of starwars characters",
+    caption = "Source: The Star Wars API (swapi.dev)"
+    )
+```

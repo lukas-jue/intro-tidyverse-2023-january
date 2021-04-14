@@ -47,26 +47,9 @@ ggplot(starwars, aes(___)) +
 
 ### Pick a single numerical variable and make a histogram of it.
 
+We didn't cover histograms specifically, but the code structure is the same.
 (This time no starter code is provided, you're on your own!)
 
 ```{r histogram}
-
-```
-
-### Pick a numerical variable and a categorical variable and make a visualisation (you pick the type!) to visualise the relationship between the two variables. Along with your code and output, provide an interpretation of the visualisation.
-
-```{r num-cat}
-
-```
-
-### Pick two categorical variables and make a visualisation to visualise the relationship between the two variables. Along with your code and output, provide an interpretation of the visualisation.
-
-```{r cat-cat}
-
-```
-
-### Pick two numerical variables and two categorical variables and make a visualisation that incorportes all of them and provide an interpretation with your answer.
-
-```{r multi}
 
 ```

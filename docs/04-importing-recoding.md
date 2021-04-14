@@ -26,20 +26,6 @@ R4DS :: [Chp 11 - Data import](https://r4ds.had.co.nz/data-import.html)
 :::
 
 ::: {.application-exercise}
-**Hotels + Data types**
-
-Please open your RStudio Cloud for this exercise.
-
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
-:::
-
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
-:::
-:::
-
-::: {.application-exercise}
 **Nobels + Sales + Data import**
 
 Please open your RStudio Cloud for this exercise.
@@ -56,7 +42,7 @@ Please open your RStudio Cloud for this exercise.
 ### Additional material not covered in class
 
 We will not cover this unit due to time constraints.
-If you're interested in the quite important task of pivoting data from *wide* to *long* formats and vice versa, feel free to study the slides on your own.
+If you're interested in data classes, feel free to study the slides on your own and look at the application exercise.
 
 ::: {.slide-deck}
 **Unit 2 - Deck 11: Data classes**
@@ -67,5 +53,19 @@ If you're interested in the quite important task of pivoting data from *wide* to
 
 ::: {.reading}
 R4DS :: [Chp 15 - Factors](https://r4ds.had.co.nz/factors.html)
+:::
+:::
+
+::: {.application-exercise}
+**Hotels + Data types**
+
+Please open your RStudio Cloud for this exercise.
+
+::: {.source}
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
+:::
+
+::: {.source}
+[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
 :::
 :::
