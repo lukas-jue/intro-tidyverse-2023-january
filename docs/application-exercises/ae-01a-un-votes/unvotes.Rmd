@@ -36,7 +36,7 @@ unvotes <- un_votes %>%
 
 ## UN voting patterns
 
-Let's create a data visualisation that displays how the voting record of West and East Germany developed before reunification and how the reunited Germany voted afterwards.
+Let's create a data visualization that displays how the voting record of West and East Germany developed before reunification and how the reunited Germany voted afterwards.
 
 We can easily change which countries are being plotted by changing which countries the code above `filter`s for.
 Note that the country name should be spelled and capitalized exactly the same way as it appears in the data.

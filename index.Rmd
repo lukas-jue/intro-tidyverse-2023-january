@@ -107,26 +107,27 @@ This workshop alternates between lecture-style presentations and application exe
 In those hands-on exercises, you will actively try out the discussed tools and techniques in Zoom breakout rooms.
 We aim to adhere to the following schedule.
 Depending on our progress, we may discuss some parts a bit earlier or later during the course.
+You can download an .ics calendar with the schedule and the Zoom link [here](https://lukas-jue.github.io/intro-tidyverse/ics-calendar/intro_to_data_science_with_r_and_tidyverse.ics).
 
-| Chapter | Date     | Title                              | Type                 | Lecturer |
-|---------|----------|------------------------------------|----------------------|----------|
-| 1       | 22 April | Welcome                            | Lecture              | tbd      |
-| 1       | 22 April | First data visualization: UN Votes | Application Exercise |          |
-| 1       | 22 April | Meet the programming toolkit       | Lecture              | tbd      |
-| 1       | 22 April | The Bechdel Test + R Markdown      | Application Exercise |          |
-| 2       | 22 April | Data and visualization             | Lecture              | tbd      |
-| 2       | 22 April | Visualizing data with ggplot2      | Lecture              | tbd      |
-| 2       | 22 April | Visualizing categorical data       | Lecture              | tbd      |
-| 2       | 22 April | StarWars + Dataviz                 | Application Exercise |          |
-| 3       | 29 April | Tidy data                          | Lecture              | tbd      |
-| 3       | 29 April | Grammar of data wrangling          | Lecture              | tbd      |
-| 3       | 29 April | Working with a single data frame   | Lecture              | tbd      |
-| 3       | 29 April | Working with multiple data frames  | Lecture              | tbd      |
-| 3       | 29 April | Hotels + Data wrangling            | Application Exercise |          |
-| 4       | 6 May    | Data types                         | Lecture              | tbd      |
-| 4       | 6 May    | Importing data                     | Lecture              | tbd      |
-| 4       | 6 May    | Nobels + Sales + Data import       | Application Exercise |          |
-| 5       | 6 May    | Fitting and interpreting models    | Lecture              | tbd      |
+| Part | Date     | Title                              | Type                 | Lecturer     |
+|------|----------|------------------------------------|----------------------|--------------|
+| 1    | 22 April | Welcome                            | Lecture              | Lukas        |
+| 1    | 22 April | First data visualization: UN Votes | Application Exercise |              |
+| 1    | 22 April | Meet the programming toolkit       | Lecture              | Karlo        |
+| 1    | 22 April | The Bechdel Test + R Markdown      | Application Exercise |              |
+| 2    | 22 April | Data and visualization             | Lecture              | Lara         |
+| 2    | 22 April | Visualizing data with ggplot2      | Lecture              | Lara         |
+| 2    | 29 April | Visualizing categorical data       | Lecture              | Lara         |
+| 2    | 29 April | StarWars + Dataviz                 | Application Exercise |              |
+| 3    | 29 April | Tidy data                          | Lecture              | Karlo        |
+| 3    | 29 April | Grammar of data wrangling          | Lecture              | Karlo        |
+| 3    | 29 April | Working with a single data frame   | Lecture              | Lukas        |
+| 3    | 29 April | Working with multiple data frames  | Lecture              | Lukas        |
+| 3    | 29 April | Hotels + Data wrangling            | Application Exercise |              |
+| 4    | 6 May    | Data types                         | Lecture              | Karlo        |
+| 4    | 6 May    | Importing data                     | Lecture              | Lara & Karlo |
+| 4    | 6 May    | Nobels + Sales + Data import       | Application Exercise |              |
+| 5    | 6 May    | Fitting and interpreting models    | Lecture              | Lukas        |
 
 ## Readings
 
