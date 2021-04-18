@@ -7,7 +7,7 @@ editor_options:
 ---
 
 In this mini analysis we work with the data used in the FiveThirtyEight story titled ["The Dollar-And-Cents Case Against Hollywood's Exclusion of Women"](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/).
-Your task is to fill in the blanks denoted by `___`.
+Your task is to fill in the blanks denoted by `___`. Hint: sometimes you have to fill in code into the blanks, but you can look for other code chunks nearby and copy and then modify them if you think they fit.
 Don't worry, if you do not understand most parts of the code — you'll get there soon.
 
 ## Data and packages
