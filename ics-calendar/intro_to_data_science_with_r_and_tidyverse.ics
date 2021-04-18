@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Intro to Data Science with R and Tidyverse
+NAME:Intro to Data Science with R and Tidyverse
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210418T114505Z
+UID:20210418T114505Z-1817461749@marudot.com
+DTSTART;TZID=Europe/Berlin:20210422T180000
+DTEND;TZID=Europe/Berlin:20210422T200000
+SUMMARY:Intro to Data Science with R and Tidyverse - Chapter I. & II.
+URL:https://lukas-jue.github.io/intro-tidyverse/index.html#welcome
+DESCRIPTION:Meeting ID: 969 3477 6479 \nPasscode: 779069\n----------------------\nWelcome\nFirst data visualization: UN Votes\nMeet the programming toolkit\nThe Bechdel Test + R Markdown\nData and visualization\nVisualizing data with ggplot2
+LOCATION:https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Intro to Data Science with R and Tidyverse - Chapter I. & II.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210418T114505Z
+UID:20210418T114505Z-414380820@marudot.com
+DTSTART;TZID=Europe/Berlin:20210429T180000
+DTEND;TZID=Europe/Berlin:20210429T200000
+SUMMARY:Intro to Data Science with R and Tidyverse - Chapter III.
+URL:https://lukas-jue.github.io/intro-tidyverse/wrangling-tidying-data.html#wrangling-tidying-data
+DESCRIPTION:Meeting ID: 969 3477 6479 \nPasscode: 779069\n-----------------------------------\nVisualizing categorical data\nStarWars + Dataviz\nTidy data\nGrammar of data wrangling\nWorking with a single data frame\nHotels + Data wrangling\nWorking with multiple data frames
+LOCATION:https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Intro to Data Science with R and Tidyverse - Chapter III.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210418T114505Z
+UID:20210418T114505Z-103493019@marudot.com
+DTSTART;TZID=Europe/Berlin:20210506T180000
+DTEND;TZID=Europe/Berlin:20210506T200000
+SUMMARY:Intro to Data Science with R and Tidyverse - Chapter IV. & V.
+URL:https://lukas-jue.github.io/intro-tidyverse/importing-recoding-data.html
+DESCRIPTION:Meeting ID: 969 3477 6479 \nPasscode: 779069\n-------------------------------------\nData types\nImporting data\nNobels + Sales + Data import\nFitting and interpreting models
+LOCATION:https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Intro to Data Science with R and Tidyverse - Chapter IV. & V.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
