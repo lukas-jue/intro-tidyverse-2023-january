@@ -32,7 +32,7 @@ We will introduce the libraries and frameworks necessary for your analysis and f
 We will present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
 Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R.
 We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish.
-After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
+After completing this course, you will know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
 
 ## Course Description
 
