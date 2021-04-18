@@ -29,7 +29,7 @@ For many, the R programming language has become the tool of choice.
 However, the first steps in coding can be intimidating and discouraging--- primarily if you have never worked with a programming language before.
 This course aims at providing a results-oriented, applied, and hands-on introduction to essential parts of a Data Science project in R.
 We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools.
-We'll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
+We will present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
 Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R.
 We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish.
 After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
@@ -70,7 +70,7 @@ No prior coding experience is needed.
 You are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.
 
 You will need an RStudio Cloud account.
-RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.
+RStudio Cloud is a very convenient Integrated Development Environment (IDE), where we provide you with all necessary code to follow the course and work with small application exercises on your own.
 
 By not installing RStudio locally during the course, we can start right away with the more critical course content.
 If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead.
