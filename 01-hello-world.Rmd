@@ -2,15 +2,15 @@
 
 # Hello world {#hello-world}
 
-We will start off by showing you what is possible at the end of the class and by you running a fairly complex visualization code in your own environment.
-The goal of this `Hello world` part is not to make you understand every bit of the code, but instead make you hungry for more.
-We aim for you being able to code such a visualization from scratch at the end of our course.
+We will start by showing you what is possible at the end of the class and running a reasonably complex visualization code in your environment.
+The goal of this `Hello world` part is not to make you understand every bit of the code but instead, make you hungry for more.
+We aim for you to code such a visualization from scratch at the end of our course.
 To reach that goal, we will --- step by step --- introduce you to the most relevant facets of Data Science with R and the Tidyverse.
 
 ::: {.rstudio-cloud}
 The RStudio Cloud workspace containing the application exercises is [here](https://rstudio.cloud/spaces/1655/join?access_code=5rdjusfIYF5iI0Gum2vNsBDLdtdnIEELBkf2EivK).
-I you haven't already registered for RStudio Cloud and joined the workspace, please do so now.
-Be sure to register through the link we sent to you via e-mail, since we purchased a RStudio Cloud premium version for this course.
+If you haven't already registered for RStudio Cloud and joined the workspace, please do so now.
+Be sure to register through the link we sent to you via e-mail since we purchased an RStudio Cloud premium version for this course.
 :::
 
 ## Slides, application exercises, and references
