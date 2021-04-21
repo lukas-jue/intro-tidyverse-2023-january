@@ -1,6 +1,6 @@
 # (PART) Next steps {.unnumbered}
 
-# Things you can do after this course
+# Things you can do after this course {.unnumbered}
 
 ### Continue this course {.unnumbered}
 
@@ -52,10 +52,17 @@ It's like a Dropbox/Google Drive for developers, but way better.
 RStudio has a friendly interface that lets you enjoy the perks of Git without ever having to touch the command line -- sounds great, does it?
 Learn how to set up the Git & R workflow with [Happy Git with R](https://happygitwithr.com/).
 
-### R Graph Gallery {.unnumbered}
+### Inspiration and Tools for Great Visualizations {.unnumbered}
 
 Get inspiration to take your plotting to the next level at the [R Graph Gallery](https://www.r-graph-gallery.com/).
 The gallery also includes code to reproduce the plots.
+
+R and RStudio are two uniquely customizable tools.
+For example, RStudio allows Add-ins that sometimes offer a simplified access to certain tools or techniques.
+In the visualization context, two of those extensions are
+
+-   [`esquisse`](https://dreamrs.github.io/esquisse/articles/get-started.html) for a graphical interface to `ggplot2`
+-   [`ggx`](https://github.com/brandmaier/ggx) for easy `ggplot2` help.
 
 ### See what else is possible in R {.unnumbered}
 
