@@ -3,7 +3,7 @@
   <head>
     <title>Importing data</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="Lara Zaremba &amp; Karlo Lukic | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -18,7 +18,7 @@ class: center, middle, inverse, title-slide
 
 # Importing data
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+### Lara Zaremba &amp; Karlo Lukic | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
 
 ---
 
@@ -30,7 +30,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -86,14 +86,14 @@ nobel
 
 ```
 ## # A tibble: 935 x 26
-##      id firstname surname  year category affiliation city 
-##   &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;   &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;
-## 1     1 Wilhelm ~ Röntgen  1901 Physics  Munich Uni~ Muni~
-## 2     2 Hendrik ~ Lorentz  1902 Physics  Leiden Uni~ Leid~
-## 3     3 Pieter    Zeeman   1902 Physics  Amsterdam ~ Amst~
-## 4     4 Henri     Becque~  1903 Physics  École Poly~ Paris
-## 5     5 Pierre    Curie    1903 Physics  École muni~ Paris
-## 6     6 Marie     Curie    1903 Physics  &lt;NA&gt;        &lt;NA&gt; 
+##      id firstname  surname   year category affiliation      city 
+##   &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt;            &lt;chr&gt;
+## 1     1 Wilhelm C~ Röntgen   1901 Physics  Munich Universi~ Muni~
+## 2     2 Hendrik A. Lorentz   1902 Physics  Leiden Universi~ Leid~
+## 3     3 Pieter     Zeeman    1902 Physics  Amsterdam Unive~ Amst~
+## 4     4 Henri      Becquer~  1903 Physics  École Polytechn~ Paris
+## 5     5 Pierre     Curie     1903 Physics  École municipal~ Paris
+## 6     6 Marie      Curie     1903 Physics  &lt;NA&gt;             &lt;NA&gt; 
 ## # ... with 929 more rows, and 19 more variables: country &lt;chr&gt;,
 ## #   born_date &lt;date&gt;, died_date &lt;date&gt;, gender &lt;chr&gt;,
 ## #   born_city &lt;chr&gt;, born_country &lt;chr&gt;,
@@ -510,11 +510,11 @@ glimpse(fav_food)
 ## Rows: 5
 ## Columns: 6
 ## $ student_id     &lt;dbl&gt; 1, 2, 3, 4, 5
-## $ full_name      &lt;chr&gt; "Sunil Huffmann", "Barclay Lynn", "Ja...
-## $ favourite_food &lt;chr&gt; "Strawberry yoghurt", "French fries",...
-## $ meal_plan      &lt;chr&gt; "Lunch only", "Lunch only", "Breakfas...
+## $ full_name      &lt;chr&gt; "Sunil Huffmann", "Barclay Lynn", "Jayen~
+## $ favourite_food &lt;chr&gt; "Strawberry yoghurt", "French fries", NA~
+## $ meal_plan      &lt;chr&gt; "Lunch only", "Lunch only", "Breakfast a~
 ## $ age            &lt;dbl&gt; 4, 5, 7, NA, 5
-## $ ses            &lt;chr&gt; "High", "Middle", "Low", "Middle", "H...
+## $ ses            &lt;chr&gt; "High", "Middle", "Low", "Middle", "High"
 ```
 ]
 .pull-right-narrow[
@@ -549,7 +549,7 @@ fav_food %&gt;%
 ```
 ## # A tibble: 3 x 2
 ##   ses        n
-## * &lt;chr&gt;  &lt;int&gt;
+##   &lt;chr&gt;  &lt;int&gt;
 ## 1 High       2
 ## 2 Low        1
 ## 3 Middle     2
@@ -576,7 +576,7 @@ fav_food %&gt;%
 ```
 ## # A tibble: 3 x 2
 ##   ses        n
-## * &lt;fct&gt;  &lt;int&gt;
+##   &lt;fct&gt;  &lt;int&gt;
 ## 1 Low        1
 ## 2 Middle     2
 ## 3 High       2
@@ -637,7 +637,7 @@ fav_food_clean %&gt;%
 ```
 ## # A tibble: 3 x 2
 ##   ses        n
-## * &lt;chr&gt;  &lt;int&gt;
+##   &lt;chr&gt;  &lt;int&gt;
 ## 1 High       2
 ## 2 Low        1
 ## 3 Middle     2
@@ -673,7 +673,7 @@ fav_food_clean %&gt;%
 ```
 ## # A tibble: 3 x 2
 ##   ses        n
-## * &lt;fct&gt;  &lt;int&gt;
+##   &lt;fct&gt;  &lt;int&gt;
 ## 1 Low        1
 ## 2 Middle     2
 ## 3 High       2

@@ -58,7 +58,7 @@ layout: true
   
 <div class="my-footer">
 <span>
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba & Karlo Lukic | based on
 <a href="https://datasciencebox.org" target="_blank">datasciencebox.org</a>
 </span>
 </div> 

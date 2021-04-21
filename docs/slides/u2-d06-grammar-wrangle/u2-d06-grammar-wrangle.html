@@ -3,7 +3,7 @@
   <head>
     <title>Grammar of data wrangling</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="Karlo Lukic | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -18,7 +18,7 @@ class: center, middle, inverse, title-slide
 
 # Grammar of data wrangling
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+### Karlo Lukic | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
 
 ---
 
@@ -30,7 +30,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -138,22 +138,22 @@ glimpse(hotels)
 ```
 ## Rows: 119,390
 ## Columns: 32
-## $ hotel                          &lt;chr&gt; "Resort Hotel", "Reso...
-## $ is_canceled                    &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, ...
-## $ lead_time                      &lt;dbl&gt; 342, 737, 7, 13, 14, ...
-## $ arrival_date_year              &lt;dbl&gt; 2015, 2015, 2015, 201...
-## $ arrival_date_month             &lt;chr&gt; "July", "July", "July...
-## $ arrival_date_week_number       &lt;dbl&gt; 27, 27, 27, 27, 27, 2...
-## $ arrival_date_day_of_month      &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, ...
-## $ stays_in_weekend_nights        &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, ...
-## $ stays_in_week_nights           &lt;dbl&gt; 0, 0, 1, 1, 2, 2, 2, ...
-## $ adults                         &lt;dbl&gt; 2, 2, 1, 1, 2, 2, 2, ...
-## $ children                       &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, ...
-## $ babies                         &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, ...
-## $ meal                           &lt;chr&gt; "BB", "BB", "BB", "BB...
-## $ country                        &lt;chr&gt; "PRT", "PRT", "GBR", ...
-## $ market_segment                 &lt;chr&gt; "Direct", "Direct", "...
-## $ distribution_channel           &lt;chr&gt; "Direct", "Direct", "...
+## $ hotel                          &lt;chr&gt; "Resort Hotel", "Resort ~
+## $ is_canceled                    &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, ~
+## $ lead_time                      &lt;dbl&gt; 342, 737, 7, 13, 14, 14,~
+## $ arrival_date_year              &lt;dbl&gt; 2015, 2015, 2015, 2015, ~
+## $ arrival_date_month             &lt;chr&gt; "July", "July", "July", ~
+## $ arrival_date_week_number       &lt;dbl&gt; 27, 27, 27, 27, 27, 27, ~
+## $ arrival_date_day_of_month      &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, ~
+## $ stays_in_weekend_nights        &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, ~
+## $ stays_in_week_nights           &lt;dbl&gt; 0, 0, 1, 1, 2, 2, 2, 2, ~
+## $ adults                         &lt;dbl&gt; 2, 2, 1, 1, 2, 2, 2, 2, ~
+## $ children                       &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, ~
+## $ babies                         &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, ~
+## $ meal                           &lt;chr&gt; "BB", "BB", "BB", "BB", ~
+## $ country                        &lt;chr&gt; "PRT", "PRT", "GBR", "GB~
+## $ market_segment                 &lt;chr&gt; "Direct", "Direct", "Dir~
+## $ distribution_channel           &lt;chr&gt; "Direct", "Direct", "Dir~
 ...
 ```
 

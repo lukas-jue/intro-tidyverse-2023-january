@@ -1,7 +1,7 @@
 ---
 title: "Visualising data with ggplot2"
 subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
-author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+author: "Lara Zaremba | based on [datasciencebox.org](https://datasciencebox.org/)"
 output:
   xaringan::moon_reader:
     css: ["../xaringan-themer.css", "../slides.css"]

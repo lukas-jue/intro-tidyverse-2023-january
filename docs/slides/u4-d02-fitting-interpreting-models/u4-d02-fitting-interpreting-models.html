@@ -32,7 +32,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -115,7 +115,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  11ms 
+## Fit time:  0ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -133,7 +133,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  11ms 
+## Fit time:  0ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -164,7 +164,7 @@ linear_reg() %&gt;%
 ##   term        estimate std.error statistic  p.value
 ##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)    3.62    0.254        14.3 8.82e-45
-## 2 Width_in       0.781   0.00950      82.1 0.
+## 2 Width_in       0.781   0.00950      82.1 0
 ```
 
 .large[
@@ -188,7 +188,7 @@ linear_reg() %&gt;%
 ##   term              estimate std.error statistic  p.value
 ##   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)          5.62    0.269        20.9 1.24e-90
-## 2 Width_in             0.777   0.00909      85.4 0.      
+## 2 Width_in             0.777   0.00909      85.4 0       
 ## 3 factor(landsALL)1   -5.02    0.292       -17.2 3.70e-63
 ```
 
@@ -360,7 +360,7 @@ linear_reg() %&gt;%
 ## # A tibble: 2 x 5
 ##   term              estimate std.error statistic  p.value
 ##   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
-## 1 (Intercept)          22.7      0.328      69.1 0.      
+## 1 (Intercept)          22.7      0.328      69.1 0       
 ## 2 factor(landsALL)1    -5.65     0.532     -10.6 7.97e-26
 ```
 
@@ -391,7 +391,7 @@ linear_reg() %&gt;%
 ## # A tibble: 7 x 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
-## 1 (Intercept)        14.        10.0     1.40  0.162  
+## 1 (Intercept)        14.0       10.0     1.40  0.162  
 ## 2 school_pntgD/FL     2.33      10.0     0.232 0.816  
 ## 3 school_pntgF       10.2       10.0     1.02  0.309  
 ## 4 school_pntgG        1.65      11.9     0.139 0.889  
@@ -409,7 +409,7 @@ linear_reg() %&gt;%
 ## # A tibble: 7 x 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
-## 1 (Intercept)        14.        10.0     1.40  0.162  
+## 1 (Intercept)        14.0       10.0     1.40  0.162  
 ## 2 school_pntgD/FL     2.33      10.0     0.232 0.816  
 ## 3 school_pntgF       10.2       10.0     1.02  0.309  
 ## 4 school_pntgG        1.65      11.9     0.139 0.889  
@@ -547,7 +547,7 @@ linear_reg() %&gt;%
 ## # A tibble: 7 x 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
-## 1 (Intercept)        14.        10.0     1.40  0.162  
+## 1 (Intercept)        14.0       10.0     1.40  0.162  
 ## 2 school_pntgD/FL     2.33      10.0     0.232 0.816  
 ## 3 school_pntgF       10.2       10.0     1.02  0.309  
 ## 4 school_pntgG        1.65      11.9     0.139 0.889  

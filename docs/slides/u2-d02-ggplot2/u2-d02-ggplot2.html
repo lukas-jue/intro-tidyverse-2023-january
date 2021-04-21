@@ -3,7 +3,7 @@
   <head>
     <title>Visualising data with ggplot2</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="Lara Zaremba | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -18,7 +18,7 @@ class: center, middle, inverse, title-slide
 
 # Visualising data with ggplot2
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+### Lara Zaremba | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
 
 ---
 
@@ -30,7 +30,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier | based on
+Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -83,14 +83,14 @@ glimpse(penguins)
 ```
 ## Rows: 344
 ## Columns: 8
-## $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Ad...
-## $ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, T...
-## $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, ...
-## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, ...
-## $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, ...
-## $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, ...
-## $ sex               &lt;fct&gt; male, female, female, NA, female, ...
-## $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007...
+## $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adeli~
+## $ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torg~
+## $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.~
+## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.~
+## $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195~
+## $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 362~
+## $ sex               &lt;fct&gt; male, female, female, NA, female, mal~
+## $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2~
 ```
 ]
 
