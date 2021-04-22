@@ -2,7 +2,7 @@ course-objective
 course-description
 methods
 conditions
-course-organization
+course-organization-video-recordings
 schedule
 readings
 trainers

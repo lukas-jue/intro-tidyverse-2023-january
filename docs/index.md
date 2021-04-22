@@ -80,15 +80,15 @@ Note that you won't need to set anything up if you use RStudio Cloud.
 Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple---and already set up---development environment.
 We will send out detailed instructions and an invitation link in advance.
 
-## Course Organization
+## Course Organization & Video Recordings
 
 We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09) or the meeting ID 969 3477 6479 and passcode 779069.
 
-| Part | Date          | Time          |
-|------|---------------|---------------|
-| 1    | 22 April 2021 | 18:00 - 20:00 |
-| 2    | 29 April 2021 | 18:00 - 20:00 |
-| 3    | 6 May 2021    | 18:00 - 20:00 |
+| Part | Date          | Time          | Video Recording                                                                                                                                                          |
+|------|---------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | 22 April 2021 | 18:00 - 20:00 | [Recording Session 1](https://uni-frankfurt.zoom.us/rec/share/qBBY4j2BjDv-lY5vLRGG1HtBlOOaAuhQHKzZwk4HL9TnIseTqVf2-7VWV7TO6Eut.1gLagJuqaAc1MOfY?startTime=1619107446000) |
+| 2    | 29 April 2021 | 18:00 - 20:00 |                                                                                                                                                                          |
+| 3    | 6 May 2021    | 18:00 - 20:00 |                                                                                                                                                                          |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
