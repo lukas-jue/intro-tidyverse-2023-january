@@ -1,8 +1,9 @@
 ---
 title: "The Bechdel Test — Solution"
 author: "Lukas Jürgensmeier"
-output: github_document
-editor_options: 
+output:
+  html_document: default
+editor_options:
   chunk_output_type: console
 ---
 
