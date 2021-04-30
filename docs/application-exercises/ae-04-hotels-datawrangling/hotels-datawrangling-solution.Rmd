@@ -1,7 +1,8 @@
 ---
 title: "Hotel bookings — data wrangling — solutions"
 author: "Lukas Jürgensmeier"
-output: github_document
+output:
+  html_document: default
 editor_options: 
   chunk_output_type: console
 ---

@@ -1,0 +1,53 @@
+---
+title: "Nobel winners — solution"
+author: "Mine Çetinkaya-Rundel, adapted by Lukas Jürgensmeier"
+output:
+  html_document: default
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+```
+
+Let's first load the data:
+
+```{r read-data, eval=FALSE}
+nobel <- read_csv("data-raw/nobel.csv")
+```
+
+Then let's split the data into two:
+
+```{r split-data, eval=FALSE}
+# stem laureates
+nobel_stem <- nobel %>%
+  filter(category %in% c("Physics", "Chemistry", "Medicine", "Economics"))
+
+# non-steam laureates
+nobel_non_stem <- nobel %>%
+  filter(category %in% c("Literature", "Peace"))
+```
+
+Alternatively, you can define a vector of STEM laureates first and then filter on that vector for both operations:
+
+```{r split-data-alternative, eval=FALSE}
+# vector of stem subjects
+stem <- c("Physics", "Chemistry", "Medicine", "Economics")
+
+# stem laureates
+nobel_stem <- nobel %>%
+  filter(category %in% stem)
+
+# non-steam laureates
+# note that the difference to the lines above is the negation `!` that
+# turns every `TRUE` into `FALSE` and `FALSE` into `TRUE`.
+nobel_non_stem <- nobel %>%
+  filter(!(category %in% stem))
+```
+
+And finally write (i.e. save) both data frames individually to the `data` folder.
+Note: you will need to create a folder called `data` before you attempt to save it in that directory
+
+```{r write-data}
+write_csv(nobel_stem, "data/nobels_stem.csv")
+write_csv(nobel_non_stem, "data/nobels_non_stem.csv")
+```

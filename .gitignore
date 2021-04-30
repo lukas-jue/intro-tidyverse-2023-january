@@ -15,3 +15,5 @@ course-materials/project-instructions/
 course-materials/starters/
 course-materials/slides/_excluded/
 .github/workflows/
+
+*.mp4

@@ -1,0 +1,33 @@
+---
+title: "Sales — solution"
+author: "Lukas Jürgensmeier"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(readxl)
+```
+
+-   Read in the Excel file called `sales.xlsx` from the `data-raw/` folder such that it looks like the following.
+
+```{r echo=FALSE, out.width="20%"}
+knitr::include_graphics("images/sales-1.png")
+```
+
+```{r}
+sales <- read_xlsx("data-raw/sales.xlsx", skip = 3,
+                   col_names = c("id", "n"))
+```
+
+-   **Stretch goal:** Manipulate the sales data such such that it looks like the following.
+
+```{r echo=FALSE, out.width="25%"}
+knitr::include_graphics("images/sales-2.png")
+```
+
+```{r}
+
+```
