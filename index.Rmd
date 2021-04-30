@@ -87,7 +87,7 @@ We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access th
 | Part | Date          | Time          | Video Recording                                                                                                                                                          |
 |------|---------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | 22 April 2021 | 18:00 - 20:00 | [Recording Session 1](https://uni-frankfurt.zoom.us/rec/share/qBBY4j2BjDv-lY5vLRGG1HtBlOOaAuhQHKzZwk4HL9TnIseTqVf2-7VWV7TO6Eut.1gLagJuqaAc1MOfY?startTime=1619107446000) |
-| 2    | 29 April 2021 | 18:00 - 20:00 |                                                                                                                                                                          |
+| 2    | 29 April 2021 | 18:00 - 20:00 | [Recording Session 2](https://uni-frankfurt.zoom.us/rec/share/z3Lq-ek0knrjUhiTqZk_b32PiQ5ehFQpWCg2Gek_PGce0JoNm-jYMhOBSvbwdFLR.i5tAbuBlxkz5knjr)                         |
 | 3    | 6 May 2021    | 18:00 - 20:00 |                                                                                                                                                                          |
 
 We want you to *make your hands dirty* --- that means we want you to code!
@@ -122,8 +122,8 @@ You can download a .ics calendar with the schedule and the Zoom link [here](http
 | 3    | 29 April | Tidy data                          | Lecture              | Karlo        |
 | 3    | 29 April | Grammar of data wrangling          | Lecture              | Karlo        |
 | 3    | 29 April | Working with a single data frame   | Lecture              | Lukas        |
-| 3    | 29 April | Working with multiple data frames  | Lecture              | Lukas        |
-| 3    | 29 April | Hotels + Data wrangling            | Application Exercise |              |
+| 3    | 6 May    | Working with multiple data frames  | Lecture              | Lukas        |
+| 3    | 6 May    | Hotels + Data wrangling            | Application Exercise |              |
 | 4    | 6 May    | Data types                         | Lecture              | Karlo        |
 | 4    | 6 May    | Importing data                     | Lecture              | Lara & Karlo |
 | 4    | 6 May    | Nobels + Sales + Data import       | Application Exercise |              |

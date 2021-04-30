@@ -42,7 +42,11 @@ IMS :: [Sec 2.2 - Exploring categorical data](https://openintro-ims.netlify.app/
 Please open your RStudio Cloud for this exercise.
 
 ::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+[Exercise Template](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+:::
+
+::: {.source}
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd)
 :::
 :::
 
