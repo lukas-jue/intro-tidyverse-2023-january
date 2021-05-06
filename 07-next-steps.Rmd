@@ -8,6 +8,12 @@ This course is based on Data Science in a Box by Mine Çetinkaya-Rundel.
 Due to time constraints, we were only able to show you the most critical aspects.
 If you want to continue with this course, you can access many more lecture materials (including recorded videos, interactive tutorials, and exercises) at [datasciencebox.org](https://datasciencebox.org/).
 
+### Check out Neuroscience Packages
+
+This course was a subject-agnostic introduction to the programming language `R` and the `tidyverse` packages.
+The beauty of `R`, however, is the vast number of subject-specific packages.
+For example, check out [`natverse`](https://natverse.org/), a tidyverse-inspired collection of packages for neuroanatomical data analysis.
+
 ### Join TechAcademy e.V. {.unnumbered}
 
 TechAcademy e.V.
