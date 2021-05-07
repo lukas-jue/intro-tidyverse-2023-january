@@ -59,7 +59,7 @@ Please open your RStudio Cloud for this exercise.
 :::
 
 ::: {.source}
-[Solution, Exercises 1-4, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling-solution-1-4.Rmd)
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling-solution.Rmd)
 :::
 :::
 

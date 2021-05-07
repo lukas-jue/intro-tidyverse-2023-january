@@ -4,7 +4,7 @@ site: bookdown::bookdown_site
 title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
-date: "2021-05-06"
+date: "2021-05-07"
 github-repo: lukas-jue/intro-tidyverse
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
@@ -88,7 +88,7 @@ We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access th
 |------|---------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | 22 April 2021 | 18:00 - 20:00 | [Recording Session 1](https://uni-frankfurt.zoom.us/rec/share/qBBY4j2BjDv-lY5vLRGG1HtBlOOaAuhQHKzZwk4HL9TnIseTqVf2-7VWV7TO6Eut.1gLagJuqaAc1MOfY?startTime=1619107446000) |
 | 2    | 29 April 2021 | 18:00 - 20:00 | [Recording Session 2](https://uni-frankfurt.zoom.us/rec/share/z3Lq-ek0knrjUhiTqZk_b32PiQ5ehFQpWCg2Gek_PGce0JoNm-jYMhOBSvbwdFLR.i5tAbuBlxkz5knjr)                         |
-| 3    | 6 May 2021    | 18:00 - 20:00 |                                                                                                                                                                          |
+| 3    | 6 May 2021    | 18:00 - 20:00 | [Recording Session 3](https://uni-frankfurt.zoom.us/rec/share/WZwtttkEclIMcYFp3WqB0xiqsukE2If9WzKIyj0hPrptycn_FCKivqXZgKbR0oSK.FbfK1EzgSZKfJXiT?startTime=1620316995000) |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.

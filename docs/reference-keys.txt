@@ -20,4 +20,3 @@ additional-material-not-covered-in-class-2
 models
 slides-application-exercises-and-references-4
 additional-material-not-covered-in-class-3
-check-out-neuroscience-packages

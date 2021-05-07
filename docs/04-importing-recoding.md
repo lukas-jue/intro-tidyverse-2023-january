@@ -35,9 +35,17 @@ Please open your RStudio Cloud for this exercise.
 :::
 
 ::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd)
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd)
 :::
 :::
+
+<!-- ::: {.source} -->
+
+<!-- [Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd) -->
+
+<!-- ::: -->
+
+<!-- ::: -->
 
 ### Additional material not covered in class
 
