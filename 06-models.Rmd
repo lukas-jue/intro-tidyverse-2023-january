@@ -11,14 +11,14 @@ If you want to refresh your knowledge on linear regressions, feel free to read t
 
 ## Slides, application exercises, and references
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 4 - Deck 2: Fitting and interpreting models**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1)
 :::
 
-::: {.reading}
+::: reading
 IMS :: [Chp 3 - Introduction to linear models](https://openintro-ims.netlify.app/intro-linear-models.html)
 :::
 :::
@@ -28,19 +28,19 @@ IMS :: [Chp 3 - Introduction to linear models](https://openintro-ims.netlify.app
 We will not cover this unit due to time constraints.
 If you want to refresh your knowledge of regressions, feel free to study the slides on your own.
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 4 - Deck 1: The language of models**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d01-language-of-models/u4-d01-language-of-models.html#1)
 :::
 :::
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 4 - Deck 3: Modelling nonlinear relationships**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u4-d03-modeling-nonlinear-relationships/u4-d03-modeling-nonlinear-relationships.html#1)
 :::
 :::
 

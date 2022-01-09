@@ -5,7 +5,7 @@ title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
 date: "`r Sys.Date()`"
-github-repo: lukas-jue/intro-tidyverse
+github-repo: lukas-jue/intro-tidyverse-2022
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
 documentclass: book
@@ -18,7 +18,7 @@ Welcome to the course website for
 
 **Introduction to Data Science with R and Tidyverse**
 
-offered for GRADE Brain at Goethe University in the summer term of 2021.
+offered for GRADE Brain and other GRADE Centers at Goethe University in January 2022.
 This website serves as the central repository for all course materials.
 Here, you will find all slides, lecture materials, and links to your online development environment.
 
@@ -26,10 +26,11 @@ Here, you will find all slides, lecture materials, and links to your online deve
 
 Most academic fields require proficiency in at least one data-centered analysis tool.
 For many, the R programming language has become the tool of choice.
-However, the first steps in coding can be intimidating and discouraging--- primarily if you have never worked with a programming language before.
+However, the first steps in coding can be intimidating and discouraging---primarily if you have never worked with a programming language before.
 This course aims at providing a results-oriented, applied, and hands-on introduction to the essential parts of a Data Science project in R.
 We will introduce the libraries and frameworks necessary for your analysis and focus on teaching you the implementation and application of those tools.
 We'll present small examples throughout the lecture and provide you with application exercises that you can work on for yourself.
+
 Our goal is to show you the scope of possibilities within R and leave you with the impression that you can confidently implement your empirical projects in R.
 We will focus on the Tidyverse ecosystem, a consistent and intuitive framework for building your data analysis from start to finish.
 After completing this course, you know how to apply the essential Tidyverse tools for everyday Data Science tasks in R---primarily data wrangling, data visualization, and communicating results.
@@ -66,8 +67,8 @@ In between the three sessions, you are encouraged to work on provided exercises 
 ## Conditions
 
 This workshop is a beginner-friendly course.
-No prior coding experience is needed.
-You are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.
+You do not need prior coding experience.
+But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.
 
 You will need an RStudio Cloud account.
 RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.
@@ -82,13 +83,13 @@ We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization & Video Recordings
 
-We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/96934776479?pwd=SHk5V05JbjVDODA3ZDNKb1YvbFBwUT09) or the meeting ID 969 3477 6479 and passcode 779069.
+We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/99971786621?pwd=K2RRNkNpOFBLVFBtaHc5b1JvVlZ4QT09) or the meeting ID 933 0794 1729 and passcode 692604.
 
-| Part | Date          | Time          | Video Recording                                                                                                                                                          |
-|------|---------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | 22 April 2021 | 18:00 - 20:00 | [Recording Session 1](https://uni-frankfurt.zoom.us/rec/share/qBBY4j2BjDv-lY5vLRGG1HtBlOOaAuhQHKzZwk4HL9TnIseTqVf2-7VWV7TO6Eut.1gLagJuqaAc1MOfY?startTime=1619107446000) |
-| 2    | 29 April 2021 | 18:00 - 20:00 | [Recording Session 2](https://uni-frankfurt.zoom.us/rec/share/z3Lq-ek0knrjUhiTqZk_b32PiQ5ehFQpWCg2Gek_PGce0JoNm-jYMhOBSvbwdFLR.i5tAbuBlxkz5knjr)                         |
-| 3    | 6 May 2021    | 18:00 - 20:00 | [Recording Session 3](https://uni-frankfurt.zoom.us/rec/share/WZwtttkEclIMcYFp3WqB0xiqsukE2If9WzKIyj0hPrptycn_FCKivqXZgKbR0oSK.FbfK1EzgSZKfJXiT?startTime=1620316995000) |
+| Part | Date      | Time          | Video Recording                         |
+|------|-----------|---------------|-----------------------------------------|
+| 1    | 13.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
+| 2    | 20.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
+| 3    | 27.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -97,7 +98,7 @@ But you actively engaging with the course content in your development environmen
 That's why we need you to prepare accordingly:
 
 -   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)
--   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before meeting on 22 April.
+-   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before meeting on 13 January.
 
 If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 
@@ -109,25 +110,25 @@ We aim to adhere to the following schedule.
 Depending on our progress, we may discuss some parts a bit earlier or later during the course.
 You can download a .ics calendar with the schedule and the Zoom link [here](https://lukas-jue.github.io/intro-tidyverse/ics-calendar/intro_to_data_science_with_r_and_tidyverse.ics).
 
-| Part | Date     | Title                              | Type                 | Lecturer     |
-|------|----------|------------------------------------|----------------------|--------------|
-| 1    | 22 April | Welcome                            | Lecture              | Lukas        |
-| 1    | 22 April | First data visualization: UN Votes | Application Exercise |              |
-| 1    | 22 April | Meet the programming toolkit       | Lecture              | Karlo        |
-| 1    | 22 April | The Bechdel Test + R Markdown      | Application Exercise |              |
-| 2    | 22 April | Data and visualization             | Lecture              | Lara         |
-| 2    | 22 April | Visualizing data with ggplot2      | Lecture              | Lara         |
-| 2    | 29 April | Visualizing categorical data       | Lecture              | Lara         |
-| 2    | 29 April | StarWars + Dataviz                 | Application Exercise |              |
-| 3    | 29 April | Tidy data                          | Lecture              | Karlo        |
-| 3    | 29 April | Grammar of data wrangling          | Lecture              | Karlo        |
-| 3    | 29 April | Working with a single data frame   | Lecture              | Lukas        |
-| 3    | 6 May    | Working with multiple data frames  | Lecture              | Lukas        |
-| 3    | 6 May    | Hotels + Data wrangling            | Application Exercise |              |
-| 4    | 6 May    | Data types                         | Lecture              | Karlo        |
-| 4    | 6 May    | Importing data                     | Lecture              | Lara & Karlo |
-| 4    | 6 May    | Nobels + Sales + Data import       | Application Exercise |              |
-| 5    | 6 May    | Fitting and interpreting models    | Lecture              | Lukas        |
+| Part | Date  | Title                              | Type                 | Lecturer     |
+|------|-------|------------------------------------|----------------------|--------------|
+| 1    | 13.1. | Welcome                            | Lecture              | Lukas        |
+| 1    | 13.1. | First data visualization: UN Votes | Application Exercise |              |
+| 1    | 13.1. | Meet the programming toolkit       | Lecture              | Karlo        |
+| 1    | 13.1. | The Bechdel Test + R Markdown      | Application Exercise |              |
+| 2    | 13.1. | Data and visualization             | Lecture              | Lara         |
+| 2    | 13.1. | Visualizing data with ggplot2      | Lecture              | Lara         |
+| 2    | 20.1. | Visualizing categorical data       | Lecture              | Lara         |
+| 2    | 20.1. | StarWars + Dataviz                 | Application Exercise |              |
+| 3    | 20.1. | Tidy data                          | Lecture              | Karlo        |
+| 3    | 20.1. | Grammar of data wrangling          | Lecture              | Karlo        |
+| 3    | 20.1. | Working with a single data frame   | Lecture              | Lukas        |
+| 3    | 27.1. | Working with multiple data frames  | Lecture              | Lukas        |
+| 3    | 27.1. | Hotels + Data wrangling            | Application Exercise |              |
+| 4    | 27.1. | Data types                         | Lecture              | Karlo        |
+| 4    | 27.1. | Importing data                     | Lecture              | Lara & Karlo |
+| 4    | 27.1. | Nobels + Sales + Data import       | Application Exercise |              |
+| 5    | 27.1. | Fitting and interpreting models    | Lecture              | Lukas        |
 
 ## Readings
 
@@ -135,7 +136,7 @@ The course is self-contained, and you will most likely get all the necessary inf
 If you want to read more about given topics, we provide links to chapters in open source Data Science/Tidyverse/R textbooks.
 You will find the links on the following pages right beside the link to each chapter's slides.
 
-::: {.reading}
+::: reading
 We suggest two textbook references:
 
 -   **R4DS**: Wickham, H., Grolemund, G. (2017), "R for Data Science: Import, Tidy, Transform, Visualize, and Model Data", available at [r4ds.had.co.nz](https://r4ds.had.co.nz/)
@@ -147,7 +148,7 @@ We suggest two textbook references:
 Feel free to reach out to us by e-mail if you have any questions before, during, or after the course:
 
 -   **Lukas Jürgensmeier**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/lukas-juergensmeier.html) and Member of the Executive Board at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:lukas.juergensmeier@tech-academy.io)
--   **Lara Zaremba**, M.Sc. Student in Economics, R Teacher and Course Designer at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:lara.zaremba@tech-academy.io)
+-   **Lara Zaremba**, M.Sc., Trainee Data Science at the European Central Bank and R Teacher and Course Designer at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:lara.zaremba@tech-academy.io)
 -   **Karlo Lukic**, M.Sc., [PhD Student in Quantitative Marketing](https://www.marketing.uni-frankfurt.de/en/professoren/skiera/team/doctoral-students/karlo-lukic.html), R Teacher and Course Designer at [TechAcademy e.V.](https://tech-academy.io/), [send me an e-mail](mailto:karlo.lukic@tech-academy.io)
 
 ## License {.unnumbered}
@@ -159,6 +160,6 @@ Visit [here](https://github.com/rstudio-education/datascience-box/blob/master/LI
 
 The entire course is built upon material from [datasciencebox.org](https://datasciencebox.org/) by Mine Çetinkaya-Rundel.
 
-Huge thanks to the \#rstats education community who have made numerous suggestions for this resource, Lee Suddaby and Zeno Kujawa, for converting the homework assignments to learnr tutorials and [Müge Çetinkaya](http://muge.fr/) for the hex logo!
+Huge thanks to the #rstats education community who have made numerous suggestions for this resource, Lee Suddaby and Zeno Kujawa, for converting the homework assignments to learnr tutorials and [Müge Çetinkaya](http://muge.fr/) for the hex logo!
 
 This website is built with [bookdown](https://bookdown.org/), the lovely icons by [icons8](http://icons8.com/), and none of this would be possible without the [tidyverse](https://tidyverse.org/).

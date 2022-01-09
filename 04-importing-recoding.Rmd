@@ -5,43 +5,45 @@ To do that, you need a solid understanding of data types, data classes, and ways
 
 ## Slides, application exercises, and references
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 2 - Deck 10: Data types**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d10-data-types/u2-d10-data-types.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d10-data-types/u2-d10-data-types.html#1)
 :::
 :::
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 2 - Deck 12: Importing data**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d12-data-import/u2-d12-data-import.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d12-data-import/u2-d12-data-import.html#1)
 :::
 
-::: {.reading}
+::: reading
 R4DS :: [Chp 11 - Data import](https://r4ds.had.co.nz/data-import.html)
 :::
 :::
 
-::: {.application-exercise}
+::: application-exercise
 **Nobels + Sales + Data import**
 
 Please open your RStudio Cloud for this exercise.
 
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
-:::
-
-::: {.source}
-[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd)
-:::
+::: source
+[Source](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
 :::
 
 <!-- ::: {.source} -->
 
-<!-- [Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd) -->
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd) -->
+
+<!-- ::: -->
+:::
+
+<!-- ::: {.source} -->
+
+<!-- [Source](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd) -->
 
 <!-- ::: -->
 
@@ -52,28 +54,28 @@ Please open your RStudio Cloud for this exercise.
 We will not cover this unit due to time constraints.
 If you're interested in data classes, feel free to study the slides on your own and look at the application exercise.
 
-::: {.slide-deck}
+::: slide-deck
 **Unit 2 - Deck 11: Data classes**
 
-::: {.slides}
-[Slides](https://lukas-jue.github.io/intro-tidyverse/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
+::: slides
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d11-data-classes/u2-d11-data-classes.html#1)
 :::
 
-::: {.reading}
+::: reading
 R4DS :: [Chp 15 - Factors](https://r4ds.had.co.nz/factors.html)
 :::
 :::
 
-::: {.application-exercise}
+::: application-exercise
 **Hotels + Data types**
 
 Please open your RStudio Cloud for this exercise.
 
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
+::: source
+[Source](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-05-hotels-datatypes/hotels-forcats.Rmd)
 :::
 
-::: {.source}
-[Source](https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
+::: source
+[Source](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-05-hotels-datatypes/type-coercion.Rmd)
 :::
 :::

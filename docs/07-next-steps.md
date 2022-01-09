@@ -27,7 +27,7 @@ Find more information on [tech-academy.io](https://tech-academy.io/).
 
 ### Join the Campus useR Group in Frankfurt {.unnumbered}
 
-There's a pretty active R community in Frankfurt that meets once a month.
+There's a somewhat active R community in Frankfurt that meets once a month.
 It's open for students, professors, industry practitioners, journalists, and all people that love to use R.
 In those meetings, you'll hear about other's work, discuss new developments, and ask questions.
 All levels of expertise are welcome.

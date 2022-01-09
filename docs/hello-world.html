@@ -6,10 +6,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Chapter 1 Hello world | Introduction to Data Science with R and Tidyverse</title>
 <meta name="author" content="Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel">
-<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.7/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="We will start by showing you what is possible at the end of the class and running a reasonably complex visualization code in your environment. The goal of this Hello world part is not to make you...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 1 Hello world | Introduction to Data Science with R and Tidyverse">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://datasciencebox.org/hello-world.html">
+<meta property="og:image" content="https://datasciencebox.org//dsbox.png">
+<meta property="og:description" content="We will start by showing you what is possible at the end of the class and running a reasonably complex visualization code in your environment. The goal of this Hello world part is not to make you...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 1 Hello world | Introduction to Data Science with R and Tidyverse">
+<meta name="twitter:description" content="We will start by showing you what is possible at the end of the class and running a reasonably complex visualization code in your environment. The goal of this Hello world part is not to make you...">
+<meta name="twitter:image" content="https://datasciencebox.org//dsbox.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.4.9003/tabs.js"></script><script src="libs/bs3compat-0.2.4.9003/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
-<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="css/dsbox.css">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1.9000/transition.js"></script><script src="libs/bs3compat-0.3.1.9000/tabs.js"></script><script src="libs/bs3compat-0.3.1.9000/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="css/dsbox.css">
 <link rel="stylesheet" href="css/fontawesome/css/all.css">
 </head>
 <body data-spy="scroll" data-target="#toc">
@@ -57,7 +68,7 @@ The goal of this <code>Hello world</code> part is not to make you understand eve
 We aim for you to code such a visualization from scratch at the end of our course.
 To reach that goal, we will — step by step — introduce you to the most relevant facets of Data Science with R and the Tidyverse.</p>
 <div class="rstudio-cloud">
-<p>The RStudio Cloud workspace containing the application exercises is <a href="https://rstudio.cloud/spaces/136405/projects">here</a>.
+<p>The RStudio Cloud workspace containing the application exercises is <a href="https://rstudio.cloud/spaces/205781/projects">here</a>.
 If you haven’t already registered for RStudio Cloud and joined the workspace, please do so now.
 Be sure to register through the link we sent to you via e-mail since we purchased an RStudio Cloud premium version for this course.</p>
 </div>
@@ -68,20 +79,20 @@ Be sure to register through the link we sent to you via e-mail since we purchase
 <div class="slide-deck">
 <p><strong>Unit 1 - Deck 1: Welcome</strong></p>
 <div class="slides">
-<p><a href="https://lukas-jue.github.io/intro-tidyverse/slides/u1-d01-welcome/u1-d01-welcome.html#1">Slides</a></p>
+<p><a href="https://lukas-jue.github.io/intro-tidyverse-2022/slides/u1-d01-welcome/u1-d01-welcome.html#1">Slides</a></p>
 </div>
 </div>
 <div class="application-exercise">
 <p><strong>Your first data visualization: UN Votes</strong></p>
 <p>Please open your RStudio Cloud for this exercise.</p>
 <div class="source">
-<p><a href="https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-01a-un-votes/unvotes.Rmd">Source</a></p>
+<p><a href="https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-01a-un-votes/unvotes.Rmd">Source</a></p>
 </div>
 </div>
 <div class="slide-deck">
 <p><strong>Unit 1 - Deck 2: Meet the toolkit — Programming</strong></p>
 <div class="slides">
-<p><a href="https://lukas-jue.github.io/intro-tidyverse/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html">Slides</a></p>
+<p><a href="https://lukas-jue.github.io/intro-tidyverse-2022/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html">Slides</a></p>
 </div>
 <div class="reading">
 <ul>
@@ -96,15 +107,15 @@ Be sure to register through the link we sent to you via e-mail since we purchase
 <p><strong>The Bechdel Test + R Markdown</strong></p>
 <p>Please open your RStudio Cloud for this exercise.</p>
 <div class="source">
-<p><a href="https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd">Exercise template</a></p>
+<p><a href="https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd">Exercise template</a></p>
 </div>
-<div class="source">
-<p><a href="https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd">Solution, <code>.Rmd</code> file</a></p>
-</div>
+<!-- ::: {.source} -->
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd) -->
+<!-- ::: -->
 <div class="reading">
 <p>This exercise uses data from the following FiveThirtyEight story on the <a href="https://en.wikipedia.org/wiki/Bechdel_test">Bechdel Test</a>:</p>
 <p>Hickey, W.
-(2014, April 1): <a href="https://github.com/lukas-jue/intro-tidyverse/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd">The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women</a>, <em>FiveThirtyEight.com</em></p>
+(2014, April 1): <a href="https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd">The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women</a>, <em>FiveThirtyEight.com</em></p>
 </div>
 </div>
 
@@ -134,7 +145,7 @@ Be sure to register through the link we sent to you via e-mail since we purchase
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Introduction to Data Science with R and Tidyverse</strong>" was written by Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel. It was last built on 2021-05-07.</p>
+    <p>"<strong>Introduction to Data Science with R and Tidyverse</strong>" was written by Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel. It was last built on 2022-01-09.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
