@@ -4,7 +4,7 @@ site: bookdown::bookdown_site
 title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
-date: "2022-01-09"
+date: "2022-01-12"
 github-repo: lukas-jue/intro-tidyverse-2022
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
