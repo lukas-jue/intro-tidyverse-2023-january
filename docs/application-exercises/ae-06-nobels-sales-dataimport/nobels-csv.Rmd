@@ -1,7 +1,7 @@
 ---
 title: "Nobel winners"
 author: "Mine Çetinkaya-Rundel, adapted by Lukas Jürgensmeier"
-output: github_document
+output: html_document
 ---
 
 ```{r load-packages, message=FALSE}

@@ -1,7 +1,7 @@
 ---
 title: "Hotel bookings - factors"
 author: "Mine Çetinkaya-Rundel, adapted by Lukas Jürgensmeier"
-output: github_document
+output: html_document
 editor_options: 
   chunk_output_type: console
 ---
@@ -22,10 +22,10 @@ What would be a better order?
 Then, reorder the months on the x-axis (levels of `arrival_date_month`) in a way that makes more sense.
 You will want to use a function from the **forcats** package, see <https://forcats.tidyverse.org/reference/index.html> for inspiration and help.
 
-*Hint:* There is a built-in vector with the names of all twelve months — `month.name`.
+*Hint:* There is a built-in vector with the names of all twelve months --- `month.name`.
 You could relevel the factor for the x-axis by this vector.
 
-**Stretch goal:** If you finish the above task before time is up, change the y-axis label so the values are shown with dollar signs, e.g. $80 instead of 80.
+**Stretch goal:** If you finish the above task before time is up, change the y-axis label so the values are shown with dollar signs, e.g. \$80 instead of 80.
 You will want to use a function from the **scales** package, see <https://scales.r-lib.org/reference/index.html> for inspiration and help.
 
 ```{r plot, fig.width=10}

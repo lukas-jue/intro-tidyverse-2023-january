@@ -1,8 +1,7 @@
 ---
 title: "Nobel winners — solution"
 author: "Mine Çetinkaya-Rundel, adapted by Lukas Jürgensmeier"
-output:
-  html_document: default
+output: html_document
 ---
 
 ```{r load-packages, message=FALSE}
