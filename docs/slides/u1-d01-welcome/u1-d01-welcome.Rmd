@@ -46,7 +46,7 @@ class: middle
 A - None.
 
 **Q - Is this a course for neuroscientists only?**  
-A - Yes and no. While this course is exclusively for GRADE Brain,
+A - Yes and no. While this course is exclusively for GRADE Brain and other GRADE Centers,
 the course does not introduce you to neuroscience applications with `R`.
 Rather, we will discuss some computational tools that most scientists share
 and which are applicable beyond your field.
@@ -62,7 +62,7 @@ A - Yes. Do as much as possible by yourself — that's how you learn it.
 .pull-left-wide[
 **Q - Where do I find the course materials?**
 
-A - On this website: [lukas-jue.github.io/intro-tidyverse](https://lukas-jue.github.io/intro-tidyverse/)
+A - On this website: [lukas-jue.github.io/intro-tidyverse-2022](https://lukas-jue.github.io/intro-tidyverse-2022/)
 
 **Q - Can I code on my own during this course?**
 
