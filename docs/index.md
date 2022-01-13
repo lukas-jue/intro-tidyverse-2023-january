@@ -85,11 +85,11 @@ We will send out detailed instructions and an invitation link in advance.
 
 We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/99971786621?pwd=K2RRNkNpOFBLVFBtaHc5b1JvVlZ4QT09) or the meeting ID 933 0794 1729 and passcode 692604.
 
-| Part | Date      | Time          | Video Recording                         |
-|------|-----------|---------------|-----------------------------------------|
-| 1    | 13.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
-| 2    | 20.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
-| 3    | 27.1.2022 | 18:00 - 20:00 | We will upload the video recording here |
+| Part | Date      | Time          | Video Recording                                                                                                                   |
+|------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 1    | 13.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/gglKLxrBhZeCFNpAtslUUQNfT_WSe-YQ6q1NF6VhEAaVGM1cECKBQVHDH0UCvLgr.qAb5P13TlmWRSB6L) |
+| 2    | 20.1.2022 | 18:00 - 20:00 | We will upload the video recording here                                                                                           |
+| 3    | 27.1.2022 | 18:00 - 20:00 | We will upload the video recording here                                                                                           |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
