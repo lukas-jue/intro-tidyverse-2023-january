@@ -55,11 +55,9 @@ Please open your RStudio Cloud for this exercise.
 [Exercise template](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
 :::
 
-<!-- ::: {.source} -->
-
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd) -->
-
-<!-- ::: -->
+::: source
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd)
+:::
 
 ::: reading
 This exercise uses data from the following FiveThirtyEight story on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test):
