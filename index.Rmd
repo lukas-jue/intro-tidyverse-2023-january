@@ -83,12 +83,12 @@ We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization & Video Recordings
 
-We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/99971786621?pwd=K2RRNkNpOFBLVFBtaHc5b1JvVlZ4QT09) or the meeting ID 933 0794 1729 and passcode 692604.
+We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/s/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09) or the meeting ID 933 0794 1729 and passcode 692604.
 
 | Part | Date      | Time          | Video Recording                                                                                                                   |
 |------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 1    | 13.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/gglKLxrBhZeCFNpAtslUUQNfT_WSe-YQ6q1NF6VhEAaVGM1cECKBQVHDH0UCvLgr.qAb5P13TlmWRSB6L) |
-| 2    | 20.1.2022 | 18:00 - 20:00 | We will upload the video recording here                                                                                           |
+| 2    | 20.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/cjnpZpdodET42udnGm0TSDfvdzgVzyMfYzEkw91LRCxoGoNf9YxBTJXqI8z8EcRo.HR6bUMX-YvqYjUUw) |
 | 3    | 27.1.2022 | 18:00 - 20:00 | We will upload the video recording here                                                                                           |
 
 We want you to *make your hands dirty* --- that means we want you to code!
@@ -123,8 +123,8 @@ You can download a .ics calendar with the schedule and the Zoom link [here](http
 | 3    | 20.1. | Tidy data                          | Lecture              | Karlo        |
 | 3    | 20.1. | Grammar of data wrangling          | Lecture              | Karlo        |
 | 3    | 20.1. | Working with a single data frame   | Lecture              | Lukas        |
+| 3    | 20.1. | Hotels + Data wrangling            | Application Exercise |              |
 | 3    | 27.1. | Working with multiple data frames  | Lecture              | Lukas        |
-| 3    | 27.1. | Hotels + Data wrangling            | Application Exercise |              |
 | 4    | 27.1. | Data types                         | Lecture              | Karlo        |
 | 4    | 27.1. | Importing data                     | Lecture              | Lara & Karlo |
 | 4    | 27.1. | Nobels + Sales + Data import       | Application Exercise |              |
