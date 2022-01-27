@@ -89,7 +89,7 @@ We will meet on three Thursday evenings from *6:00 - 8:00 p.m.* Please access th
 |------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 1    | 13.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/gglKLxrBhZeCFNpAtslUUQNfT_WSe-YQ6q1NF6VhEAaVGM1cECKBQVHDH0UCvLgr.qAb5P13TlmWRSB6L) |
 | 2    | 20.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/cjnpZpdodET42udnGm0TSDfvdzgVzyMfYzEkw91LRCxoGoNf9YxBTJXqI8z8EcRo.HR6bUMX-YvqYjUUw) |
-| 3    | 27.1.2022 | 18:00 - 20:00 | We will upload the video recording here                                                                                           |
+| 3    | 27.1.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/he0lYLNSOhV9cC2FEoxr5YTuKHPPvzwHSNO5xXxfn1dbl22QPUFfN6UjFc9VZNZt.fQkFRrXu5X1aw_sA) |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
