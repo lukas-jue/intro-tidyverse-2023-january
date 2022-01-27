@@ -4,7 +4,7 @@ site: bookdown::bookdown_site
 title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
-date: "2022-01-20"
+date: "2022-01-27"
 github-repo: lukas-jue/intro-tidyverse-2022
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
@@ -110,25 +110,25 @@ We aim to adhere to the following schedule.
 Depending on our progress, we may discuss some parts a bit earlier or later during the course.
 You can download a .ics calendar with the schedule and the Zoom link [here](https://lukas-jue.github.io/intro-tidyverse/ics-calendar/intro_to_data_science_with_r_and_tidyverse.ics).
 
-| Part | Date  | Title                              | Type                 | Lecturer     |
-|------|-------|------------------------------------|----------------------|--------------|
-| 1    | 13.1. | Welcome                            | Lecture              | Lukas        |
-| 1    | 13.1. | First data visualization: UN Votes | Application Exercise |              |
-| 1    | 13.1. | Meet the programming toolkit       | Lecture              | Karlo        |
-| 1    | 13.1. | The Bechdel Test + R Markdown      | Application Exercise |              |
-| 2    | 13.1. | Data and visualization             | Lecture              | Lara         |
-| 2    | 13.1. | Visualizing data with ggplot2      | Lecture              | Lara         |
-| 2    | 20.1. | Visualizing categorical data       | Lecture              | Lara         |
-| 2    | 20.1. | StarWars + Dataviz                 | Application Exercise |              |
-| 3    | 20.1. | Tidy data                          | Lecture              | Karlo        |
-| 3    | 20.1. | Grammar of data wrangling          | Lecture              | Karlo        |
-| 3    | 20.1. | Working with a single data frame   | Lecture              | Lukas        |
-| 3    | 20.1. | Hotels + Data wrangling            | Application Exercise |              |
-| 3    | 27.1. | Working with multiple data frames  | Lecture              | Lukas        |
-| 4    | 27.1. | Data types                         | Lecture              | Karlo        |
-| 4    | 27.1. | Importing data                     | Lecture              | Lara & Karlo |
-| 4    | 27.1. | Nobels + Sales + Data import       | Application Exercise |              |
-| 5    | 27.1. | Fitting and interpreting models    | Lecture              | Lukas        |
+| Part | Date  | Title                              | Type                 | Lecturer |
+|------|-------|------------------------------------|----------------------|----------|
+| 1    | 13.1. | Welcome                            | Lecture              | Lukas    |
+| 1    | 13.1. | First data visualization: UN Votes | Application Exercise |          |
+| 1    | 13.1. | Meet the programming toolkit       | Lecture              | Karlo    |
+| 1    | 13.1. | The Bechdel Test + R Markdown      | Application Exercise |          |
+| 2    | 13.1. | Data and visualization             | Lecture              | Lara     |
+| 2    | 13.1. | Visualizing data with ggplot2      | Lecture              | Lara     |
+| 2    | 20.1. | Visualizing categorical data       | Lecture              | Lara     |
+| 2    | 20.1. | StarWars + Dataviz                 | Application Exercise |          |
+| 3    | 20.1. | Tidy data                          | Lecture              | Karlo    |
+| 3    | 20.1. | Grammar of data wrangling          | Lecture              | Karlo    |
+| 3    | 20.1. | Working with a single data frame   | Lecture              | Lukas    |
+| 3    | 20.1. | Hotels + Data wrangling            | Application Exercise |          |
+| 3    | 27.1. | Working with multiple data frames  | Lecture              | Lukas    |
+| 4    | 27.1. | Data types                         | Lecture              | Karlo    |
+| 4    | 27.1. | Importing data                     | Lecture              | Lara     |
+| 4    | 27.1. | Nobels + Sales + Data import       | Application Exercise |          |
+| 5    | 27.1. | Fitting and interpreting models    | Lecture              | Lukas    |
 
 ## Readings
 
