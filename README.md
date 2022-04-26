@@ -1,7 +1,7 @@
 # Introduction to Data Science with R and Tidyverse
 
-This repository contains all materials for the course *Introduction to Data Science with R and Tidyverse*, offered for GRADE Brain and other GRADE Centers at Goethe University in January 2022.
-Additionally, it serves the course website for students, which you can access [here](https://lukas-jue.github.io/intro-tidyverse-2022).
+This repository contains all materials for the course *Introduction to Data Science with R and Tidyverse*, offered for GRADE Brain and other GRADE Centers at Goethe University in May 2022.
+Additionally, it serves the course website for students, which you can access [here](https://lukas-jue.github.io/intro-tidyverse-2022-summer).
 
 # Course Objective
 
