@@ -9,7 +9,7 @@ This short chapter discusses some best practices and recommends a structure for 
 **Unit 2 - Deck 17: Doing data science**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u2-d17-doing-data-science/u2-d17-doing-data-science.html#1)
 :::
 
 ::: reading

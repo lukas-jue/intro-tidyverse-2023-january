@@ -25,13 +25,17 @@ Feel free to join us!
 You can do so, either as students for one of our programs (at the beginning of each semester) or as part of our voluntary team.
 Find more information on [tech-academy.io](https://tech-academy.io/).
 
-### Join the Campus useR Group in Frankfurt {.unnumbered}
+<!-- ### Join the Campus useR Group in Frankfurt {.unnumbered} -->
 
-There's a somewhat active R community in Frankfurt that meets once a month.
-It's open for students, professors, industry practitioners, journalists, and all people that love to use R.
-In those meetings, you'll hear about other's work, discuss new developments, and ask questions.
-All levels of expertise are welcome.
-Check it out on [Meetup](https://www.meetup.com/r-frankfurt/).
+<!-- There's a somewhat active R community in Frankfurt that meets once a month. -->
+
+<!-- It's open for students, professors, industry practitioners, journalists, and all people that love to use R. -->
+
+<!-- In those meetings, you'll hear about other's work, discuss new developments, and ask questions. -->
+
+<!-- All levels of expertise are welcome. -->
+
+<!-- Check it out on [Meetup](https://www.meetup.com/r-frankfurt/). -->
 
 ### Follow the R Community {.unnumbered}
 

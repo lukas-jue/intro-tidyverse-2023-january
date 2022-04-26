@@ -8,7 +8,7 @@ We aim for you to code such a visualization from scratch at the end of our cours
 To reach that goal, we will --- step by step --- introduce you to the most relevant facets of Data Science with R and the Tidyverse.
 
 ::: rstudio-cloud
-The RStudio Cloud workspace containing the application exercises is [here](https://rstudio.cloud/spaces/205781/projects).
+The RStudio Cloud workspace containing the application exercises is [here](https://rstudio.cloud/spaces/241661).
 If you haven't already registered for RStudio Cloud and joined the workspace, please do so now.
 Be sure to register through the link we sent to you via e-mail since we purchased an RStudio Cloud premium version for this course.
 :::
@@ -19,7 +19,7 @@ Be sure to register through the link we sent to you via e-mail since we purchase
 **Unit 1 - Deck 1: Welcome**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u1-d01-welcome/u1-d01-welcome.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u1-d01-welcome/u1-d01-welcome.html#1)
 :::
 :::
 
@@ -29,7 +29,7 @@ Be sure to register through the link we sent to you via e-mail since we purchase
 Please open your RStudio Cloud for this exercise.
 
 ::: source
-[Source](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-01a-un-votes/unvotes.Rmd)
+[Source](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-01a-un-votes/unvotes.Rmd)
 :::
 :::
 
@@ -37,7 +37,7 @@ Please open your RStudio Cloud for this exercise.
 **Unit 1 - Deck 2: Meet the toolkit --- Programming**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u1-d02-toolkit-r/u1-d02-toolkit-r.html)
 :::
 
 ::: reading
@@ -52,17 +52,17 @@ Please open your RStudio Cloud for this exercise.
 Please open your RStudio Cloud for this exercise.
 
 ::: source
-[Exercise template](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
+[Exercise template](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd)
 :::
 
 ::: source
-[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd)
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel-solution.Rmd)
 :::
 
 ::: reading
 This exercise uses data from the following FiveThirtyEight story on the [Bechdel Test](https://en.wikipedia.org/wiki/Bechdel_test):
 
 Hickey, W.
-(2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd), *FiveThirtyEight.com*
+(2014, April 1): [The Dollar-And-Cents Case Against Hollywood's Exclusion of Women](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-02-bechdel-rmarkdown/bechdel.Rmd), *FiveThirtyEight.com*
 :::
 :::

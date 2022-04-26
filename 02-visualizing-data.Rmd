@@ -8,7 +8,7 @@ This second course part introduces you to visualization with `ggplot2`.
 **Unit 2 - Deck 1: Data and visualization**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d01-data-viz/u2-d01-data-viz.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u2-d01-data-viz/u2-d01-data-viz.html#1)
 :::
 :::
 
@@ -16,7 +16,7 @@ This second course part introduces you to visualization with `ggplot2`.
 **Unit 2 - Deck 2: Visualizing data with ggplot2**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d02-ggplot2/u2-d02-ggplot2.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u2-d02-ggplot2/u2-d02-ggplot2.html#1)
 :::
 
 ::: reading
@@ -28,7 +28,7 @@ R4DS :: [Chp 3 - Data visualization](https://r4ds.had.co.nz/data-visualisation.h
 **Unit 2 - Deck 4: Visualizing categorical data**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1)
 :::
 
 ::: reading
@@ -42,12 +42,12 @@ IMS :: [Sec 2.2 - Exploring categorical data](https://openintro-ims.netlify.app/
 Please open your RStudio Cloud for this exercise.
 
 ::: source
-[Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
+[Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
 :::
 
 <!-- ::: {.source} -->
 
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd) -->
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd) -->
 
 <!-- ::: -->
 :::
@@ -61,7 +61,7 @@ If you're interested in histograms, scatter-, bar-, and density plots, feel free
 **Unit 2 - Deck 3: Visualizing numerical data**
 
 ::: slides
-[Slides](https://lukas-jue.github.io/intro-tidyverse-2022/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
+[Slides](https://lukas-jue.github.io/intro-tidyverse-2022-summer/slides/u2-d03-viz-num/u2-d03-viz-num.html#1)
 :::
 
 ::: reading
