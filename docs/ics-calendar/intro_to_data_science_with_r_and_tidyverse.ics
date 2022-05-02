@@ -23,33 +23,33 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20220110T163450Z
-UID:1641831098051-9143569@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20220113T180000
-DTEND;TZID=Europe/Berlin:20220113T200000
-SUMMARY:Intro to Data Science with R and Tidyverse - Chapter I. & II.
-URL:https://lukas-jue.github.io/intro-tidyverse-2022/index.html#welcome
-DESCRIPTION:Meeting ID: 933 0794 1729\nPasscode: 692604\n----------------------\nWelcome\nFirst data visualization: UN Votes\nMeet the programming toolkit\nThe Bechdel Test + R Markdown\nData and visualization\nVisualizing data with ggplot2
+DTSTAMP:20220502T094022Z
+UID:1651483992784-37615@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20220503T180000
+DTEND;TZID=Europe/Berlin:20220503T200000
+SUMMARY:GRADE: Intro to Data Science with R and Tidyverse - Session 1.
+URL:https://lukas-jue.github.io/intro-tidyverse-2022-summer/
+DESCRIPTION:Lukas Jürgensmeier is inviting you to a scheduled Zoom meeting.\n\nTopic: Introduction to Data Science with R and Tidyverse\nTime: This is a recurring meeting Meet anytime\n\nJoin Zoom Meeting\nhttps://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09\n\nMeeting ID: 933 0794 1729\nPasscode: 692604\nOne tap mobile\n+496950500952\,\,93307941729#\,\,\,\,*692604# Germany\n+496950502596\,\,93307941729#\,\,\,\,*692604# Germany\n\nDial by your location\n        +49 69 5050 0952 Germany\n        +49 695 050 2596 Germany\n        +49 69 7104 9922 Germany\n        +49 69 3807 9883 Germany\n        +49 69 3807 9884 Germany\n        +49 69 5050 0951 Germany\nMeeting ID: 933 0794 1729\nPasscode: 692604\nFind your local number: https://uni-frankfurt.zoom.us/u/cc71PutXSi\n\nJoin by SIP\n93307941729@fr.zmeu.us\n\nJoin by H.323\n213.244.140.110 (Germany)\nMeeting ID: 933 0794 1729\nPasscode: 692604
 LOCATION:https://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20220110T163450Z
-UID:1641831098051-7474815@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20220120T180000
-DTEND;TZID=Europe/Berlin:20220120T200000
-SUMMARY:Intro to Data Science with R and Tidyverse - Chapter III.
-URL:https://lukas-jue.github.io/intro-tidyverse-2022/wrangling-tidying-data.html#wrangling-tidying-data
-DESCRIPTION:Meeting ID: 933 0794 1729\nPasscode: 692604\n-----------------------------------\nVisualizing categorical data\nStarWars + Dataviz\nTidy data\nGrammar of data wrangling\nWorking with a single data frame\nHotels + Data wrangling\nWorking with multiple data frames
+DTSTAMP:20220502T094022Z
+UID:1651484147481-21335@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20220510T180000
+DTEND;TZID=Europe/Berlin:20220510T200000
+SUMMARY:GRADE: Intro to Data Science with R and Tidyverse - Session 2.
+URL:https://lukas-jue.github.io/intro-tidyverse-2022-summer/
+DESCRIPTION:Lukas Jürgensmeier is inviting you to a scheduled Zoom meeting.\nTopic: Introduction to Data Science with R and Tidyverse\nTime: This is a recurring meeting Meet anytime\n\nJoin Zoom Meeting\nhttps://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09\n\nMeeting ID: 933 0794 1729\nPasscode: 692604\nOne tap mobile\n+496950500952\,\,93307941729#\,\,\,\,*692604# Germany\n+496950502596\,\,93307941729#\,\,\,\,*692604# Germany\n\nDial by your location\n        +49 69 5050 0952 Germany\n        +49 695 050 2596 Germany\n        +49 69 7104 9922 Germany\n        +49 69 3807 9883 Germany\n        +49 69 3807 9884 Germany\n        +49 69 5050 0951 Germany\nMeeting ID: 933 0794 1729\nPasscode: 692604\nFind your local number: https://uni-frankfurt.zoom.us/u/cc71PutXSi\n\nJoin by SIP\n93307941729@fr.zmeu.us\n\nJoin by H.323\n213.244.140.110 (Germany)\nMeeting ID: 933 0794 1729\nPasscode: 692604
 LOCATION:https://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20220110T163450Z
-UID:1641831098051-9874784@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20220127T180000
-DTEND;TZID=Europe/Berlin:20220127T200000
-SUMMARY:Intro to Data Science with R and Tidyverse - Chapter IV. & V.
-URL:https://lukas-jue.github.io/intro-tidyverse-2022/importing-recoding-data.html
-DESCRIPTION:Meeting ID: 933 0794 1729\nPasscode: 692604\n-------------------------------------\nData types\nImporting data\nNobels + Sales + Data import\nFitting and interpreting models
+DTSTAMP:20220502T094022Z
+UID:1651484188792-20102@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20220517T180000
+DTEND;TZID=Europe/Berlin:20220517T200000
+SUMMARY:GRADE: Intro to Data Science with R and Tidyverse - Session 3.
+URL:https://lukas-jue.github.io/intro-tidyverse-2022-summer/
+DESCRIPTION:Lukas Jürgensmeier is inviting you to a scheduled Zoom meeting.\nTopic: Introduction to Data Science with R and Tidyverse\nTime: This is a recurring meeting Meet anytime\n\nJoin Zoom Meeting\nhttps://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09\n\nMeeting ID: 933 0794 1729\nPasscode: 692604\nOne tap mobile\n+496950500952\,\,93307941729#\,\,\,\,*692604# Germany\n+496950502596\,\,93307941729#\,\,\,\,*692604# Germany\n\nDial by your location\n        +49 69 5050 0952 Germany\n        +49 695 050 2596 Germany\n        +49 69 7104 9922 Germany\n        +49 69 3807 9883 Germany\n        +49 69 3807 9884 Germany\n        +49 69 5050 0951 Germany\nMeeting ID: 933 0794 1729\nPasscode: 692604\nFind your local number: https://uni-frankfurt.zoom.us/u/cc71PutXSi\n\nJoin by SIP\n93307941729@fr.zmeu.us\n\nJoin by H.323\n213.244.140.110 (Germany)\nMeeting ID: 933 0794 1729\nPasscode: 692604
 LOCATION:https://uni-frankfurt.zoom.us/j/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09
 END:VEVENT
 END:VCALENDAR
