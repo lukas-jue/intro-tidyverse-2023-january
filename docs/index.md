@@ -4,7 +4,7 @@ site: bookdown::bookdown_site
 title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
-date: "2022-04-26"
+date: "2022-05-03"
 github-repo: lukas-jue/intro-tidyverse-2022-summer
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
@@ -98,7 +98,7 @@ But you actively engaging with the course content in your development environmen
 That's why we need you to prepare accordingly:
 
 -   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)
--   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before meeting on 13 January.
+-   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.
 
 If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 

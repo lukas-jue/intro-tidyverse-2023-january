@@ -98,7 +98,7 @@ But you actively engaging with the course content in your development environmen
 That's why we need you to prepare accordingly:
 
 -   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)
--   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before meeting on 13 January.
+-   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.
 
 If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 

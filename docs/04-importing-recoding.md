@@ -34,9 +34,11 @@ Please open your RStudio Cloud for this exercise.
 [Source](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
 :::
 
-::: source
-[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd)
-:::
+<!-- ::: source -->
+
+<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd) -->
+
+<!-- ::: -->
 :::
 
 <!-- ::: {.source} -->
