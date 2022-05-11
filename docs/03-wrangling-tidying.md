@@ -58,11 +58,9 @@ Please open your RStudio Cloud for this exercise.
 [Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling.Rmd)
 :::
 
-<!-- ::: source -->
-
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling-solution.Rmd) -->
-
-<!-- ::: -->
+::: source
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-04-hotels-datawrangling/hotels-datawrangling-solution.Rmd)
+:::
 :::
 
 ### Additional material not covered in class

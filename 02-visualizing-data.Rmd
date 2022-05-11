@@ -45,11 +45,9 @@ Please open your RStudio Cloud for this exercise.
 [Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
 :::
 
-<!-- ::: {.source} -->
-
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd) -->
-
-<!-- ::: -->
+::: source
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2022-summer/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd)
+:::
 :::
 
 ### Additional material not covered in class
