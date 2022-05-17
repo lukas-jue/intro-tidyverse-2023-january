@@ -86,10 +86,10 @@ We will send out detailed instructions and an invitation link in advance.
 We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/s/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09) or the meeting ID 933 0794 1729 and passcode 692604.
 
 | Part | Date       | Time          | Video Recording                                                                                                                   |
-|----------------|----------------|------------------|-----------------------|
+|---------|-----------------|----------------------|----------------------|
 | 1    | 03.05.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/t-ZvdVhzf-E7Pdk5nXzA_jR5Q0X7uExW_vVvuJ5-JhW4_uVwxFkabtgR-5oJYJMS.P6eUcR9noPUQsVCb) |
 | 2    | 10.05.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/VjJrGRq92l9cOeYv65emB_8mBGx_WNG4hTYQokbyb1gF3n8-izHnq8ErVANmqmk1.vWlVgnfCwFhB0PUa) |
-| 3    | 17.05.2022 | 18:00 - 20:00 | Link will follow here                                                                                                             |
+| 3    | 17.05.2022 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/62A-btRcky4VHWEuMzSVyOYvBGRjoQCYJ9DMWsaTNqmSJE7MNPDeCEe8ksYw1402.SZTVYrFCVX1iybXe) |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -111,7 +111,7 @@ Depending on our progress, we may discuss some parts a bit earlier or later duri
 You can download a .ics calendar with the schedule and the Zoom link [here](https://lukas-jue.github.io/intro-tidyverse/ics-calendar/intro_to_data_science_with_r_and_tidyverse.ics).
 
 | Part | Date   | Title                              | Type                 | Lecturer |
-|--------------|--------------|-------------------|--------------|--------------|
+|----------|----------|----------------------|---------------|---------------|
 | 1    | 03.05. | Welcome                            | Lecture              | Lukas    |
 | 1    | 03.05. | First data visualization: UN Votes | Application Exercise |          |
 | 1    | 03.05. | Meet the programming toolkit       | Lecture              | Karlo    |
