@@ -3,7 +3,7 @@
   <head>
     <title>Fitting and interpreting models</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="Lara Zaremba | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -18,11 +18,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Fitting and interpreting models
+]
+.subtitle[
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+]
+.author[
+### Lara Zaremba | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+]
 
 ---
+
 
 
 
@@ -32,7 +39,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
+Introduction to Data Science with R and Tidyverse | Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -81,6 +88,8 @@ linear_reg()
 
 ```
 ## Linear Regression Model Specification (regression)
+## 
+## Computational engine: lm
 ```
 
 ---
@@ -115,7 +124,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  0ms 
+## Fit time:  5ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -133,7 +142,7 @@ linear_reg() %&gt;%
 ```
 ## parsnip model object
 ## 
-## Fit time:  0ms 
+## Fit time:  5ms 
 ## 
 ## Call:
 ## stats::lm(formula = Height_in ~ Width_in, data = data)
@@ -160,7 +169,7 @@ linear_reg() %&gt;%
 ```
 
 ```
-## # A tibble: 2 x 5
+## # A tibble: 2 × 5
 ##   term        estimate std.error statistic  p.value
 ##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)    3.62    0.254        14.3 8.82e-45
@@ -184,7 +193,7 @@ linear_reg() %&gt;%
 ```
 
 ```
-## # A tibble: 3 x 5
+## # A tibble: 3 × 5
 ##   term              estimate std.error statistic  p.value
 ##   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)          5.62    0.269        20.9 1.24e-90
@@ -312,7 +321,7 @@ class: middle
 .small[
 
 ```
-## # A tibble: 3,393 x 3
+## # A tibble: 3,393 × 3
 ##    name      Height_in landsALL
 ##    &lt;chr&gt;         &lt;dbl&gt;    &lt;dbl&gt;
 ##  1 L1764-2          37        0
@@ -335,7 +344,7 @@ class: middle
 ## 18 L1764-13a        15        1
 ## 19 L1764-13b        15        1
 ## 20 L1764-14         37        0
-## # ... with 3,373 more rows
+## # … with 3,373 more rows
 ```
 ]
 ]
@@ -357,7 +366,7 @@ linear_reg() %&gt;%
 ```
 
 ```
-## # A tibble: 2 x 5
+## # A tibble: 2 × 5
 ##   term              estimate std.error statistic  p.value
 ##   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 (Intercept)          22.7      0.328      69.1 0       
@@ -388,7 +397,7 @@ linear_reg() %&gt;%
 ```
 
 ```
-## # A tibble: 7 x 5
+## # A tibble: 7 × 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
 ## 1 (Intercept)        14.0       10.0     1.40  0.162  
@@ -406,7 +415,7 @@ linear_reg() %&gt;%
 
 
 ```
-## # A tibble: 7 x 5
+## # A tibble: 7 × 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
 ## 1 (Intercept)        14.0       10.0     1.40  0.162  
@@ -509,7 +518,7 @@ linear_reg() %&gt;%
 .small[
 
 ```
-## # A tibble: 3,393 x 3
+## # A tibble: 3,393 × 3
 ##    name      Height_in school_pntg
 ##    &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;      
 ##  1 L1764-2          37 F          
@@ -532,7 +541,7 @@ linear_reg() %&gt;%
 ## 18 L1764-13a        15 D/FL       
 ## 19 L1764-13b        15 D/FL       
 ## 20 L1764-14         37 F          
-## # ... with 3,373 more rows
+## # … with 3,373 more rows
 ```
 ]
 ]
@@ -544,7 +553,7 @@ linear_reg() %&gt;%
 .small[
 
 ```
-## # A tibble: 7 x 5
+## # A tibble: 7 × 5
 ##   term            estimate std.error statistic p.value
 ##   &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
 ## 1 (Intercept)        14.0       10.0     1.40  0.162  
@@ -612,6 +621,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

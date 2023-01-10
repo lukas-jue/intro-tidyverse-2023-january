@@ -69,20 +69,20 @@ This course is a beginner-friendly course.
 You do not need prior coding experience.
 But you are also more than welcome to participate if you are an experienced R user but want to learn more about the Tidyverse.
 
-You will need an RStudio Cloud account.
-RStudio Cloud is a very convenient Integrated Development Environment, where we provide you with all necessary code to follow the course and work with small application exercises on your own.
+You will need a [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud) account.
+Posit Cloud is a very convenient online integrated Development Environment, where we provide you with all the necessary code to follow the course and work with small application exercises on your own.
 
 By avoiding to install RStudio locally during the course, we can start right away with the more critical course content.
 If you already have set up a local installation of RStudio, you are, of course, more than welcome to use that instead.
 In this case, download the source files linked in the respective application exercises.
-Note that you won't need to set anything up if you use RStudio Cloud.
+Note that you won't need to set anything up if you use Posit Cloud.
 
-Since we do not want to waste precious time on the technical setup, we will use the RStudio Cloud as a simple---and already set up---development environment.
+Since we do not want to waste precious time on the technical setup, we will use the Posit Cloud as a simple---and already set up---development environment.
 We will send out detailed instructions and an invitation link in advance.
 
 ## Course Organization & Video Recordings
 
-We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/s/93307941729?pwd=N0YyVGZ3a1lrMXdsR1FSMDFSUFpoZz09) or the meeting ID 933 0794 1729 and passcode 692604.
+We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/64755827794?pwd=M2djdE05ViszSEhiMnd2R2NzRnkrZz09) or the meeting ID 647 5582 7794 and passcode 607521.
 
 | Part | Date       | Time          | Video Recording       |
 |------|------------|---------------|-----------------------|
@@ -96,8 +96,8 @@ But you actively engaging with the course content in your development environmen
 
 That's why we need you to prepare accordingly:
 
--   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with RStudio Cloud)
--   Please create an RStudio Cloud account before the first class. We have sent you a link to access all exercises on RStudio Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on RStudio Cloud before our first meeting.
+-   Try to follow the course with two screens or two devices (one for Zoom and the slides, and one for your browser with Posit Cloud)
+-   Please create a [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud) account before the first class. We have sent you a link to access all exercises on Posit Cloud. Since we want you to start coding very early on in the first class, please ensure that you can access those course materials on Posit Cloud before our first meeting.
 
 If you have any questions, please reach out to one of us through the e-mail addresses on the bottom of this page.
 
@@ -109,24 +109,24 @@ We aim to adhere to the following schedule.
 Depending on our progress, we may discuss some parts a bit earlier or later during the course.
 
 | Part | Date   | Title                              | Type                 | Lecturer |
-|--------------|--------------|------------------|--------------|--------------|
+|------|--------|------------------------------------|----------------------|----------|
 | 1    | 12.01. | Welcome                            | Lecture              | Lara     |
 | 1    | 12.01. | First data visualization: UN Votes | Application Exercise |          |
 | 1    | 12.01. | Meet the programming toolkit       | Lecture              | Karlo    |
 | 1    | 12.01. | The Bechdel Test + R Markdown      | Application Exercise |          |
-| 2    | 12.01. | Data and visualization             | Lecture              | Lara     |
-| 2    | 12.01. | Visualizing data with ggplot2      | Lecture              | Lara     |
+| 1    | 12.01. | Data and visualization             | Lecture              | Lara     |
+| 1    | 12.01. | Visualizing data with ggplot2      | Lecture              | Lara     |
 | 2    | 19.01. | Visualizing categorical data       | Lecture              | Lara     |
 | 2    | 19.01. | StarWars + Dataviz                 | Application Exercise |          |
-| 3    | 19.01. | Tidy data                          | Lecture              | Karlo    |
-| 3    | 19.01. | Grammar of data wrangling          | Lecture              | Karlo    |
-| 3    | 19.01. | Working with a single data frame   | Lecture              | Lara     |
-| 3    | 19.01. | Hotels + Data wrangling            | Application Exercise |          |
+| 2    | 19.01. | Tidy data                          | Lecture              | Karlo    |
+| 2    | 19.01. | Grammar of data wrangling          | Lecture              | Karlo    |
+| 2    | 19.01. | Working with a single data frame   | Lecture              | Karlo    |
+| 2    | 19.01. | Hotels + Data wrangling            | Application Exercise |          |
 | 3    | 26.01. | Working with multiple data frames  | Lecture              | Karlo    |
-| 4    | 26.01. | Data types                         | Lecture              | Karlo    |
-| 4    | 26.01. | Importing data                     | Lecture              | Lara     |
-| 4    | 26.01. | Nobels + Sales + Data import       | Application Exercise |          |
-| 5    | 26.01. | Fitting and interpreting models    | Lecture              | Lara     |
+| 3    | 26.01. | Data types                         | Lecture              | Karlo    |
+| 3    | 26.01. | Importing data                     | Lecture              | Lara     |
+| 3    | 26.01. | Nobels + Sales + Data import       | Application Exercise |          |
+| 3    | 26.01. | Fitting and interpreting models    | Lecture              | Lara     |
 
 ## Readings
 
@@ -153,7 +153,7 @@ Feel free to reach out to us by e-mail if you have any questions before, during,
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
 Visit [here](https://github.com/rstudio-education/datascience-box/blob/master/LICENSE.md) for more information about the license.
 
-## Acknowledements {.unnumbered}
+## Acknowledgements {.unnumbered}
 
 The course is built upon material from [datasciencebox.org](https://datasciencebox.org/) by Mine Çetinkaya-Rundel.
 

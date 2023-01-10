@@ -310,41 +310,7 @@ Let's give formal names to what we've seen so far:
 --
 - **Implicit coercion** happens when you use a vector in a specific context that expects a certain type of vector
 
----
 
-.midi[
-.your-turn[
-### .hand[Your turn!]
-
-- RStudio Cloud > `AE 05 - Hotels + Data types` > open `type-coercion.Rmd` and knit.
-- What is the type of the given vectors? First, guess. Then, try it out in R. 
-If your guess was correct, great! If not, discuss why they have that type.
-]
-]
-
---
-
-.small[
-**Example:** Suppose we want to know the type of `c(1, "a")`. First, I'd look at: 
-
-.pull-left[
-```{r}
-typeof(1)
-```
-]
-.pull-right[
-```{r}
-typeof("a")
-```
-]
-
-and make a guess based on these. Then finally I'd check:
-.pull-left[
-```{r}
-typeof(c(1, "a"))
-```
-]
-]
 
 ---
 

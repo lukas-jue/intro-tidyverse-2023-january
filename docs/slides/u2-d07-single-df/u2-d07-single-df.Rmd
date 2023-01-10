@@ -1,7 +1,7 @@
 ---
 title: "Working with a single data frame"
 subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
-author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+author: "Karlo Lukic | based on [datasciencebox.org](https://datasciencebox.org/)"
 output:
   xaringan::moon_reader:
     css: ["../xaringan-themer.css", "../slides.css"]
@@ -173,7 +173,7 @@ class: middle
 # bookings in City Hotels
 hotels %>%
   filter(hotel == "City Hotel") #<<
-````
+```
 ]
 
 ---
@@ -226,8 +226,8 @@ operator    | definition                   || operator     | definition
 
 Time to actually play around with the Hotels dataset!
 
-- Go to RStudio Cloud and start `AE 04 - Hotels + Data wrangling`.
-- Open the R Markdown document and complete Exercises 1 - 4.
+- Go to Posit Cloud and start `application-exercise-04-hotels-data-wrangling`.
+- Open the R Markdown document `hotels-datawrangling.Rmd` and complete Exercises 1 - 4.
 ]
 
 ---
@@ -341,8 +341,8 @@ hotels %>%
 .your-turn[
 ### Your turn!
 
-- Go back to RStudio Cloud and continue `AE 04 - Hotels + Data wrangling`.
-- Open the R Markdown document and complete Exercises 5 and 6.
+- Go back to Posit Cloud and continue `application-exercise-04-hotels-data-wrangling`.
+- Open the R Markdown document `hotels-datawrangling.Rmd` and complete Exercises 5 and 6.
 ]
 
 ---
@@ -511,6 +511,6 @@ hotels %>%
 
 Time to actually play around with the Hotels dataset!
 
-- Go to RStudio Cloud and start `AE 04 - Hotels + Data wrangling`.
-- Open the R Markdown document and complete Exercises 7 and 8.
+- Go back to Posit Cloud and continue `application-exercise-04-hotels-data-wrangling`.
+- Open the R Markdown document `hotels-datawrangling.Rmd` and complete Exercises 7 and 8.
 ]

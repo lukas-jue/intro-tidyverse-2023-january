@@ -3,7 +3,7 @@
   <head>
     <title>Welcome!</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Lukas Jürgensmeier | based on datasciencebox.org" />
+    <meta name="author" content="Lara Zaremba | based on datasciencebox.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -16,11 +16,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Welcome!
+]
+.subtitle[
 ## <br><br> Introduction to Data Science with R and Tidyverse
-### Lukas Jürgensmeier | based on datasciencebox.org
+]
+.author[
+### Lara Zaremba | based on datasciencebox.org
+]
 
 ---
+
 
 
 
@@ -30,7 +37,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
+Introduction to Data Science with R and Tidyverse | Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -80,11 +87,11 @@ A - Yes. Do as much as possible by yourself — that's how you learn it.
 .pull-left-wide[
 **Q - Where do I find the course materials?**
 
-A - On this website: [lukas-jue.github.io/intro-tidyverse-2022-summer](https://lukas-jue.github.io/intro-tidyverse-2022-summer/)
+A - On this website: [lukas-jue.github.io/intro-tidyverse-2023-january/](https://lukas-jue.github.io/intro-tidyverse-2023-january/)
 
 **Q - Can I code on my own during this course?**
 
-A - Yes! You can and you should! Go to [RStudio Cloud](https://rstudio.cloud/) for your development environment and our application exercises.
+A - Yes! You can and you should! Go to [Posit Cloud](https://posit.cloud/) (formerly RStudio Cloud) for your development environment and our application exercises.
 ]
 
 ---
@@ -218,6 +225,17 @@ We'll go through every step in this course:
 -	Communicating your results with `R Markdown`
 - Regressions with `tidymodels`
 ]
+
+---
+
+
+.your-turn[
+.light-blue[.hand[Your turn:]] `Application Exercise 01 - UN Votes`
+- Go to [Posit Cloud](https://posit.cloud/) using [our invite link](https://posit.cloud/spaces/322662/join?access_code=ChDAjNZod9JespLOGrHwABI6H4Tzrx-d-SItarXw).
+- Start a "New Project" (upper right border) &gt; "New RStudio Project".
+- Click and open the R Markdown document `unvotes.Rmd`, then *Knit* it.
+- Try to familiarize yourself with the "R code chunks".
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -266,6 +284,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

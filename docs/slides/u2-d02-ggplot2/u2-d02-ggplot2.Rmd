@@ -58,12 +58,11 @@ Measurements for penguin species, island in Palmer Archipelago, size (flipper le
 knitr::include_graphics("img/penguins.png")
 ```
 ]
-.pull-right-wide[
+
 ```{r}
 library(palmerpenguins)
 glimpse(penguins)
 ```
-]
 
 ---
 
@@ -74,7 +73,7 @@ glimpse(penguins)
 ]
 .panel[.panel-name[Code]
 
-```{r penguins, fig.show = "hide"}
+```{r penguins, fig.show = "hide", warning=FALSE}
 ggplot(data = penguins, 
        mapping = aes(x = bill_depth_mm, y = bill_length_mm,
                      colour = species)) +
@@ -388,7 +387,7 @@ ggplot(data = penguins,
 ]
 .panel[.panel-name[Code]
 
-```{r penguins-10-nohighlight, fig.show = "hide"}
+```{r penguins-10-nohighlight, fig.show = "hide", warning=FALSE}
 ggplot(data = penguins,
        mapping = aes(x = bill_depth_mm,
                      y = bill_length_mm,
@@ -433,7 +432,7 @@ You can omit the names of first two arguments when building plots with `ggplot()
 ]
 
 .pull-left[
-```{r named-args, eval = FALSE}
+```{r named-args, eval = FALSE, warning=FALSE}
 ggplot(data = penguins,
        mapping = aes(x = bill_depth_mm,
                      y = bill_length_mm,
@@ -443,7 +442,7 @@ ggplot(data = penguins,
 ```
 ]
 .pull-right[
-```{r not-named-args, eval = FALSE}
+```{r not-named-args, eval = FALSE, warning=FALSE}
 ggplot(penguins,
        aes(x = bill_depth_mm,
            y = bill_length_mm,
@@ -633,7 +632,7 @@ class: middle
 ]
 .panel[.panel-name[Code]
 
-```{r facet, fig.show = "hide"}
+```{r facet, fig.show = "hide", warning=FALSE}
 
 ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) + 
   geom_point() +
@@ -715,7 +714,7 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
 ## Facet and color
 
 .pull-left-narrow[
-```{r facet-color-legend, fig.show = "hide", warning = FALSE}
+```{r facet-color-legend, fig.show = "hide", warning = FALSE, error=FALSE}
 ggplot(
   penguins, 
   aes(x = bill_depth_mm, 

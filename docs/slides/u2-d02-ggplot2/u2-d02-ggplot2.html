@@ -16,11 +16,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Visualising data with ggplot2
+]
+.subtitle[
 ## <br><br> Introduction to Data Science with R and Tidyverse
+]
+.author[
 ### Lara Zaremba | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+]
 
 ---
+
 
 
 
@@ -30,7 +37,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
+Introduction to Data Science with R and Tidyverse | Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -73,7 +80,7 @@ Measurements for penguin species, island in Palmer Archipelago, size (flipper le
 .pull-left-narrow[
 &lt;img src="img/penguins.png" width="80%" style="display: block; margin: auto;" /&gt;
 ]
-.pull-right-wide[
+
 
 ```r
 library(palmerpenguins)
@@ -83,16 +90,15 @@ glimpse(penguins)
 ```
 ## Rows: 344
 ## Columns: 8
-## $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adeli~
-## $ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torg~
-## $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.~
-## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.~
-## $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195~
-## $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 362~
-## $ sex               &lt;fct&gt; male, female, female, NA, female, mal~
-## $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2~
+## $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adeli…
+## $ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torg…
+## $ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.…
+## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.…
+## $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195…
+## $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 362…
+## $ sex               &lt;fct&gt; male, female, female, NA, female, mal…
+## $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2…
 ```
-]
 
 ---
 
@@ -112,10 +118,6 @@ ggplot(data = penguins,
        subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
        x = "Bill depth (mm)", y = "Bill length (mm)",
        colour = "Species")
-```
-
-```
-## Warning: Removed 2 rows containing missing values (geom_point).
 ```
 ]
 ]
@@ -434,10 +436,6 @@ ggplot(data = penguins,
        caption = "Source: Palmer Station LTER / palmerpenguins package") +
   scale_colour_viridis_d()
 ```
-
-```
-## Warning: Removed 2 rows containing missing values (geom_point).
-```
 ]
 .panel[.panel-name[Narrative]
 .pull-left-wide[
@@ -683,10 +681,6 @@ ggplot(penguins, aes(x = bill_depth_mm, y = bill_length_mm)) +
   geom_point() +
 * facet_wrap(~ species)
 ```
-
-```
-## Warning: Removed 2 rows containing missing values (geom_point).
-```
 ]
 ]
 
@@ -863,6 +857,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

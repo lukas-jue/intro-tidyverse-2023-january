@@ -126,7 +126,7 @@ ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
 
 ## Jabba!
 
-```{r echo = FALSE, warning = FALSE, cache = TRUE, out.width = "80%"}
+```{r echo = FALSE, warning = FALSE, cache = TRUE, out.width = "80%", error=FALSE}
 jabba <- image_read("img/jabba.png")
 
 fig <- image_graph(width = 1600, height = 900, res = 200)
@@ -193,7 +193,7 @@ knitr::include_graphics("img/grammar-of-graphics.png")
 
 ## Mass vs. height
 
-```{r mass-height, fig.width = 8, out.width = "50%"}
+```{r mass-height, fig.width = 8, out.width = "50%", warning=FALSE}
 ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
   geom_point() +
   labs(title = "Mass vs. height of Starwars characters",

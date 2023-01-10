@@ -1,7 +1,7 @@
 ---
 title: "Working with multiple data frames"
 subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
-author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+author: "Karlo Lukic | based on [datasciencebox.org](https://datasciencebox.org/)"
 output:
   xaringan::moon_reader:
     css: ["../xaringan-themer.css", "../slides.css"]
@@ -12,7 +12,7 @@ output:
       highlightStyle: solarized-light
       countIncrementalSlides: false
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r child = "../setup.Rmd"}
@@ -88,30 +88,11 @@ works
 
 ## Desired output
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 professions %>%
   left_join(dates) %>%
   left_join(works)
 ```
-
-<!-- --- -->
-
-<!-- ## Inputs, reminder -->
-
-<!-- .pull-left[ -->
-<!-- ```{r} -->
-<!-- names(professions) -->
-<!-- names(dates) -->
-<!-- names(works) -->
-<!-- ``` -->
-<!-- ] -->
-<!-- .pull-right[ -->
-<!-- ```{r} -->
-<!-- nrow(professions) -->
-<!-- nrow(dates) -->
-<!-- nrow(works) -->
-<!-- ``` -->
-<!-- ] -->
 
 ---
 
@@ -175,7 +156,7 @@ include_graphics("img/left-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 left_join(x, y)
 ```
 .tip[
@@ -187,7 +168,7 @@ left_join(x, y)
 
 ## `left_join()`
 
-```{r}
+```{r, message=FALSE}
 professions %>%
   left_join(dates) #<<
 ```
@@ -211,7 +192,7 @@ include_graphics("img/right-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 right_join(x, y)
 ```
 .tip[
@@ -224,7 +205,7 @@ right_join(x, y)
 ## `right_join()`
 
 
-```{r}
+```{r, message=FALSE}
 professions %>%
   right_join(dates) #<<
 ```
@@ -239,7 +220,7 @@ include_graphics("img/full-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 full_join(x, y)
 ```
 .tip[
@@ -251,7 +232,7 @@ full_join(x, y)
 
 ## `full_join()`
 
-```{r}
+```{r, message=FALSE}
 dates %>%
   full_join(works) #<<
 ```
@@ -266,7 +247,7 @@ include_graphics("img/inner-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 inner_join(x, y)
 ```
 .tip[
@@ -279,7 +260,7 @@ Retains "**Inner** information" from both data frames.<br/>
 
 ## `inner_join()`
 
-```{r}
+```{r, message=FALSE}
 dates %>%
   inner_join(works) #<<
 ```
@@ -294,7 +275,7 @@ include_graphics("img/semi-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 semi_join(x, y)
 ```
 .tip[
@@ -307,7 +288,7 @@ Combination of `inner_` and `left_join`<br/>
 
 ## `semi_join()`
 
-```{r}
+```{r, message=FALSE}
 dates %>%
   semi_join(works) #<<
 ```
@@ -322,7 +303,7 @@ include_graphics("img/anti-join.gif")
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 anti_join(x, y)
 ```
 .tip[
@@ -335,7 +316,7 @@ anti_join(x, y)
 
 ## `anti_join()`
 
-```{r}
+```{r, message=FALSE}
 dates %>%
   anti_join(works) #<<
 ```
@@ -443,13 +424,13 @@ prices
 
 .panel[.panel-name[Total revenue]
 .pull-left[
-```{r}
+```{r, message=FALSE}
 purchases %>% 
   left_join(prices) #<<
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 purchases %>% 
   left_join(prices) %>%
   summarise(total_revenue = sum(price)) #<<
@@ -460,13 +441,13 @@ purchases %>%
 .panel[.panel-name[Revenue per customer]
 
 .pull-left[
-```{r}
+```{r, message=FALSE}
 purchases %>% 
   left_join(prices)
 ```
 ]
 .pull-right[
-```{r}
+```{r, message=FALSE}
 purchases %>% 
   left_join(prices) %>%
   group_by(customer_id) %>% #<<

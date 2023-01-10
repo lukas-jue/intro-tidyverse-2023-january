@@ -12,7 +12,7 @@ output:
       highlightStyle: solarized-light
       countIncrementalSlides: false
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r child = "../setup.Rmd"}
@@ -40,7 +40,7 @@ loans_full_schema <- loans_full_schema %>%
 
 ### Loan Data 
 
-Thousands of loans made through the Lending Club, which is a platform that allows individuals to lend to other individuals
+Thousands of loans made through the Lending Club, which is a platform that allows individuals to lend to other individuals.
 
 ```{r}
 library(openintro)

@@ -1,7 +1,7 @@
 ---
 title: "Importing data"
 subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
-author: "Lara Zaremba & Karlo Lukic | based on [datasciencebox.org](https://datasciencebox.org/)"
+author: "Lara Zaremba | based on [datasciencebox.org](https://datasciencebox.org/)"
 output:
   xaringan::moon_reader:
     css: ["../xaringan-themer.css", "../slides.css"]
@@ -12,11 +12,12 @@ output:
       highlightStyle: solarized-light
       countIncrementalSlides: false
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r child = "../setup.Rmd"}
 ```
+
 ```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(readxl)
@@ -70,7 +71,7 @@ knitr::include_graphics("img/readxl.png")
 
 ## Reading data
 
-```{r}
+```{r, message=FALSE}
 nobel <- read_csv(file = "data/nobel.csv")
 nobel
 ```
@@ -98,7 +99,7 @@ write_csv(df, file = "data/df.csv")
 .pull-right[
 - Read it back in to inspect
 
-```{r}
+```{r, message=FALSE}
 read_csv("data/df.csv")
 ```
 ]
@@ -108,15 +109,15 @@ read_csv("data/df.csv")
 .your-turn[
 ### .hand[Your turn!]
 
-- RStudio Cloud > `AE 06 - Nobels and sales + Data import` > open `nobels-csv.Rmd` and knit.
+- Posit Cloud > `application-exercise-05-nobels-sales-data-import` > open `nobels-csv.Rmd` and knit.
 - Read in the `nobels.csv` file from the `data-raw/` folder.
-- Split into two (STEM and non-STEM): 
+- Split into two data frames (STEM and non-STEM): 
   - Create a new data frame, `nobel_stem`, that filters for the STEM fields 
 (Physics, Medicine, Chemistry, and Economics).
   - Create another data frame, `nobel_nonstem`, that filters for the remaining 
 fields.  
 - Write out the two data frames to `nobel-stem.csv` and `nobel-nonstem.csv`, 
-respectively, to `data/`.
+respectively, to `data-exported/`.
 
 **Hint:** Use the `%in%` operator when `filter()`ing.
 ]
@@ -140,7 +141,7 @@ names(edibnb_badnames)
 
 ... but R doesn't allow spaces in variable names
 
-```{r error=TRUE}
+```{r error=TRUE, echo=FALSE}
 ggplot(edibnb_badnames, aes(x = Number of bathrooms, y = Price)) +
   geom_point()
 ```
@@ -150,7 +151,7 @@ ggplot(edibnb_badnames, aes(x = Number of bathrooms, y = Price)) +
 ## Option 1 - Define column names
 
 .small[
-```{r}
+```{r warning=FALSE, message=FALSE}
 edibnb_col_names <- read_csv("data/edibnb-badnames.csv",
                              col_names = c("id", "price", 
                                            "neighbourhood", "accommodates",
@@ -166,7 +167,7 @@ names(edibnb_col_names)
 
 ## Option 2 - Format text to snake_case
 
-```{r warning=FALSE}
+```{r warning=FALSE, message=FALSE}
 edibnb_clean_names <- read_csv("data/edibnb-badnames.csv") %>%
   janitor::clean_names()
 
@@ -288,7 +289,7 @@ knitr::include_graphics("img/fav-food/fav-food.png")
 --
 
 ```{r}
-fav_food <- read_excel("data/favourite-food.xlsx") #<<
+fav_food <- read_csv("data/fav-food-clean.csv")
 
 fav_food
 ```
@@ -303,9 +304,9 @@ knitr::include_graphics("img/fav-food/fav-food-names.png")
 
 --
 
-```{r warning=FALSE}
-fav_food <- read_excel("data/favourite-food.xlsx") %>%
-  janitor::clean_names() #<<
+```{r warning=FALSE, message=FALSE}
+fav_food <- read_csv("data/fav-food-clean.csv") %>%
+  janitor::clean_names()
 
 fav_food 
 ```
@@ -320,8 +321,8 @@ knitr::include_graphics("img/fav-food/fav-food-nas.png")
 
 --
 
-```{r warning=FALSE}
-fav_food <- read_excel("data/favourite-food.xlsx",
+```{r warning=FALSE, message=FALSE}
+fav_food <- read_csv("data/fav-food-clean.csv",
                        na = c("N/A", "99999")) %>% #<<
   janitor::clean_names()
 
@@ -397,8 +398,8 @@ fav_food %>%
 
 ## Putting it altogether
 
-```{r warning=FALSE}
-fav_food <- read_excel("data/favourite-food.xlsx", na = c("N/A", "99999")) %>%
+```{r warning=FALSE, message=FALSE}
+fav_food <- read_csv("data/fav-food-clean.csv", na = c("N/A", "99999")) %>%
   janitor::clean_names() %>%
   mutate(
     age = if_else(age == "five", "5", age), 
@@ -413,7 +414,7 @@ fav_food
 
 ## Out and back in
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 write_csv(fav_food, file = "data/fav-food-clean.csv")
 
 fav_food_clean <- read_csv("data/fav-food-clean.csv")
@@ -480,7 +481,7 @@ There is a package for everything:
 .your-turn[
 ### .hand[Your turn!]
 .midi[
-- RStudio Cloud > `AE 06 - Nobels and sales + Data import` > `sales-excel.Rmd`. 
+- Posit Cloud > `application-exercise-05-nobels-sales-data-import` > open `sales-excel.Rmd` and knit.
 - Load the `sales.xlsx` file from the `data-raw/` folder, using appropriate arguments for the `read_excel()` function such that it looks like the output on the left.
 - **Stretch goal:** Manipulate the sales data such that it looks like the output on the right.
 ]

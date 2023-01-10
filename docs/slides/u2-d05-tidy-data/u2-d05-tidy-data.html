@@ -16,11 +16,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Tidy data
+]
+.subtitle[
 ## <br><br> Introduction to Data Science with R and Tidyverse
+]
+.author[
 ### Karlo Lukic | based on <a href="https://datasciencebox.org/">datasciencebox.org</a>
+]
 
 ---
+
 
 
 
@@ -30,7 +37,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-Introduction to Data Science with R and Tidyverse | Lukas Jürgensmeier, Lara Zaremba &amp; Karlo Lukic | based on
+Introduction to Data Science with R and Tidyverse | Lara Zaremba &amp; Karlo Lukic | based on
 &lt;a href="https://datasciencebox.org" target="_blank"&gt;datasciencebox.org&lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -87,7 +94,7 @@ Source: [Gapminder, Estimated HIV prevalence among 15-49 year olds](https://www.
 .pull-left[
 
 ```
-## # A tibble: 87 x 3
+## # A tibble: 87 × 3
 ##   name           height  mass
 ##   &lt;chr&gt;           &lt;int&gt; &lt;dbl&gt;
 ## 1 Luke Skywalker    172    77
@@ -96,13 +103,13 @@ Source: [Gapminder, Estimated HIV prevalence among 15-49 year olds](https://www.
 ## 4 Darth Vader       202   136
 ## 5 Leia Organa       150    49
 ## 6 Owen Lars         178   120
-## # ... with 81 more rows
+## # … with 81 more rows
 ```
 ]
 .pull-right[
 
 ```
-## # A tibble: 3 x 2
+## # A tibble: 3 × 2
 ##   gender    avg_ht
 ##   &lt;chr&gt;      &lt;dbl&gt;
 ## 1 feminine    165.
@@ -184,6 +191,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

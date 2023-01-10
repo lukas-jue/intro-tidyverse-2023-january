@@ -1,7 +1,7 @@
 ---
 title: "Fitting and interpreting models"
 subtitle: "<br><br> Introduction to Data Science with R and Tidyverse"
-author: "Lukas Jürgensmeier | based on [datasciencebox.org](https://datasciencebox.org/)"
+author: "Lara Zaremba | based on [datasciencebox.org](https://datasciencebox.org/)"
 output:
   xaringan::moon_reader:
     css: ["../xaringan-themer.css", "../slides.css"]
@@ -13,7 +13,7 @@ output:
       highlightStyle: solarized-light
       countIncrementalSlides: false
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r child = "../setup.Rmd"}
