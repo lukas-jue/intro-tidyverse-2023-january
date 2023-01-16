@@ -21,6 +21,7 @@ xaringans <- dir_info(recurse = 3, glob = "docs/*.Rmd") %>%
   # set filter to match the changed files
   filter(str_detect(path,
     # comment/un-comment here to update the slide(s):
+    # "01-hello-world.Rmd"
     # "01-welcome.Rmd"
     # "02-toolkit"
     # "01-data-viz"
@@ -32,7 +33,7 @@ xaringans <- dir_info(recurse = 3, glob = "docs/*.Rmd") %>%
     # "08-multi-df"
     # "10-data-types"
     # "12-data-import"
-    "02-fitting-interpreting-models"
+    # "02-fitting-interpreting-models"
   )) %>%
   filter(!str_detect(path, "22")) %>%
   pull(path)
