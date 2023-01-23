@@ -45,11 +45,9 @@ Please open your Posit Cloud for this exercise.
 [Exercise Template](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars.Rmd)
 :::
 
-<!-- ::: source -->
-
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd) -->
-
-<!-- ::: -->
+::: source
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-03-starwars-dataviz/starwars-solution.Rmd)
+:::
 :::
 
 ### Additional material not covered in class
