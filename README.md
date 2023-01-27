@@ -1,4 +1,4 @@
-![](images/README-logo.png)
+![](https://raw.githubusercontent.com/lukas-jue/intro-tidyverse-2023-january/051d427d13007a203d582737f22ee415056466b1/images/README-logo.png)
 
 # Introduction to Data Science with R and Tidyverse
 
