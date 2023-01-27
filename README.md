@@ -1,3 +1,5 @@
+![](images/README-logo.png)
+
 # Introduction to Data Science with R and Tidyverse
 
 This repository contains all materials for the course *Introduction to Data Science with R and Tidyverse*, offered for GRADE Brain and other GRADE Centers at Goethe University in January 2023.
