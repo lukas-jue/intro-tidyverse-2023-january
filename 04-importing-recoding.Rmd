@@ -34,18 +34,14 @@ Please open your Posit Cloud for this exercise.
 [Source](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv.Rmd)
 :::
 
-<!-- ::: source -->
-
-<!-- [Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd) -->
-
-<!-- ::: -->
+::: source
+[Solution, `.Rmd` file](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/nobels-csv-solution.Rmd)
+:::
 :::
 
-<!-- ::: {.source} -->
+<!-- ::: source -->
 
 <!-- [Source](https://github.com/lukas-jue/intro-tidyverse-2023-january/blob/master/docs/application-exercises/ae-06-nobels-sales-dataimport/sales-excel.Rmd) -->
-
-<!-- ::: -->
 
 <!-- ::: -->
 

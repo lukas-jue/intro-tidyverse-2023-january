@@ -4,7 +4,7 @@ site: bookdown::bookdown_site
 title: "Introduction to Data Science with R and Tidyverse"
 author: "Lukas Jürgensmeier, based on materials from Data Science in a Box by Mine Çetinkaya-Rundel"
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
-date: "2023-01-23"
+date: "2023-01-27"
 github-repo: lukas-jue/intro-tidyverse-2023-january
 cover-image: dsbox.png
 url: 'https\://datasciencebox.org/'
@@ -84,11 +84,11 @@ We will send out detailed instructions and an invitation link in advance.
 
 We will meet on three Tuesday evenings from *6:00 - 8:00 p.m.* Please access the course via [this Zoom link](https://uni-frankfurt.zoom.us/j/64755827794?pwd=M2djdE05ViszSEhiMnd2R2NzRnkrZz09) or the meeting ID 647 5582 7794 and passcode 607521.
 
-| Part | Date       | Time          | Video Recording                                                                                                                   |
-|-------------|-------------|-------------|----------------------------------|
-| 1    | 12.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/1MEuvZncnk-dHEFYpRAMFKLWHEkrlvaBz/view?usp=sharing)                                        |
-| 2    | 19.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/B-Bq5Z95M6pbgTEDFqoiSiHh_uEDCca3A_Y7huReNPDx6i-w68U2o6YG3lKA4qgp.aNo3J6fzjxgpsLf7) |
-| 3    | 26.01.2023 | 18:00 - 20:00 | Link will follow here                                                                                                             |
+| Part | Date       | Time          | Video Recording                                                                                                                                           |
+|---------------|---------------|---------------|-----------------------------|
+| 1    | 12.01.2023 | 18:00 - 20:00 | [Link](https://drive.google.com/file/d/1MEuvZncnk-dHEFYpRAMFKLWHEkrlvaBz/view?usp=sharing)                                                                |
+| 2    | 19.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/B-Bq5Z95M6pbgTEDFqoiSiHh_uEDCca3A_Y7huReNPDx6i-w68U2o6YG3lKA4qgp.aNo3J6fzjxgpsLf7)                         |
+| 3    | 26.01.2023 | 18:00 - 20:00 | [Link](https://uni-frankfurt.zoom.us/rec/share/JCEnW24mQ9j6h_Ipm_3xyoH7nL1bK8yy3lWwpt3hJg-hDordLGMLILhSENfjoV2G.iVf-UPWj-EY_mf5I?startTime=1674752594000) |
 
 We want you to *make your hands dirty* --- that means we want you to code!
 Just following along fancy slides won't magically transfer the skill of coding to you.
@@ -109,7 +109,7 @@ We aim to adhere to the following schedule.
 Depending on our progress, we may discuss some parts a bit earlier or later during the course.
 
 | Part | Date   | Title                              | Type                 | Lecturer |
-|--------------|--------------|-------------------|--------------|--------------|
+|---------------|---------------|---------------|---------------|---------------|
 | 1    | 12.01. | Welcome                            | Lecture              | Lara     |
 | 1    | 12.01. | First data visualization: UN Votes | Application Exercise |          |
 | 1    | 12.01. | Meet the programming toolkit       | Lecture              | Karlo    |
